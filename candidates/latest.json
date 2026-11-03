@@ -3,28 +3,52 @@
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
+    "urlscan:domain:treadingcollapse.com",
     "dns:domain:treadingcollapse.com",
+    "urlscan:domain:treatmoodiness.com",
     "dns:domain:treatmoodiness.com",
+    "urlscan:domain:trecv.xyz",
     "dns:domain:trecv.xyz",
+    "urlscan:domain:trecvf.xyz",
     "dns:domain:trecvf.xyz",
+    "urlscan:domain:treestumps.net",
     "dns:domain:treestumps.net",
+    "urlscan:domain:trekkereggnog.com",
     "dns:domain:trekkereggnog.com",
+    "urlscan:domain:tremblingroundness.net",
     "dns:domain:tremblingroundness.net",
+    "urlscan:domain:trenchcheek.com",
     "dns:domain:trenchcheek.com",
+    "urlscan:domain:trendsymbol.net",
     "dns:domain:trendsymbol.net",
+    "urlscan:domain:trialvariable.net",
     "dns:domain:trialvariable.net",
+    "urlscan:domain:trianglerank.net",
     "dns:domain:trianglerank.net",
+    "urlscan:domain:tribune-mg.xyz",
     "dns:domain:tribune-mg.xyz",
+    "urlscan:domain:tribunews.net",
     "dns:domain:tribunews.net",
+    "urlscan:domain:tribunews.org",
     "dns:domain:tribunews.org",
+    "urlscan:domain:tribunnevs.com",
     "dns:domain:tribunnevs.com",
+    "urlscan:domain:tribunnevs.net",
     "dns:domain:tribunnevs.net",
+    "urlscan:domain:tribunnevs.org",
     "dns:domain:tribunnevs.org",
+    "urlscan:domain:tribunnews.org",
+    "urlscan:domain:tributaryoxygen.com",
     "dns:domain:tributaryoxygen.com",
+    "urlscan:domain:trickeryrectify.com",
     "dns:domain:trickeryrectify.com",
+    "urlscan:domain:tricksinswiss.com",
     "dns:domain:tricksinswiss.com",
+    "urlscan:domain:trickytape.net",
     "dns:domain:trickytape.net",
+    "urlscan:domain:tridentagreeably.com",
     "dns:domain:tridentagreeably.com",
+    "urlscan:domain:tridentamused.com",
     "dns:domain:tridentamused.com"
   ],
   "errors": [
@@ -42,19 +66,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:treadingcollapse.com"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:treatmoodiness.com"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:treatmoodiness.com"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:treatmoodiness.com"
     },
     {
       "error": "OSError",
@@ -66,19 +82,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:trecv.xyz"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:trecvf.xyz"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:trecvf.xyz"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:trecvf.xyz"
     },
     {
       "error": "OSError",
@@ -90,19 +98,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:treestumps.net"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:trekkereggnog.com"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:trekkereggnog.com"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:trekkereggnog.com"
     },
     {
       "error": "OSError",
@@ -114,19 +114,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:tremblingroundness.net"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:trenchcheek.com"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:trenchcheek.com"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:trenchcheek.com"
     },
     {
       "error": "OSError",
@@ -138,19 +130,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:trendsymbol.net"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:trialvariable.net"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:trialvariable.net"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:trialvariable.net"
     },
     {
       "error": "OSError",
@@ -162,19 +146,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:trianglerank.net"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:tribune-mg.xyz"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:tribune-mg.xyz"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:tribune-mg.xyz"
     },
     {
       "error": "OSError",
@@ -186,19 +162,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:tribunews.net"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:tribunews.org"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:tribunews.org"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:tribunews.org"
     },
     {
       "error": "OSError",
@@ -210,10 +178,6 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:tribunnevs.com"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:tribunnevs.net"
     },
     {
@@ -222,19 +186,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:tribunnevs.net"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:tribunnevs.org"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:tribunnevs.org"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:tribunnevs.org"
     },
     {
       "error": "OSError",
@@ -250,19 +206,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:tribunnews.org"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:tributaryoxygen.com"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:tributaryoxygen.com"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:tributaryoxygen.com"
     },
     {
       "error": "OSError",
@@ -274,19 +222,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:trickeryrectify.com"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:tricksinswiss.com"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:tricksinswiss.com"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:tricksinswiss.com"
     },
     {
       "error": "OSError",
@@ -298,10 +238,6 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:trickytape.net"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:tridentagreeably.com"
     },
     {
@@ -310,19 +246,11 @@
     },
     {
       "error": "OSError",
-      "query": "urlscan:domain:tridentagreeably.com"
-    },
-    {
-      "error": "OSError",
       "query": "ct:domain:tridentamused.com"
     },
     {
       "error": "ValueError",
       "query": "measure:domain:tridentamused.com"
-    },
-    {
-      "error": "OSError",
-      "query": "urlscan:domain:tridentamused.com"
     }
   ],
   "limits": {
@@ -331,13 +259,369 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-03T13:36:15.229651+00:00",
-  "pending_tasks": 74,
+  "observed_at": "2026-11-03T13:44:58.968942+00:00",
+  "pending_tasks": 50,
   "providers": {
-    "disabled": [
-      "provider-collection-not-yet-run"
+    "at": "2026-11-03T13:43:53.669704+00:00",
+    "blocked": {},
+    "calls": {
+      "censys": 2,
+      "quota": 1,
+      "retrieve": 4,
+      "search": 50
+    },
+    "deferred": {},
+    "disabled": [],
+    "events": [
+      {
+        "action": "quota",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": "TimeoutError",
+        "provider": "urlscan",
+        "status": 0
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "retrieve",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "retrieve",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "retrieve",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "retrieve",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "censys",
+        "error": null,
+        "provider": "censys",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "censys",
+        "error": null,
+        "provider": "censys",
+        "status": 200
+      }
     ],
-    "generated_at": null
+    "generated_at": "2026-11-03T13:37:48.811741+00:00",
+    "remaining_daily_allowance": {
+      "retrieve": 9996,
+      "search": 950
+    },
+    "status": "partial"
   },
   "publications": [
     {

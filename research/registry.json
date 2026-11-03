@@ -12243,7 +12243,7 @@
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
         "dns": "2026-11-03T12:14:27.578106+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00"
+        "measure": "2026-11-03T13:44:58.968942+00:00"
       },
       "last_seen": "2026-11-03T12:14:27.578106+00:00",
       "origin": "certificate-san",
@@ -66483,17 +66483,21 @@
         "7c48ee962e0c4b9753c9fac798ad3b22ab50f1f5aa9e741836e1f357a3062182",
         "96d22724c983dd8ceb960ca8a07a345d11c7fc363f74b3bd3978f948f80c3a0b",
         "b403c0815d782794478e91957b441f91500cdfab83a4da2b05961c9c7927884c",
-        "ed353ccbc44faf36e9bd3985351e186559ee2a5e09a9becb42a312f7170602f0"
+        "ed353ccbc44faf36e9bd3985351e186559ee2a5e09a9becb42a312f7170602f0",
+        "6fa09b57f4669984966e47847c1d2249fc4330ba46905b27abfd1a150d99de97",
+        "72f41fe9abe2adbd119c92ff31bdce1e2d4492fd73e1ce3d299fce0405fe8c6c",
+        "c57bd0ead3ce5266deaf30cce43f6218dc8a8a7a6dfe145f8386742f14ebd2a5",
+        "ea1ab0bfbe2f89630895eefa62af3ad5056a6e8d7ebffdc4d4174b075ac14f1a"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:16.917118+00:00",
+      "last_seen": "2026-11-03T13:45:00.789987+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66518,17 +66522,21 @@
         "010fbf240c102010ea47f8b69123865e1f46f2cfbc05d805d3081b374b39f71a",
         "14d9382286d70fd0d8ad2d142f64226c51d0dd10845f2010585a9ab42daaf1a1",
         "1b9305ba53b6476d447c3c6c6437f26e8af8dce0edab7c11a2f0be88bf99ddf5",
-        "bdaa48311449f956f0500ff2e6558749fedba957fa7830df8469fd9f63c264fa"
+        "bdaa48311449f956f0500ff2e6558749fedba957fa7830df8469fd9f63c264fa",
+        "1bb06d047cba4454829f2c277a903495df67fa9e6aebf355ac34cf85fd931c31",
+        "2a90d5a1f28e956aaf391366790ceb58067a7db47e54727e7dd7ada4e43c6799",
+        "680583224cd1ad9d8afb5be4da0e60522a02015f5043399fe803ffe17f694180",
+        "9c5b3992a24ad5267a5f14a15c156d998a6f7d4e2a3ed1dab72afb0616a4c242"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:17.948200+00:00",
+      "last_seen": "2026-11-03T13:45:01.944133+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66553,17 +66561,21 @@
         "06e7ad2a09ba89913b467a502c2b178ebbbf52fe7981f34ea27ff034811935cd",
         "076bf883222e1a56e76509adcc42eefc29457b7373a002fc787851e9853f6b73",
         "541a7e92aef0c2ea17c5463ac1147b93045bc1e762397268a78193f1f4e5a43b",
-        "7f8a729c021194f96e57b9ebd061801ab6717c329b174d91970ce08d6a592d32"
+        "7f8a729c021194f96e57b9ebd061801ab6717c329b174d91970ce08d6a592d32",
+        "247a24f495b668e2ba048be62a02a00ab58d76bd516d7c9f24b07dec91257e9b",
+        "2c916849164f58bba5870dadde283dfddf2cb1c381f532e5070ef3ba9e8d01dd",
+        "2f483e97f14e3f8e1e06acf1714f3c694377845194232cf7f6f10491cea6366d",
+        "6e6c0f86de90bc0903600e0c2c0f92ba2a5ff2c37ecadcab2c55a3444fd66d27"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:18.880959+00:00",
+      "last_seen": "2026-11-03T13:45:03.029256+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66588,17 +66600,21 @@
         "1c95c071a69562e2cb8572083a7225afa4e93cf92d9da86bd59d965c864b4341",
         "3f7c04f813de376846e42cfe6afcb489fc6436dd0d0c16f4d05433aa1af19d12",
         "9864db2c10375021a949e054776b5eb5d6c69809088106f4741951489f36c100",
-        "f8020fbbb49f04aca1fd2cd55de16379bfd8f95c74cbdff81e861bca2f9f91b7"
+        "f8020fbbb49f04aca1fd2cd55de16379bfd8f95c74cbdff81e861bca2f9f91b7",
+        "1519fb1cc4cbaeff3fd3de65359bd75ab2af1874958c1810b8e47bacab6c50bc",
+        "57239fcf97d284f527644c4ec3014d5efa68e5a1247dd91746f4e1865dfaca7d",
+        "8ec94bc7d965c76fe9c031e166430e4d6a0657e72ec689984379e15e66aaeb05",
+        "e432c7389dccf6700a36cb2801efdff9a6a611dfd66dd21c57ae4cda69dc0a8b"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:19.943796+00:00",
+      "last_seen": "2026-11-03T13:45:04.204621+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66623,17 +66639,21 @@
         "a34c2960e66a380eaf92c9695ef55330185ddde207e445618a6dcf13e7f7c507",
         "ca29e14ce8a134168c3194ef7af522b7029017ae9452d3cd1a3bffa84771d764",
         "cfce8d565c50ac6eeb0a410edc704dfc4f7df47ece0e418a345cdf7712b5ce1b",
-        "da6c26b0ad4244bb2c2f233bcce385046282c8a7ee7c7bb93d94414fccb7c725"
+        "da6c26b0ad4244bb2c2f233bcce385046282c8a7ee7c7bb93d94414fccb7c725",
+        "37aa85c666e87e4df645aae092fab8abd3473d17f26586fa448792b2b00f929e",
+        "3c7afd183a84b580b98ed6038d53463752af9368486c9d073d80ea4a6327525f",
+        "7b08e9f3690ea44e58f5e87a77a1ab63acafe0d98cc9a8c3c2c385eb4c30bb70",
+        "b5a9f21d97e4220a5d17d110d8d5f21f290e214b395f64ee63f5e48b2b6f44e4"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:20.988686+00:00",
+      "last_seen": "2026-11-03T13:45:05.403238+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66658,17 +66678,21 @@
         "316c169ad54ec20e5f831ae8640229ffa78a7a06589f5692372a74939b706a77",
         "3d0915bfb2f6fa4fcdcbb8e661557c970a6c5dafd7d4c7b5fde523396e021506",
         "7d5649927b18fb829b07c11f18edc077ee4f4d54e6438eeb97a2abb7f64c0ce8",
-        "cfec2073998eba0910a1370842e4fd37cfaf08b6d0b1a22f860f28ef2d06bad8"
+        "cfec2073998eba0910a1370842e4fd37cfaf08b6d0b1a22f860f28ef2d06bad8",
+        "09c1e3dc4da348e8c600ad31b06f33460f0084df27372322cbd89c216b2a94eb",
+        "1e3101e04e454b540f815f89fdf0170d624bae05139acfa940871fb514bbfedf",
+        "79f643e0bd87d13c1c0940f15e7a94080131fd6699493dbbbf2d57e9fbe116c4",
+        "fbd3f707982d2e49d1ccac4bdf4b777a84df400f214257e088f43cb09b165c20"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:21.901733+00:00",
+      "last_seen": "2026-11-03T13:45:06.627601+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66693,17 +66717,21 @@
         "32951f7f625bc0c826588fd8e2823d134da038ea26d1f6e1afafc6531124dd94",
         "6887a68a648a408ea969e17c6c36275f388569aeecd95dbdd36ec75311cce28a",
         "6c8c292f1ff14c35591abec95067a686810ab7a692b2f8665ce2106321d25af0",
-        "e8404bba85fd9996061af61f934951b00dbb798a1f68161f966c564b4c671626"
+        "e8404bba85fd9996061af61f934951b00dbb798a1f68161f966c564b4c671626",
+        "00e1752d47a424054cdec05edd59c6699a130da4d0f56190797e3963203b041a",
+        "21d408ee405e417273bdcb4f39704c7899d8df18b1aa2b9717ec5588449ee58c",
+        "8f0823d85f357f13413f1491d33ffefafbe5218909f1f593663b4dedce43dcef",
+        "b63f44640cf147e52aedbc52fd9d5d953085f742be05566943cb77f55bd748ca"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:22.817357+00:00",
+      "last_seen": "2026-11-03T13:45:07.727484+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66728,17 +66756,21 @@
         "7d12fbd757f6d9e91a0ece38fcc99973966325bc9042239851dfe75cb07bdd19",
         "85598031c5a29acbf2e46ea9afbdb1992b41191f4cc957b508ff8106a4f305aa",
         "b9d7eb8250760ac39569a060c970f4733f41ff2407daca12b6bce08abde6af48",
-        "cc5f6ffb0cc6179bf448916710c995d015c653a27734ceab339e58eeeec58e9b"
+        "cc5f6ffb0cc6179bf448916710c995d015c653a27734ceab339e58eeeec58e9b",
+        "39b014236a516231c1a10c117bd5eeb7b1fc48ef8b49cba4cf175c01b3e3527e",
+        "749251cf3bdb53fac923801b5ed63f756c30b21b1bf0814f2e8beb843539f91a",
+        "aa6e3249972c11a697e006e9b43bcee2c5552ba2ac3fbc786767a9efd2fcfd52",
+        "d06f8cf5b16dc14c7108f2d746c74a0c1d96e4159fc68e4880034d18426e4596"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:23.766783+00:00",
+      "last_seen": "2026-11-03T13:45:08.917871+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66763,17 +66795,21 @@
         "e30ef3c5ba0fbb6a8b84e19b5113d22e34db3d15606ae7979111472d86a717d4",
         "e5b4665a3ff0a9a07558f203a78a20cadd97c19f9e01bc517e9b00af719d11ca",
         "ef0c57a7c0a916a697d9858beba45f58b4f83e385f28d636dcb7debcbfd27861",
-        "fee417561d9680357ee385ad2d3acbc4a7e18d138d80efc76286b55c41eddda8"
+        "fee417561d9680357ee385ad2d3acbc4a7e18d138d80efc76286b55c41eddda8",
+        "15f6e13a45a383cb1d0d8c38702d27670ad55dccdfe776980e6b94df754cb55d",
+        "6034c87ff1400e13c4689b2630e08217ed1c4fab9cb08ee14613a6d0bf1c4cbf",
+        "8f02cd17b18e37585e1a2e3a94e02731f1109798b3c005ce9b4b8275c2160290",
+        "c84570d428df9d7a9e785fcf93805d44520be5a1bdb6fa23fb30f8e52402f8b9"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:24.833142+00:00",
+      "last_seen": "2026-11-03T13:45:10.011189+00:00",
       "origin": "bootstrap",
       "sources": [
         "amnesty",
@@ -66800,17 +66836,21 @@
         "3f152abfddabbd3df5f42bb7ac7c86162f06b719c961eda3fa55265104f6db5c",
         "802f2fb72c257545b13f44b95bbb3bcff824087ccda18d78b24f2a05d822a906",
         "e781255647afa42b3954752dbb86dfef5e8ec56367185cc2812599cd1f3e37e8",
-        "facdf117ee5e2541beeb0189aa55b114c2630c067fdda835d495e6ba9c7b94d6"
+        "facdf117ee5e2541beeb0189aa55b114c2630c067fdda835d495e6ba9c7b94d6",
+        "50ca333890188c1dda4bca9c814a86e050085576b5f134216b6743130bb73e14",
+        "bbe426ad119ba67dba8c8c0c3c23467f8886701c80a7e3aec75898f69734e922",
+        "d86afc77389c37b024bc5285bd7177d1389512a2929755cc746cd62a550c18dd",
+        "f0f885952fd4f47704a3d6359bcb6bd6e9d4b0fb7fe8a53ab96e38c1b335cc82"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:25.828026+00:00",
+      "last_seen": "2026-11-03T13:45:11.149499+00:00",
       "origin": "bootstrap",
       "sources": [
         "amnesty",
@@ -66837,17 +66877,21 @@
         "28ff2d1bed6f0beee655108c2a8e1117cf1e5f317f95a7cc107b2242c61a9ef5",
         "43cbd32c587d6419e7ec2926b64077ef3d4a6e9863d4e0030521aaaaf639301a",
         "480109ae59f25ad05745d15080732a6b57afff6689c80dca69f93df55b655e81",
-        "b49ae8a18eb37c64f1f74ed0558c6f2f1bd2d30c9af6b4ad20882671372b4589"
+        "b49ae8a18eb37c64f1f74ed0558c6f2f1bd2d30c9af6b4ad20882671372b4589",
+        "16f12ddd8dd8dfd8d506938f867a9a404613eefca880c9eed3cb2d623c5339b9",
+        "2bc68bfb73234d1b60913796964b80e308358b31e8b72c09a646b1a493c26ecf",
+        "2d95957539de3bc47f0409d9b12d6dd4af2dc5ce5e1ce67018532c7d90646146",
+        "9f2e170b5b08e4b57468deaa2bbee186a301d7621e3fcafa6244e238624d6964"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:26.908104+00:00",
+      "last_seen": "2026-11-03T13:45:12.215181+00:00",
       "origin": "bootstrap",
       "sources": [
         "amnesty",
@@ -66874,17 +66918,21 @@
         "0fc37646886567e8f4c1ec6be9ce893467daf069b10fc05e591c5cb36b8d6d52",
         "32d78da40060997882647fc7504c5bcd0725d4d0c184a5a8e2fa74b5620ea9d7",
         "53c07e6c1184edd4eb4ed46dd85519281f7aeaf334783d3a04bb4fa0bc1cc541",
-        "8da7696b6fae436240c65f81e2f32d9732dc8e6ddcbb8f2440d26b3229383865"
+        "8da7696b6fae436240c65f81e2f32d9732dc8e6ddcbb8f2440d26b3229383865",
+        "37f1d497dde3135df028c40ae1f2887528eb094a07e9bcb925a59164c09a5c6d",
+        "5294e41f9702a757dac23e1cb47eab67db063f97637bc25cd6480b45352b08d0",
+        "8898d59af8f860b71c90d78ed35c1ba7c59f64018aa02d30bcfa37cba1bded83",
+        "91e1ff6f417e6bc7571cb9328125adad9d426ca38349b3b7e1ea1d0a78a3b083"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:27.858363+00:00",
+      "last_seen": "2026-11-03T13:45:13.336033+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66909,17 +66957,21 @@
         "1558f71e35b89eba8062f198d1e22eff9676a4f993755bc5a952862dbe04ec51",
         "908a9ae02ff9d7ed15d64a0af124d31458a2bafee1394e7d0a797222d23a756e",
         "d2f38e1272b58eebd79b2c2b602873427772c92871455a24f283d0d978752c3c",
-        "f971df45d902e5c9efa640983c87797bf3a103beda8175f9ac12723f621467e8"
+        "f971df45d902e5c9efa640983c87797bf3a103beda8175f9ac12723f621467e8",
+        "10a491139611243b70f96f48763c1c5c0f48be64497636ddb9b4c30d87835f65",
+        "82dd3fbb999f020ef37f7da85c435d32c3ab684ed6bc9a6511b51fff777de54a",
+        "98cf7d478efa559d2e58bb15c9066a34fc8906eaabd292e2162c361338677fb1",
+        "d08abaa0b057104122f27e743dc343694d4c25c4880270d0660b702da7d6cd28"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:28.903402+00:00",
+      "last_seen": "2026-11-03T13:45:14.512257+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66944,17 +66996,22 @@
         "a6b172bb0c392c08ab782576e5a8b60db952375fb752553f565518d1ee04f025",
         "b214368a71a6c83992eea3fdae3c6436e604d9b70b5c370271e23fc6c39935bf",
         "c7539e541a8edc89e62503e27764bb6031159d9d71e48ce849ad17b00730144e",
-        "db85950cc8e2bfd91fff3f05d07c04db0cb24c6b856302a0a4249350e7cd911a"
+        "db85950cc8e2bfd91fff3f05d07c04db0cb24c6b856302a0a4249350e7cd911a",
+        "722df91ae3b0b5220e1572a2a0655a1d30932c052551a0d289cf23efe914f1b0",
+        "82a5802a868dfe6739254dcfd833bc318a277abc8ba14eeb8c5a27be072cfa8c",
+        "ad3b497fa2ac41fe2324a015fa0bf29516aee16f7ca8f3ee2352d65ac8b8f838",
+        "aedbeb1183e5671a7e9228a88c0daf58bbea62d53d2c4b4e600127fe9c3c7b9e",
+        "c6e698c987a4d95df323badc6ee51db2658594afbad6458cb15fc1a14f9a0bd2"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:31.495028+00:00",
+      "last_seen": "2026-11-03T13:45:20.673196+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -66979,17 +67036,21 @@
         "129c72a0856e181cd742baa5336a02966627d0d612e7dccb3f1e06cbad57d5f0",
         "175bf7fb4ec3a19503b8f1ab4b20e53ba3ef4429608a9d4be40ea7671ec3ef12",
         "5073001309d45bb61b7594b8d18af025d938f1f29e8068a1fb8ee52ac032008e",
-        "c83d4742a6b940be03ec829893635b92e9241552e7e291dd5b927c7995c41381"
+        "c83d4742a6b940be03ec829893635b92e9241552e7e291dd5b927c7995c41381",
+        "014e1027d1f48b16ca287f6cba0223deb3baad8ad1d1c1efdf0de670181cc6c2",
+        "3c69fdc040589d18829194df179ad66898e451a53314d9384fa92a44f121eb26",
+        "692401df0af51cea15190de1270bfe836a53dad659d31acaacee6d862eb0de43",
+        "a0676d93ff04e1a1454bc8d632928aec5f0693e79ee87066ac650ada049cfd0c"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:32.536746+00:00",
+      "last_seen": "2026-11-03T13:45:22.381997+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -67014,17 +67075,21 @@
         "47f7d13b552031a1631a142ecd79f8b2c83af77676622f263a8d4c011a003064",
         "887abd53343921f2760c1a917ed875c5a852a00ce6e9a83263921fbc1abd8cb9",
         "8b0aef5e71e3b809de79fc6da3a9ea7e3ec5833daec6e540e2e3a15fed742498",
-        "d11b18b88ad3502908a230bc07c9a8382ad5f8d2617ae7df1c2f7c89bf2096ca"
+        "d11b18b88ad3502908a230bc07c9a8382ad5f8d2617ae7df1c2f7c89bf2096ca",
+        "74548dc5813083c10cf8add747339d43e300e43ba36deb925e7ce79289f18dc3",
+        "83df4826dd91af5e7939f5b472362f5f293685b9e43c59d00a108df17f895031",
+        "a776fadd4f6273cb9468fdb64992535f86dd69f45876483c5af6cc01c28b9dd9",
+        "b2f4a9af23302f860edf1cc45e86f4ded9b78515950370cec0a576522af17842"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:33.469454+00:00",
+      "last_seen": "2026-11-03T13:45:23.575600+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -67050,17 +67115,21 @@
         "43517e4a58951c6baa5139a5180efff4403fec7e006d710c44193de893018054",
         "5b144800efc0a08d5b51d3be43d0603fb90960d510b8b806ddb599388a5f02f9",
         "66d65d79c4ecda018b8faa3729601650ea1d07ce9ca8a297738805f91ec605a9",
-        "bd0931439fa405c8ba0804da72a8cb79cee55f0edb3eb7a13b397546074d9254"
+        "bd0931439fa405c8ba0804da72a8cb79cee55f0edb3eb7a13b397546074d9254",
+        "470cf9e040ddf18f4bf31226323e9d2b36531b50af1705833d53f3c386a9ac0d",
+        "b3e3cc959d52a0e999e1e821f6072b8b8b2ed490dba69afe1daa20759bbdacc3",
+        "c91d02540a0cd7b435e8b1df14f6218c00c1d3464405b2ceea04b5dcb141f124",
+        "f296bc1e210d715df658300b1f3327366e8855078493833385951ff2a0eddcec"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:39.366852+00:00",
+      "last_seen": "2026-11-03T13:45:26.874729+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -67078,10 +67147,10 @@
       "families": [],
       "first_seen": null,
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
       "last_seen": null,
       "origin": "bootstrap",
@@ -67108,17 +67177,21 @@
         "0dda83b17a8d1e31e71e40fd20cb6fbd4ba7aab1a4e1c2c689e3eebf671bed7b",
         "2a3ebfb743d54c4f23e721e6293a9cb9dc3fe5a92de81b294a0b738518bd355c",
         "3f4ec6fc4aba36641d829fb7d3ec110ef7dfc9f92017de4ab7072d0e481f2d0b",
-        "8948fdadf1aa6af7641448769c4b1e106fdee5558bf3143ae4107f8ddafda547"
+        "8948fdadf1aa6af7641448769c4b1e106fdee5558bf3143ae4107f8ddafda547",
+        "58cf543735276994afc0c42de2c5124fbfcb0a08c14ec1f7055af5dfbd08c10a",
+        "b6ad209d79d4247115dc4dd3ec9cafb47a23752b4b52e97efb4a463183482e88",
+        "e77b355bc8df184c32a57f9cc85fddf8c47c977df6facc3ccf5fc68829625558",
+        "ec996973eaf43d5bd19782939be43eeffa11886597b2d64cade2bae3b23d0c71"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:50.864738+00:00",
+      "last_seen": "2026-11-03T13:45:38.439323+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -67143,17 +67216,21 @@
         "0cd65501fbbf1e74954b223d86b75058c3e8a5d3bd4dc42a537479680da12884",
         "533cfa2b2ed48c5fb076cb5c51b6c83b54cf1bcf927596bc4f74726691597731",
         "914b835397af883fc9fe0a56033d380aaa0a4d338173618d50268471b7415163",
-        "e00c1c8591f4f0b286d5b7d8f1a15831adffdd5a27d4dedfe2574a2342ae451d"
+        "e00c1c8591f4f0b286d5b7d8f1a15831adffdd5a27d4dedfe2574a2342ae451d",
+        "1b63d2d9645f86c037b21e78566b59677ac3fb943d7f6a8dee64ad4c70163ab9",
+        "27d7ba16a621cd0dfc744ca01b9638ac21337e8f7841dba75404fd9b3228a966",
+        "a849e7ab4ab59a6fe24132819a18c9e7348c249660a07638995194923b15b0fe",
+        "c34ecb34348589b3e2d57318038da8d393476c2d77d63fb9ca6219c7cf9bf137"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:51.876802+00:00",
+      "last_seen": "2026-11-03T13:45:39.585747+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -67178,17 +67255,21 @@
         "494323da3633dddd8cc5b3952285b124736b3942640cee3d86990c2894da342c",
         "681b16e896925269b91297da2003859061737716bf628ecaec152d0ba073e191",
         "f0f9d8bacf975a4ce9e375dd8b8fbfb7db404f8a1a2dbef77ad238ed4eda94d8",
-        "f9c59e9d5b915f6d6c328d5df768a20fc407034dc1cca2620ae05e3a630c200f"
+        "f9c59e9d5b915f6d6c328d5df768a20fc407034dc1cca2620ae05e3a630c200f",
+        "0460b2083709a9f4b1e22ad92215667156475ab30331d99afd026fb790b212eb",
+        "0d3df901062c04edf197dc8ed133d4bffd58aa903010e508b1559659283d7a12",
+        "841c25e5663667fa030eaa4e7bbeee95860009b5f30a00e74aae8f5089cbc451",
+        "9d90e958267a6790317e0cdde2ac495557045d701c9d764988be58549e51e5c6"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:52.863885+00:00",
+      "last_seen": "2026-11-03T13:45:40.698047+00:00",
       "origin": "bootstrap",
       "sources": [
         "amnesty",
@@ -67215,17 +67296,21 @@
         "3a1137d578a6b06a6bfaf20b941bc91d99dbcfe8892a4fb2d2215ad8805225d7",
         "ac175b8b9543a90a5cbd84e9dcaec8e8f1f6629c966c94423b5eb96793f57f61",
         "b76c2acbe896a2ea628b86ad3fa306c1fb9e7e12dacadea3e1e523e0c6cb5bea",
-        "dea2339faefc93f613dc36c3a88df1c7476587cf92f0a077662279670a456497"
+        "dea2339faefc93f613dc36c3a88df1c7476587cf92f0a077662279670a456497",
+        "05f220a99081be454233568fc2c024d132871588fbd58bbb3ce4d8482b34aa63",
+        "30df6d729968f5eeb26407eebba7eeca90a1f883e38f5b92428e7342b525f1c2",
+        "7ed8f7a16f98dbb744a23c7e000c08876c286087aa99723d4ea69fa3382e1bd0",
+        "b492fbfad043435a5272cb71342d12a785a7de9e4bcd2c7110841cda27e16992"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:53.856767+00:00",
+      "last_seen": "2026-11-03T13:45:41.803925+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -67250,17 +67335,21 @@
         "2e77a7e8cc9c56b7635641f9e7bb6d69baf38e2b6da123b6f8a4a432f80fde19",
         "57c88f91e872e489d32c87cb31a8233fcbc93e8f8419f66050b973cf824a1471",
         "9543e45408e35ef802725f6238c07177dc9f83dd078a8e7bc416eb4e6e78b70f",
-        "ea531bf18c80548eff73baae61b7a08ff2c3e36c2c1621dc09b96d8e13b108d1"
+        "ea531bf18c80548eff73baae61b7a08ff2c3e36c2c1621dc09b96d8e13b108d1",
+        "1df87fffc0e2734cac4862e8a7bf97bee77789d541e522ba4626ee8d16600808",
+        "305a4875ff87d27ef2c1171a7f5d48a2b94c46dc97377dd5f68743b03d8602af",
+        "d017c223866187d2666d565d95c1a3e8a7ba17d61d64ea06bdb39ab7194a7085",
+        "d7b772013320713bb6991d92357f57bee348fb13620312482e475f9fe1344e76"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:54.869334+00:00",
+      "last_seen": "2026-11-03T13:45:42.898961+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -67285,17 +67374,21 @@
         "14961f738b0e30c1d3c3969ccc4a535152110ac73351dae69b8d68011d070690",
         "4dca31f5b086c7a46a6abfc5109db22dea8f3d20d569e4001357bec00f817faa",
         "8c84e290e23625817cf63921e24473989560b037a207fdb944f69103ff7f4779",
-        "db4bc1f74dfd0861f00b3de2fca68555bc43f70f76e6b44bafa16ebeda3b38db"
+        "db4bc1f74dfd0861f00b3de2fca68555bc43f70f76e6b44bafa16ebeda3b38db",
+        "bc7eff768565d204759653354c3d843fd0c2040160cbffa8316452eeaa613b19",
+        "bee04f40d6ab7b3057f68146e78aedc89dc7a67d76e71812284a2a70058c4df6",
+        "ce0c92c8e38a2a851a1f58271c217ab3dcd05ae0d0071cf82186bc3692e2ef4d",
+        "e5ba51f202ed0586c72ccfc40c3d0b091f824b70748df7ac59dc8ca838fbeab7"
       ],
       "families": [],
       "first_seen": "2026-11-03T12:14:27.578106+00:00",
       "last_attempts": {
-        "ct": "2026-11-03T13:36:15.229651+00:00",
-        "dns": "2026-11-03T13:36:15.229651+00:00",
-        "measure": "2026-11-03T13:36:15.229651+00:00",
-        "urlscan": "2026-11-03T13:36:15.229651+00:00"
+        "ct": "2026-11-03T13:44:58.968942+00:00",
+        "dns": "2026-11-03T13:44:58.968942+00:00",
+        "measure": "2026-11-03T13:44:58.968942+00:00",
+        "urlscan": "2026-11-03T13:44:58.968942+00:00"
       },
-      "last_seen": "2026-11-03T13:36:55.839314+00:00",
+      "last_seen": "2026-11-03T13:45:44.014466+00:00",
       "origin": "bootstrap",
       "sources": [
         "nso-community"
@@ -78856,6 +78949,18 @@
     }
   },
   "observations": {
+    "00e1752d47a424054cdec05edd59c6699a130da4d0f56190797e3963203b041a": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tremblingroundness.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:07.727484+00:00",
+      "recorded_at": "2026-11-03T13:45:07.727484+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tremblingroundness.net&type=CNAME"
+    },
     "01057ed2f6cf1d89478f7fe34fbfb7be8814ef029a154c91695d20cfbd42c938": {
       "data": {
         "answers": [],
@@ -78879,6 +78984,18 @@
       "observed_at": "2026-11-03T13:36:17.948200+00:00",
       "recorded_at": "2026-11-03T13:36:17.948200+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=treatmoodiness.com&type=CNAME"
+    },
+    "014e1027d1f48b16ca287f6cba0223deb3baad8ad1d1c1efdf0de670181cc6c2": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:22.381997+00:00",
+      "recorded_at": "2026-11-03T13:45:22.381997+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.com&type=A"
     },
     "01b6a34ac0972e3344f1ed3efbc5ec038b83807ecb6b6cc7ddbe2824ca87883e": {
       "data": {
@@ -78929,6 +79046,19 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=treatmoodiness.com&type=AAAA"
     },
+    "0460b2083709a9f4b1e22ad92215667156475ab30331d99afd026fb790b212eb": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tricksinswiss.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:40.698047+00:00",
+      "recorded_at": "2026-11-03T13:45:40.698047+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tricksinswiss.com&type=NS"
+    },
     "05170f8daee1f1f6d7b688d03c9d072475164f8e441f4de76704e2a18791040c": {
       "data": {
         "answers": [],
@@ -78953,6 +79083,19 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trekkereggnog.com&type=NS"
+    },
+    "05f220a99081be454233568fc2c024d132871588fbd58bbb3ce4d8482b34aa63": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:trickytape.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:41.803925+00:00",
+      "recorded_at": "2026-11-03T13:45:41.803925+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trickytape.net&type=NS"
     },
     "05f975abecf9103d349a5c0cb17370f4f15f971d60464b110571fd5fc5dd60f1": {
       "data": {
@@ -79013,6 +79156,19 @@
       "observed_at": null,
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
+    },
+    "09c1e3dc4da348e8c600ad31b06f33460f0084df27372322cbd89c216b2a94eb": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:trekkereggnog.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:06.627601+00:00",
+      "recorded_at": "2026-11-03T13:45:06.627601+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trekkereggnog.com&type=NS"
     },
     "0a2ab8e18859c9a52a8a477b54f11cbe5b1e0b2ba2765cc8e0b3b509ed101eea": {
       "data": {
@@ -79097,6 +79253,18 @@
       "recorded_at": "2026-11-03T13:36:51.876802+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trickeryrectify.com&type=A"
     },
+    "0d3df901062c04edf197dc8ed133d4bffd58aa903010e508b1559659283d7a12": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tricksinswiss.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:40.698047+00:00",
+      "recorded_at": "2026-11-03T13:45:40.698047+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tricksinswiss.com&type=AAAA"
+    },
     "0db1d37b40c7d44dd9ce4d38a08294daca1405eb0471df638658ad430c654034": {
       "data": {
         "answers": [],
@@ -79171,6 +79339,18 @@
       "observed_at": "2026-11-03T13:04:36.794784+00:00",
       "recorded_at": "2026-11-03T13:04:36.794784+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tremblingroundness.net&type=NS"
+    },
+    "10a491139611243b70f96f48763c1c5c0f48be64497636ddb9b4c30d87835f65": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tribunews.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:14.512257+00:00",
+      "recorded_at": "2026-11-03T13:45:14.512257+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunews.net&type=AAAA"
     },
     "116e4c207e1104df23fcaad268c950d1ac911b6264ac84378177d7a4f9f21385": {
       "data": {
@@ -79282,6 +79462,18 @@
       "recorded_at": "2026-11-03T13:36:17.948200+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=treatmoodiness.com&type=A"
     },
+    "1519fb1cc4cbaeff3fd3de65359bd75ab2af1874958c1810b8e47bacab6c50bc": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:trecvf.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:04.204621+00:00",
+      "recorded_at": "2026-11-03T13:45:04.204621+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trecvf.xyz&type=AAAA"
+    },
     "1558f71e35b89eba8062f198d1e22eff9676a4f993755bc5a952862dbe04ec51": {
       "data": {
         "answers": [],
@@ -79307,6 +79499,18 @@
       "recorded_at": "2026-11-03T13:04:52.913240+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribunews.org&type=CNAME"
     },
+    "15f6e13a45a383cb1d0d8c38702d27670ad55dccdfe776980e6b94df754cb55d": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:trendsymbol.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:10.011189+00:00",
+      "recorded_at": "2026-11-03T13:45:10.011189+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trendsymbol.net&type=CNAME"
+    },
     "163bc064376f1bb594b28dd2a45207a86a4052f7918b3ac71a8204763d44abdc": {
       "data": {
         "answers": [],
@@ -79330,6 +79534,18 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.net&type=A"
+    },
+    "16f12ddd8dd8dfd8d506938f867a9a404613eefca880c9eed3cb2d623c5339b9": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:trianglerank.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:12.215181+00:00",
+      "recorded_at": "2026-11-03T13:45:12.215181+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trianglerank.net&type=A"
     },
     "175bf7fb4ec3a19503b8f1ab4b20e53ba3ef4429608a9d4be40ea7671ec3ef12": {
       "data": {
@@ -79356,6 +79572,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tremblingroundness.net&type=CNAME"
     },
+    "1b63d2d9645f86c037b21e78566b59677ac3fb943d7f6a8dee64ad4c70163ab9": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:trickeryrectify.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:39.585747+00:00",
+      "recorded_at": "2026-11-03T13:45:39.585747+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trickeryrectify.com&type=CNAME"
+    },
     "1b7df8e5b379d4f2e4a8d05dc2588fd61bca0935d1b84ea3236c0cf4ba9f6d86": {
       "data": {
         "answers": [],
@@ -79381,6 +79609,18 @@
       "recorded_at": "2026-11-03T13:36:17.948200+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=treatmoodiness.com&type=NS"
     },
+    "1bb06d047cba4454829f2c277a903495df67fa9e6aebf355ac34cf85fd931c31": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:treatmoodiness.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:01.944133+00:00",
+      "recorded_at": "2026-11-03T13:45:01.944133+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treatmoodiness.com&type=A"
+    },
     "1c95c071a69562e2cb8572083a7225afa4e93cf92d9da86bd59d965c864b4341": {
       "data": {
         "answers": [],
@@ -79404,6 +79644,30 @@
       "observed_at": "2026-11-03T13:05:13.342106+00:00",
       "recorded_at": "2026-11-03T13:05:13.342106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tributaryoxygen.com&type=AAAA"
+    },
+    "1df87fffc0e2734cac4862e8a7bf97bee77789d541e522ba4626ee8d16600808": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tridentagreeably.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:42.898961+00:00",
+      "recorded_at": "2026-11-03T13:45:42.898961+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tridentagreeably.com&type=CNAME"
+    },
+    "1e3101e04e454b540f815f89fdf0170d624bae05139acfa940871fb514bbfedf": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:trekkereggnog.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:06.627601+00:00",
+      "recorded_at": "2026-11-03T13:45:06.627601+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trekkereggnog.com&type=A"
     },
     "1f6d91121170880f7f8aeadc5f8f90939bac1fd19cc746b73bae62e38977c416": {
       "data": {
@@ -79476,6 +79740,19 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trekkereggnog.com&type=CNAME"
     },
+    "21d408ee405e417273bdcb4f39704c7899d8df18b1aa2b9717ec5588449ee58c": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tremblingroundness.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:07.727484+00:00",
+      "recorded_at": "2026-11-03T13:45:07.727484+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tremblingroundness.net&type=NS"
+    },
     "21faf6b1e3fb5cc173aa88b349c4583649d2d7e1e0b13d7352991f16d5f3811e": {
       "data": {
         "error": "CalledProcessError",
@@ -79524,6 +79801,19 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tremblingroundness.net&type=NS"
     },
+    "247a24f495b668e2ba048be62a02a00ab58d76bd516d7c9f24b07dec91257e9b": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:trecv.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:03.029256+00:00",
+      "recorded_at": "2026-11-03T13:45:03.029256+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trecv.xyz&type=NS"
+    },
     "24baf2ca7df0602234b0a99c69051f6718d54fb97b629cc9364f0a1b85c0069f": {
       "data": {
         "answers": [],
@@ -79559,6 +79849,18 @@
       "observed_at": "2026-11-03T13:04:30.024371+00:00",
       "recorded_at": "2026-11-03T13:04:30.024371+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trecvf.xyz&type=AAAA"
+    },
+    "27d7ba16a621cd0dfc744ca01b9638ac21337e8f7841dba75404fd9b3228a966": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:trickeryrectify.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:39.585747+00:00",
+      "recorded_at": "2026-11-03T13:45:39.585747+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trickeryrectify.com&type=A"
     },
     "28296e5aff838e259f9d8d4ba505c9ec4ecc62064a1b1783b64579ea93f9e24a": {
       "data": {
@@ -79618,6 +79920,18 @@
       "recorded_at": "2026-11-03T13:36:50.864738+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tributaryoxygen.com&type=CNAME"
     },
+    "2a90d5a1f28e956aaf391366790ceb58067a7db47e54727e7dd7ada4e43c6799": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:treatmoodiness.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:01.944133+00:00",
+      "recorded_at": "2026-11-03T13:45:01.944133+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treatmoodiness.com&type=CNAME"
+    },
     "2b6c443c6ff346dbb395e0ff564fbc11412279e9b3218a3ade6436942a3a1497": {
       "data": {
         "error": "CalledProcessError",
@@ -79628,6 +79942,18 @@
       "observed_at": null,
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
+    },
+    "2bc68bfb73234d1b60913796964b80e308358b31e8b72c09a646b1a493c26ecf": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:trianglerank.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:12.215181+00:00",
+      "recorded_at": "2026-11-03T13:45:12.215181+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trianglerank.net&type=CNAME"
     },
     "2bdba5d212932319f29b81ef5e6941707013f837f9b0b9821d145a14ef784568": {
       "data": {
@@ -79641,6 +79967,30 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tridentamused.com&type=NS"
+    },
+    "2c916849164f58bba5870dadde283dfddf2cb1c381f532e5070ef3ba9e8d01dd": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:trecv.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:03.029256+00:00",
+      "recorded_at": "2026-11-03T13:45:03.029256+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trecv.xyz&type=CNAME"
+    },
+    "2d95957539de3bc47f0409d9b12d6dd4af2dc5ce5e1ce67018532c7d90646146": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:trianglerank.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:12.215181+00:00",
+      "recorded_at": "2026-11-03T13:45:12.215181+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trianglerank.net&type=AAAA"
     },
     "2dd021ccfc3a86e0997adbeb635dc22efee3e24e1d225d98047d59a468ecc320": {
       "data": {
@@ -79666,6 +80016,18 @@
       "recorded_at": "2026-11-03T13:36:54.869334+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tridentagreeably.com&type=A"
     },
+    "2f483e97f14e3f8e1e06acf1714f3c694377845194232cf7f6f10491cea6366d": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:trecv.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:03.029256+00:00",
+      "recorded_at": "2026-11-03T13:45:03.029256+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trecv.xyz&type=AAAA"
+    },
     "2f82ade69870885de6d231c3b3923febc61e43654afea5a41e9e1aa6057350ce": {
       "data": {
         "error": "CalledProcessError",
@@ -79676,6 +80038,30 @@
       "observed_at": null,
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
+    },
+    "305a4875ff87d27ef2c1171a7f5d48a2b94c46dc97377dd5f68743b03d8602af": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tridentagreeably.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:42.898961+00:00",
+      "recorded_at": "2026-11-03T13:45:42.898961+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tridentagreeably.com&type=A"
+    },
+    "30df6d729968f5eeb26407eebba7eeca90a1f883e38f5b92428e7342b525f1c2": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:trickytape.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:41.803925+00:00",
+      "recorded_at": "2026-11-03T13:45:41.803925+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trickytape.net&type=A"
     },
     "316c169ad54ec20e5f831ae8640229ffa78a7a06589f5692372a74939b706a77": {
       "data": {
@@ -79785,6 +80171,30 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
     },
+    "37aa85c666e87e4df645aae092fab8abd3473d17f26586fa448792b2b00f929e": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:treestumps.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:05.403238+00:00",
+      "recorded_at": "2026-11-03T13:45:05.403238+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treestumps.net&type=A"
+    },
+    "37f1d497dde3135df028c40ae1f2887528eb094a07e9bcb925a59164c09a5c6d": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tribune-mg.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:13.336033+00:00",
+      "recorded_at": "2026-11-03T13:45:13.336033+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribune-mg.xyz&type=A"
+    },
     "389b8db6280db755e875b180df199ac0f2566e380f6a0952828af118e20f15a0": {
       "data": {
         "answers": [],
@@ -79820,6 +80230,19 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tridentamused.com&type=A"
+    },
+    "39b014236a516231c1a10c117bd5eeb7b1fc48ef8b49cba4cf175c01b3e3527e": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:trenchcheek.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:08.917871+00:00",
+      "recorded_at": "2026-11-03T13:45:08.917871+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trenchcheek.com&type=NS"
     },
     "39cef6336f328914397e851644dfb761a79cc64545de7865dccf40b3263c5e48": {
       "data": {
@@ -79869,6 +80292,31 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trianglerank.net&type=NS"
+    },
+    "3c69fdc040589d18829194df179ad66898e451a53314d9384fa92a44f121eb26": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:22.381997+00:00",
+      "recorded_at": "2026-11-03T13:45:22.381997+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.com&type=AAAA"
+    },
+    "3c7afd183a84b580b98ed6038d53463752af9368486c9d073d80ea4a6327525f": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:treestumps.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:05.403238+00:00",
+      "recorded_at": "2026-11-03T13:45:05.403238+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treestumps.net&type=NS"
     },
     "3ccf3f282f755c841ca50318d566752a27faef731f63caddc59386f621fef47e": {
       "data": {
@@ -80051,6 +80499,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.com&type=A"
     },
+    "470cf9e040ddf18f4bf31226323e9d2b36531b50af1705833d53f3c386a9ac0d": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.org",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:26.874729+00:00",
+      "recorded_at": "2026-11-03T13:45:26.874729+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.org&type=AAAA"
+    },
     "47f7d13b552031a1631a142ecd79f8b2c83af77676622f263a8d4c011a003064": {
       "data": {
         "answers": [],
@@ -80194,6 +80654,32 @@
       "recorded_at": "2026-11-03T13:36:32.536746+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.com&type=CNAME"
     },
+    "50ca333890188c1dda4bca9c814a86e050085576b5f134216b6743130bb73e14": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:trialvariable.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:11.149499+00:00",
+      "recorded_at": "2026-11-03T13:45:11.149499+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trialvariable.net&type=NS"
+    },
+    "5294e41f9702a757dac23e1cb47eab67db063f97637bc25cd6480b45352b08d0": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tribune-mg.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:13.336033+00:00",
+      "recorded_at": "2026-11-03T13:45:13.336033+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribune-mg.xyz&type=NS"
+    },
     "533cfa2b2ed48c5fb076cb5c51b6c83b54cf1bcf927596bc4f74726691597731": {
       "data": {
         "answers": [],
@@ -80253,6 +80739,18 @@
       "recorded_at": "2026-11-03T13:04:57.195767+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.net&type=CNAME"
     },
+    "57239fcf97d284f527644c4ec3014d5efa68e5a1247dd91746f4e1865dfaca7d": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:trecvf.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:04.204621+00:00",
+      "recorded_at": "2026-11-03T13:45:04.204621+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trecvf.xyz&type=A"
+    },
     "57c88f91e872e489d32c87cb31a8233fcbc93e8f8419f66050b973cf824a1471": {
       "data": {
         "answers": [],
@@ -80276,6 +80774,18 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=cpu20fk3p.dashboardprompt.com&type=CNAME"
+    },
+    "58cf543735276994afc0c42de2c5124fbfcb0a08c14ec1f7055af5dfbd08c10a": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tributaryoxygen.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:38.439323+00:00",
+      "recorded_at": "2026-11-03T13:45:38.439323+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tributaryoxygen.com&type=CNAME"
     },
     "5a077d6ea6992163258817ba0c4de09511e7d099cab9b70a6d269dd946238905": {
       "data": {
@@ -80385,6 +80895,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trecvf.xyz&type=AAAA"
     },
+    "6034c87ff1400e13c4689b2630e08217ed1c4fab9cb08ee14613a6d0bf1c4cbf": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:trendsymbol.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:10.011189+00:00",
+      "recorded_at": "2026-11-03T13:45:10.011189+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trendsymbol.net&type=AAAA"
+    },
     "60b508c934b44ecebd58777ad7723df0e66e325355f969e1fe1fe6d7f70c485f": {
       "data": {
         "answers": [],
@@ -80457,6 +80979,19 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=cpu20fk3p.dashboardprompt.com&type=A"
     },
+    "680583224cd1ad9d8afb5be4da0e60522a02015f5043399fe803ffe17f694180": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:treatmoodiness.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:01.944133+00:00",
+      "recorded_at": "2026-11-03T13:45:01.944133+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treatmoodiness.com&type=NS"
+    },
     "681b16e896925269b91297da2003859061737716bf628ecaec152d0ba073e191": {
       "data": {
         "answers": [],
@@ -80482,6 +81017,18 @@
       "observed_at": "2026-11-03T13:36:22.817357+00:00",
       "recorded_at": "2026-11-03T13:36:22.817357+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tremblingroundness.net&type=NS"
+    },
+    "692401df0af51cea15190de1270bfe836a53dad659d31acaacee6d862eb0de43": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:22.381997+00:00",
+      "recorded_at": "2026-11-03T13:45:22.381997+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.com&type=CNAME"
     },
     "69910c87d27248ae12eb47571f77b94ba10b1b0a4998dfab9eb06187c423a950": {
       "data": {
@@ -80554,6 +81101,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
     },
+    "6e6c0f86de90bc0903600e0c2c0f92ba2a5ff2c37ecadcab2c55a3444fd66d27": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:trecv.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:03.029256+00:00",
+      "recorded_at": "2026-11-03T13:45:03.029256+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trecv.xyz&type=A"
+    },
     "6f3f280796492e7690876437649af9f61e5b7642f20d5b4b211d2d38287fee2d": {
       "data": {
         "error": "CalledProcessError",
@@ -80564,6 +81123,18 @@
       "observed_at": null,
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
+    },
+    "6fa09b57f4669984966e47847c1d2249fc4330ba46905b27abfd1a150d99de97": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:treadingcollapse.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:00.789987+00:00",
+      "recorded_at": "2026-11-03T13:45:00.789987+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treadingcollapse.com&type=CNAME"
     },
     "7021c72f41f24be59f38fc4ddb64ead460e79541b2af196332e4b30b5c0bc157": {
       "data": {
@@ -80588,6 +81159,17 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trecv.xyz&type=CNAME"
     },
+    "722df91ae3b0b5220e1572a2a0655a1d30932c052551a0d289cf23efe914f1b0": {
+      "data": {
+        "error": "TimeoutExpired",
+        "target": "https://tribunews.org/"
+      },
+      "indicator": "domain:tribunews.org",
+      "kind": "measurement-error",
+      "observed_at": null,
+      "recorded_at": "2026-11-03T13:45:15.378105+00:00",
+      "source": "direct-root-probe"
+    },
     "72d7cf3cf3bac5d0b23f81c629587df72489def1ef217ca1392040e258825e80": {
       "data": {
         "error": "CalledProcessError",
@@ -80598,6 +81180,18 @@
       "observed_at": null,
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
+    },
+    "72f41fe9abe2adbd119c92ff31bdce1e2d4492fd73e1ce3d299fce0405fe8c6c": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:treadingcollapse.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:00.789987+00:00",
+      "recorded_at": "2026-11-03T13:45:00.789987+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treadingcollapse.com&type=AAAA"
     },
     "73086f106ac364ec6d9aa28bea96faaedfbc50f0e3339fe179ea8c729c321236": {
       "data": {
@@ -80610,6 +81204,30 @@
       "observed_at": "2026-11-03T13:04:30.024371+00:00",
       "recorded_at": "2026-11-03T13:04:30.024371+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trecvf.xyz&type=A"
+    },
+    "74548dc5813083c10cf8add747339d43e300e43ba36deb925e7ce79289f18dc3": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:23.575600+00:00",
+      "recorded_at": "2026-11-03T13:45:23.575600+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.net&type=AAAA"
+    },
+    "749251cf3bdb53fac923801b5ed63f756c30b21b1bf0814f2e8beb843539f91a": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:trenchcheek.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:08.917871+00:00",
+      "recorded_at": "2026-11-03T13:45:08.917871+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trenchcheek.com&type=A"
     },
     "76374771588f01d5885bb2c0896af444d341229a1d4324c6a0336a628440cf83": {
       "data": {
@@ -80658,6 +81276,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=treadingcollapse.com&type=A"
     },
+    "79f643e0bd87d13c1c0940f15e7a94080131fd6699493dbbbf2d57e9fbe116c4": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:trekkereggnog.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:06.627601+00:00",
+      "recorded_at": "2026-11-03T13:45:06.627601+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trekkereggnog.com&type=AAAA"
+    },
     "79f851f1273f4ead0b3881c5e125ecb62d25b02fb20877028b71c56ec1232828": {
       "data": {
         "error": "CalledProcessError",
@@ -80682,6 +81312,18 @@
       "observed_at": "2020-11-17T00:00:00+00:00",
       "recorded_at": "2026-11-03T11:11:02.352149+00:00",
       "source": "legacy-discovery-report"
+    },
+    "7b08e9f3690ea44e58f5e87a77a1ab63acafe0d98cc9a8c3c2c385eb4c30bb70": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:treestumps.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:05.403238+00:00",
+      "recorded_at": "2026-11-03T13:45:05.403238+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treestumps.net&type=CNAME"
     },
     "7b1b3d86268c4619db90385adedc0a14c1481244607a90be3dd19fd7a1cd6bfe": {
       "data": {
@@ -80805,6 +81447,18 @@
       "recorded_at": "2026-11-03T13:04:57.195767+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.net&type=NS"
     },
+    "7ed8f7a16f98dbb744a23c7e000c08876c286087aa99723d4ea69fa3382e1bd0": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:trickytape.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:41.803925+00:00",
+      "recorded_at": "2026-11-03T13:45:41.803925+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trickytape.net&type=AAAA"
+    },
     "7f2adfe9401c6b2a580fa3637bc162b76bed8bca3b26efbaacbe80b63e758129": {
       "data": {
         "error": "CalledProcessError",
@@ -80875,6 +81529,55 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=treestumps.net&type=CNAME"
+    },
+    "82a5802a868dfe6739254dcfd833bc318a277abc8ba14eeb8c5a27be072cfa8c": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tribunews.org",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:20.673196+00:00",
+      "recorded_at": "2026-11-03T13:45:20.673196+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunews.org&type=A"
+    },
+    "82dd3fbb999f020ef37f7da85c435d32c3ab684ed6bc9a6511b51fff777de54a": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tribunews.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:14.512257+00:00",
+      "recorded_at": "2026-11-03T13:45:14.512257+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunews.net&type=NS"
+    },
+    "83df4826dd91af5e7939f5b472362f5f293685b9e43c59d00a108df17f895031": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:23.575600+00:00",
+      "recorded_at": "2026-11-03T13:45:23.575600+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.net&type=CNAME"
+    },
+    "841c25e5663667fa030eaa4e7bbeee95860009b5f30a00e74aae8f5089cbc451": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tricksinswiss.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:40.698047+00:00",
+      "recorded_at": "2026-11-03T13:45:40.698047+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tricksinswiss.com&type=A"
     },
     "8465ec5e37d1b522a022e444ad3b80cf587078178e7c74a4586497e61f7064f0": {
       "data": {
@@ -80969,6 +81672,18 @@
       "observed_at": "2026-11-03T13:36:33.469454+00:00",
       "recorded_at": "2026-11-03T13:36:33.469454+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.net&type=CNAME"
+    },
+    "8898d59af8f860b71c90d78ed35c1ba7c59f64018aa02d30bcfa37cba1bded83": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tribune-mg.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:13.336033+00:00",
+      "recorded_at": "2026-11-03T13:45:13.336033+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribune-mg.xyz&type=AAAA"
     },
     "891a9f6563d7c204716fe146d838247946b14162f2a5835f9b42c7e5cb3621c4": {
       "data": {
@@ -81092,6 +81807,43 @@
       "recorded_at": "2026-11-03T13:36:27.858363+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribune-mg.xyz&type=CNAME"
     },
+    "8ec94bc7d965c76fe9c031e166430e4d6a0657e72ec689984379e15e66aaeb05": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:trecvf.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:04.204621+00:00",
+      "recorded_at": "2026-11-03T13:45:04.204621+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trecvf.xyz&type=CNAME"
+    },
+    "8f02cd17b18e37585e1a2e3a94e02731f1109798b3c005ce9b4b8275c2160290": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:trendsymbol.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:10.011189+00:00",
+      "recorded_at": "2026-11-03T13:45:10.011189+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trendsymbol.net&type=NS"
+    },
+    "8f0823d85f357f13413f1491d33ffefafbe5218909f1f593663b4dedce43dcef": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tremblingroundness.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:07.727484+00:00",
+      "recorded_at": "2026-11-03T13:45:07.727484+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tremblingroundness.net&type=AAAA"
+    },
     "8fcfa3da90790164d771f56bcec3f0fa8d12ac448a7b08a9d5200ec479e97adf": {
       "data": {
         "answers": [],
@@ -81164,6 +81916,18 @@
       "observed_at": null,
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
+    },
+    "91e1ff6f417e6bc7571cb9328125adad9d426ca38349b3b7e1ea1d0a78a3b083": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tribune-mg.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:13.336033+00:00",
+      "recorded_at": "2026-11-03T13:45:13.336033+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribune-mg.xyz&type=CNAME"
     },
     "91fcab5684fca2e971ea7d4d98178d617f443c11aa6c0b93a6a72b9ea618939c": {
       "data": {
@@ -81273,6 +82037,18 @@
       "recorded_at": "2026-11-03T13:04:27.744651+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trecv.xyz&type=NS"
     },
+    "98cf7d478efa559d2e58bb15c9066a34fc8906eaabd292e2162c361338677fb1": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tribunews.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:14.512257+00:00",
+      "recorded_at": "2026-11-03T13:45:14.512257+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunews.net&type=A"
+    },
     "99dca412bcbe34aeb59b088e453fe9dcac264b3849665ebb0b450cb684fdb823": {
       "data": {
         "answers": [],
@@ -81297,6 +82073,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
     },
+    "9c5b3992a24ad5267a5f14a15c156d998a6f7d4e2a3ed1dab72afb0616a4c242": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:treatmoodiness.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:01.944133+00:00",
+      "recorded_at": "2026-11-03T13:45:01.944133+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treatmoodiness.com&type=AAAA"
+    },
     "9c7f2b8eb7fa411605e4f421c94685b155723ffb707a0acb7db07be2a230ff78": {
       "data": {
         "answers": [],
@@ -81308,6 +82096,31 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribunews.net&type=A"
+    },
+    "9d90e958267a6790317e0cdde2ac495557045d701c9d764988be58549e51e5c6": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tricksinswiss.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:40.698047+00:00",
+      "recorded_at": "2026-11-03T13:45:40.698047+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tricksinswiss.com&type=CNAME"
+    },
+    "9f2e170b5b08e4b57468deaa2bbee186a301d7621e3fcafa6244e238624d6964": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:trianglerank.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:12.215181+00:00",
+      "recorded_at": "2026-11-03T13:45:12.215181+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trianglerank.net&type=NS"
     },
     "a024f0818822246559868d90228541b2a3f76b127ba86a4a25686ccbe18c35f9": {
       "data": {
@@ -81321,6 +82134,19 @@
       "observed_at": "2026-11-03T13:04:32.270094+00:00",
       "recorded_at": "2026-11-03T13:04:32.270094+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=treestumps.net&type=NS"
+    },
+    "a0676d93ff04e1a1454bc8d632928aec5f0693e79ee87066ac650ada049cfd0c": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:22.381997+00:00",
+      "recorded_at": "2026-11-03T13:45:22.381997+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.com&type=NS"
     },
     "a07f04b226352a47303bc9d62a8a5e96256c18b2d152ce055c21ec150d048689": {
       "data": {
@@ -81408,6 +82234,19 @@
       "recorded_at": "2026-11-03T13:36:31.495028+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribunews.org&type=NS"
     },
+    "a776fadd4f6273cb9468fdb64992535f86dd69f45876483c5af6cc01c28b9dd9": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:23.575600+00:00",
+      "recorded_at": "2026-11-03T13:45:23.575600+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.net&type=NS"
+    },
     "a78f3735704284829d0b2fa7cbc84eb1848d878e38f0930451a79ee56e4cba8a": {
       "data": {
         "error": "CalledProcessError",
@@ -81444,6 +82283,19 @@
       "recorded_at": "2026-11-03T13:04:40.880590+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trendsymbol.net&type=A"
     },
+    "a849e7ab4ab59a6fe24132819a18c9e7348c249660a07638995194923b15b0fe": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:trickeryrectify.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:39.585747+00:00",
+      "recorded_at": "2026-11-03T13:45:39.585747+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trickeryrectify.com&type=NS"
+    },
     "a96ab73896fc8dace7a4e211bdae69caef7ba0323aa7eba10975ad0817a3f55f": {
       "data": {
         "certificate_id": 2210435211,
@@ -81470,6 +82322,18 @@
       "recorded_at": "2026-11-03T13:04:38.812557+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trenchcheek.com&type=CNAME"
     },
+    "aa6e3249972c11a697e006e9b43bcee2c5552ba2ac3fbc786767a9efd2fcfd52": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:trenchcheek.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:08.917871+00:00",
+      "recorded_at": "2026-11-03T13:45:08.917871+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trenchcheek.com&type=CNAME"
+    },
     "aa8b29fc47941f67093ed4d66e5801824d30a9fc90f9e2986942b89af5353a87": {
       "data": {
         "error": "CalledProcessError",
@@ -81493,6 +82357,18 @@
       "recorded_at": "2026-11-03T13:36:53.856767+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trickytape.net&type=CNAME"
     },
+    "ad3b497fa2ac41fe2324a015fa0bf29516aee16f7ca8f3ee2352d65ac8b8f838": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tribunews.org",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:20.673196+00:00",
+      "recorded_at": "2026-11-03T13:45:20.673196+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunews.org&type=AAAA"
+    },
     "add558227a3d34e1823ee67c151a79cb30fec47667034d5a0d605833353f0324": {
       "data": {
         "answers": [],
@@ -81504,6 +82380,18 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trendsymbol.net&type=AAAA"
+    },
+    "aedbeb1183e5671a7e9228a88c0daf58bbea62d53d2c4b4e600127fe9c3c7b9e": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tribunews.org",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:20.673196+00:00",
+      "recorded_at": "2026-11-03T13:45:20.673196+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunews.org&type=CNAME"
     },
     "b06671dcc44e327941bde9669b034bcbf7273c15699caf8be4d1cb7ed62fa79b": {
       "data": {
@@ -81565,6 +82453,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
     },
+    "b2f4a9af23302f860edf1cc45e86f4ded9b78515950370cec0a576522af17842": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:23.575600+00:00",
+      "recorded_at": "2026-11-03T13:45:23.575600+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.net&type=A"
+    },
     "b367deb355eddd98158227e7aff1c3d97aefc0e6730f4b733c77786fbafe2268": {
       "data": {
         "answers": [],
@@ -81589,6 +82489,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trickeryrectify.com&type=CNAME"
     },
+    "b3e3cc959d52a0e999e1e821f6072b8b8b2ed490dba69afe1daa20759bbdacc3": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.org",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:26.874729+00:00",
+      "recorded_at": "2026-11-03T13:45:26.874729+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.org&type=CNAME"
+    },
     "b403c0815d782794478e91957b441f91500cdfab83a4da2b05961c9c7927884c": {
       "data": {
         "answers": [],
@@ -81601,6 +82513,18 @@
       "observed_at": "2026-11-03T13:36:16.917118+00:00",
       "recorded_at": "2026-11-03T13:36:16.917118+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=treadingcollapse.com&type=NS"
+    },
+    "b492fbfad043435a5272cb71342d12a785a7de9e4bcd2c7110841cda27e16992": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:trickytape.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:41.803925+00:00",
+      "recorded_at": "2026-11-03T13:45:41.803925+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trickytape.net&type=CNAME"
     },
     "b49ae8a18eb37c64f1f74ed0558c6f2f1bd2d30c9af6b4ad20882671372b4589": {
       "data": {
@@ -81625,6 +82549,42 @@
       "observed_at": "2026-11-03T13:04:25.719710+00:00",
       "recorded_at": "2026-11-03T13:04:25.719710+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=treatmoodiness.com&type=AAAA"
+    },
+    "b5a9f21d97e4220a5d17d110d8d5f21f290e214b395f64ee63f5e48b2b6f44e4": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:treestumps.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:05.403238+00:00",
+      "recorded_at": "2026-11-03T13:45:05.403238+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treestumps.net&type=AAAA"
+    },
+    "b63f44640cf147e52aedbc52fd9d5d953085f742be05566943cb77f55bd748ca": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tremblingroundness.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:07.727484+00:00",
+      "recorded_at": "2026-11-03T13:45:07.727484+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tremblingroundness.net&type=A"
+    },
+    "b6ad209d79d4247115dc4dd3ec9cafb47a23752b4b52e97efb4a463183482e88": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tributaryoxygen.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:38.439323+00:00",
+      "recorded_at": "2026-11-03T13:45:38.439323+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tributaryoxygen.com&type=AAAA"
     },
     "b76c2acbe896a2ea628b86ad3fa306c1fb9e7e12dacadea3e1e523e0c6cb5bea": {
       "data": {
@@ -81688,6 +82648,30 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tributaryoxygen.com&type=CNAME"
     },
+    "bbe426ad119ba67dba8c8c0c3c23467f8886701c80a7e3aec75898f69734e922": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:trialvariable.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:11.149499+00:00",
+      "recorded_at": "2026-11-03T13:45:11.149499+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trialvariable.net&type=CNAME"
+    },
+    "bc7eff768565d204759653354c3d843fd0c2040160cbffa8316452eeaa613b19": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tridentamused.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:44.014466+00:00",
+      "recorded_at": "2026-11-03T13:45:44.014466+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tridentamused.com&type=AAAA"
+    },
     "bd0931439fa405c8ba0804da72a8cb79cee55f0edb3eb7a13b397546074d9254": {
       "data": {
         "answers": [],
@@ -81749,6 +82733,18 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=treestumps.net&type=NS"
+    },
+    "bee04f40d6ab7b3057f68146e78aedc89dc7a67d76e71812284a2a70058c4df6": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tridentamused.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:44.014466+00:00",
+      "recorded_at": "2026-11-03T13:45:44.014466+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tridentamused.com&type=A"
     },
     "bf280975f910c9f8476cb73762e4519382a270aa6d6d9f8c6568bce43023651e": {
       "data": {
@@ -81825,6 +82821,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tremblingroundness.net&type=AAAA"
     },
+    "c34ecb34348589b3e2d57318038da8d393476c2d77d63fb9ca6219c7cf9bf137": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:trickeryrectify.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:39.585747+00:00",
+      "recorded_at": "2026-11-03T13:45:39.585747+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trickeryrectify.com&type=AAAA"
+    },
     "c567cf63966492e88234220739b1faae253bff9f33c7a704c2707d9161743401": {
       "data": {
         "answers": [],
@@ -81838,6 +82846,19 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tricksinswiss.com&type=NS"
     },
+    "c57bd0ead3ce5266deaf30cce43f6218dc8a8a7a6dfe145f8386742f14ebd2a5": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:treadingcollapse.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:00.789987+00:00",
+      "recorded_at": "2026-11-03T13:45:00.789987+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treadingcollapse.com&type=NS"
+    },
     "c5b8da65bcbb1a428a0d4fc6642e48f9e2f5bbd468c50dadf54ef9f021503fb7": {
       "data": {
         "answers": [],
@@ -81849,6 +82870,19 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trendsymbol.net&type=A"
+    },
+    "c6e698c987a4d95df323badc6ee51db2658594afbad6458cb15fc1a14f9a0bd2": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tribunews.org",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:20.673196+00:00",
+      "recorded_at": "2026-11-03T13:45:20.673196+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunews.org&type=NS"
     },
     "c7539e541a8edc89e62503e27764bb6031159d9d71e48ce849ad17b00730144e": {
       "data": {
@@ -81874,6 +82908,18 @@
       "recorded_at": "2026-11-03T13:36:32.536746+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.com&type=AAAA"
     },
+    "c84570d428df9d7a9e785fcf93805d44520be5a1bdb6fa23fb30f8e52402f8b9": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:trendsymbol.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:10.011189+00:00",
+      "recorded_at": "2026-11-03T13:45:10.011189+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trendsymbol.net&type=A"
+    },
     "c8c7a7c4849f7847ffeb5fd2969fb19f5cd7e49be940b75b961e7c29a6e50bf4": {
       "data": {
         "error": "CalledProcessError",
@@ -81884,6 +82930,18 @@
       "observed_at": null,
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
+    },
+    "c91d02540a0cd7b435e8b1df14f6218c00c1d3464405b2ceea04b5dcb141f124": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.org",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:26.874729+00:00",
+      "recorded_at": "2026-11-03T13:45:26.874729+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.org&type=A"
     },
     "c99c3d942ac433049ea9952e0eca621bb66639b43db3d32b0f5346e4def0d8c0": {
       "data": {
@@ -81994,6 +83052,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trianglerank.net&type=AAAA"
     },
+    "ce0c92c8e38a2a851a1f58271c217ab3dcd05ae0d0071cf82186bc3692e2ef4d": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tridentamused.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:44.014466+00:00",
+      "recorded_at": "2026-11-03T13:45:44.014466+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tridentamused.com&type=CNAME"
+    },
     "ce6d4bba6c4dd2e3ab375e18c201b4e405faeda1cab05e4c81a1d6038eaf9556": {
       "data": {
         "answers": [],
@@ -82041,6 +83111,42 @@
       "observed_at": "2026-11-03T13:36:21.901733+00:00",
       "recorded_at": "2026-11-03T13:36:21.901733+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trekkereggnog.com&type=AAAA"
+    },
+    "d017c223866187d2666d565d95c1a3e8a7ba17d61d64ea06bdb39ab7194a7085": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:tridentagreeably.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:42.898961+00:00",
+      "recorded_at": "2026-11-03T13:45:42.898961+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tridentagreeably.com&type=AAAA"
+    },
+    "d06f8cf5b16dc14c7108f2d746c74a0c1d96e4159fc68e4880034d18426e4596": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:trenchcheek.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:08.917871+00:00",
+      "recorded_at": "2026-11-03T13:45:08.917871+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trenchcheek.com&type=AAAA"
+    },
+    "d08abaa0b057104122f27e743dc343694d4c25c4880270d0660b702da7d6cd28": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:tribunews.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:14.512257+00:00",
+      "recorded_at": "2026-11-03T13:45:14.512257+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunews.net&type=CNAME"
     },
     "d08e1630ec096182324b91cc49c93f169e539dc3d491a886b8acdd39551ae82e": {
       "data": {
@@ -82158,6 +83264,31 @@
       "observed_at": null,
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
+    },
+    "d7b772013320713bb6991d92357f57bee348fb13620312482e475f9fe1344e76": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tridentagreeably.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:42.898961+00:00",
+      "recorded_at": "2026-11-03T13:45:42.898961+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tridentagreeably.com&type=NS"
+    },
+    "d86afc77389c37b024bc5285bd7177d1389512a2929755cc746cd62a550c18dd": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:trialvariable.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:11.149499+00:00",
+      "recorded_at": "2026-11-03T13:45:11.149499+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trialvariable.net&type=A"
     },
     "d9e1d1f90d7a906f026d947297b224cb7c571158ef1fea33077863c4305b7d76": {
       "data": {
@@ -82417,6 +83548,19 @@
       "recorded_at": "2026-11-03T13:05:18.142267+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tricksinswiss.com&type=AAAA"
     },
+    "e432c7389dccf6700a36cb2801efdff9a6a611dfd66dd21c57ae4cda69dc0a8b": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:trecvf.xyz",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:04.204621+00:00",
+      "recorded_at": "2026-11-03T13:45:04.204621+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trecvf.xyz&type=NS"
+    },
     "e58ee444fd0191baba565b415ecceee0bcfd60a394fa7c428978f5286a657407": {
       "data": {
         "answers": [],
@@ -82440,6 +83584,19 @@
       "observed_at": "2026-11-03T13:36:24.833142+00:00",
       "recorded_at": "2026-11-03T13:36:24.833142+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trendsymbol.net&type=CNAME"
+    },
+    "e5ba51f202ed0586c72ccfc40c3d0b091f824b70748df7ac59dc8ca838fbeab7": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tridentamused.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:44.014466+00:00",
+      "recorded_at": "2026-11-03T13:45:44.014466+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tridentamused.com&type=NS"
     },
     "e60dd03e26871e740f7e93fdcf7e64280af71552ca9955543ce912a43b50cf37": {
       "data": {
@@ -82476,6 +83633,18 @@
       "observed_at": "2026-11-03T13:05:25.583759+00:00",
       "recorded_at": "2026-11-03T13:05:25.583759+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tridentamused.com&type=NS"
+    },
+    "e77b355bc8df184c32a57f9cc85fddf8c47c977df6facc3ccf5fc68829625558": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:tributaryoxygen.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:38.439323+00:00",
+      "recorded_at": "2026-11-03T13:45:38.439323+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tributaryoxygen.com&type=A"
     },
     "e781255647afa42b3954752dbb86dfef5e8ec56367185cc2812599cd1f3e37e8": {
       "data": {
@@ -82539,6 +83708,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trickeryrectify.com&type=NS"
     },
+    "ea1ab0bfbe2f89630895eefa62af3ad5056a6e8d7ebffdc4d4174b075ac14f1a": {
+      "data": {
+        "answers": [],
+        "query_type": "A",
+        "status": 3
+      },
+      "indicator": "domain:treadingcollapse.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:00.789987+00:00",
+      "recorded_at": "2026-11-03T13:45:00.789987+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=treadingcollapse.com&type=A"
+    },
     "ea531bf18c80548eff73baae61b7a08ff2c3e36c2c1621dc09b96d8e13b108d1": {
       "data": {
         "answers": [],
@@ -82600,6 +83781,19 @@
       "recorded_at": "2026-11-03T13:04:27.744651+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trecv.xyz&type=A"
     },
+    "ec996973eaf43d5bd19782939be43eeffa11886597b2d64cade2bae3b23d0c71": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tributaryoxygen.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:38.439323+00:00",
+      "recorded_at": "2026-11-03T13:45:38.439323+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tributaryoxygen.com&type=NS"
+    },
     "ecde422dde4100309e31b4aae643f47342f668f6a49161b28f9d62a2962a809d": {
       "data": {
         "answers": [],
@@ -82637,6 +83831,18 @@
       "recorded_at": "2026-11-03T13:36:24.833142+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=trendsymbol.net&type=AAAA"
     },
+    "f0f885952fd4f47704a3d6359bcb6bd6e9d4b0fb7fe8a53ab96e38c1b335cc82": {
+      "data": {
+        "answers": [],
+        "query_type": "AAAA",
+        "status": 3
+      },
+      "indicator": "domain:trialvariable.net",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:11.149499+00:00",
+      "recorded_at": "2026-11-03T13:45:11.149499+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trialvariable.net&type=AAAA"
+    },
     "f0f9d8bacf975a4ce9e375dd8b8fbfb7db404f8a1a2dbef77ad238ed4eda94d8": {
       "data": {
         "answers": [],
@@ -82673,6 +83879,19 @@
       "observed_at": "2026-11-03T12:14:27.578106+00:00",
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "https://cloudflare-dns.com/dns-query?name=tributaryoxygen.com&type=AAAA"
+    },
+    "f296bc1e210d715df658300b1f3327366e8855078493833385951ff2a0eddcec": {
+      "data": {
+        "answers": [],
+        "nameservers": [],
+        "query_type": "NS",
+        "status": 3
+      },
+      "indicator": "domain:tribunnevs.org",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:26.874729+00:00",
+      "recorded_at": "2026-11-03T13:45:26.874729+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=tribunnevs.org&type=NS"
     },
     "f3332aff99c97a7eb3bdd6c31fc8b504b783952ac7a28bb0415f3743d4d74f81": {
       "data": {
@@ -82831,6 +84050,18 @@
       "recorded_at": "2026-11-03T12:14:27.578106+00:00",
       "source": "direct-root-probe"
     },
+    "fbd3f707982d2e49d1ccac4bdf4b777a84df400f214257e088f43cb09b165c20": {
+      "data": {
+        "answers": [],
+        "query_type": "CNAME",
+        "status": 3
+      },
+      "indicator": "domain:trekkereggnog.com",
+      "kind": "dns",
+      "observed_at": "2026-11-03T13:45:06.627601+00:00",
+      "recorded_at": "2026-11-03T13:45:06.627601+00:00",
+      "source": "https://cloudflare-dns.com/dns-query?name=trekkereggnog.com&type=CNAME"
+    },
     "fd6bb36f8e4bfec249f6b99aeca0d1523ae4c7da9c09bc049914340e079e0b7d": {
       "data": {
         "answers": [],
@@ -82915,136 +84146,119 @@
       "target": "domain:treadingcollapse.com",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:treatmoodiness.com",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:trecv.xyz",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:trecvf.xyz",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:treestumps.net",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:trekkereggnog.com",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tremblingroundness.net",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:trenchcheek.com",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:trendsymbol.net",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:trialvariable.net",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:trianglerank.net",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tribune-mg.xyz",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tribunews.net",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tribunews.org",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tribunnevs.com",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tribunnevs.net",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tribunnevs.org",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
@@ -83052,56 +84266,49 @@
       "tasks": [
         "ct",
         "dns",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tributaryoxygen.com",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:trickeryrectify.com",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tricksinswiss.com",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:trickytape.net",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tridentagreeably.com",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     },
     {
       "target": "domain:tridentamused.com",
       "tasks": [
         "ct",
-        "measure",
-        "urlscan"
+        "measure"
       ]
     }
   ],
