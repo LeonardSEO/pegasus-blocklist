@@ -1,0 +1,537 @@
+{
+  "attempted_queries": [
+    "news:https://securitylab.amnesty.org/feed/",
+    "news:https://citizenlab.ca/feed/",
+    "ct:damanhealth.online",
+    "urlscan:damanhealth.online",
+    "dns:damanhealth.online",
+    "ct:dancersing.net",
+    "urlscan:dancersing.net",
+    "dns:dancersing.net",
+    "ct:dancinglife.co",
+    "urlscan:dancinglife.co",
+    "dns:dancinglife.co",
+    "ct:dashboardprompt.com",
+    "urlscan:dashboardprompt.com",
+    "dns:dashboardprompt.com",
+    "ct:data-formula.com",
+    "urlscan:data-formula.com",
+    "dns:data-formula.com",
+    "ct:databasemeans.net",
+    "urlscan:databasemeans.net",
+    "dns:databasemeans.net",
+    "ct:deadwordsstory.com",
+    "urlscan:deadwordsstory.com",
+    "dns:deadwordsstory.com",
+    "ct:deal4unow.com",
+    "urlscan:deal4unow.com",
+    "dns:deal4unow.com",
+    "ct:dearlegendseed.com",
+    "urlscan:dearlegendseed.com",
+    "dns:dearlegendseed.com",
+    "ct:delivery-24-7.com",
+    "urlscan:delivery-24-7.com",
+    "dns:delivery-24-7.com",
+    "ct:dental-care-spa.net",
+    "urlscan:dental-care-spa.net",
+    "dns:dental-care-spa.net",
+    "ct:deportesinfo.com",
+    "urlscan:deportesinfo.com",
+    "dns:deportesinfo.com",
+    "ct:designednetwork.com",
+    "urlscan:designednetwork.com",
+    "dns:designednetwork.com",
+    "ct:destinytool.net",
+    "urlscan:destinytool.net",
+    "dns:destinytool.net",
+    "ct:detailrush.net",
+    "urlscan:detailrush.net",
+    "dns:detailrush.net",
+    "ct:deter-individuals.com",
+    "urlscan:deter-individuals.com",
+    "dns:deter-individuals.com",
+    "ct:devicer.co",
+    "urlscan:devicer.co",
+    "dns:devicer.co",
+    "ct:dhcpserver.net",
+    "urlscan:dhcpserver.net",
+    "dns:dhcpserver.net",
+    "ct:diagram-shape.com",
+    "urlscan:diagram-shape.com",
+    "dns:diagram-shape.com",
+    "ct:diaspora-news.com",
+    "urlscan:diaspora-news.com",
+    "dns:diaspora-news.com",
+    "ct:diningip.com",
+    "urlscan:diningip.com",
+    "dns:diningip.com",
+    "ct:dinneraroundyou.com",
+    "urlscan:dinneraroundyou.com",
+    "dns:dinneraroundyou.com",
+    "ct:directbegins.com",
+    "urlscan:directbegins.com",
+    "dns:directbegins.com",
+    "ct:directlyforuse.com",
+    "urlscan:directlyforuse.com",
+    "dns:directlyforuse.com"
+  ],
+  "candidates": {
+    "cpu20fk3p.dashboardprompt.com": [
+      {
+        "certificate_id": 3658662707,
+        "kind": "certificate-san",
+        "meaning": "Co-occurring certificate name; ownership and Pegasus attribution unverified.",
+        "not_before": "2020-11-17T00:00:00",
+        "seed": "dashboardprompt.com"
+      },
+      {
+        "certificate_id": 3658662677,
+        "kind": "certificate-san",
+        "meaning": "Co-occurring certificate name; ownership and Pegasus attribution unverified.",
+        "not_before": "2020-11-17T00:00:00",
+        "seed": "dashboardprompt.com"
+      },
+      {
+        "certificate_id": 2210435113,
+        "kind": "certificate-san",
+        "meaning": "Co-occurring certificate name; ownership and Pegasus attribution unverified.",
+        "not_before": "2019-12-10T00:00:00",
+        "seed": "dashboardprompt.com"
+      },
+      {
+        "certificate_id": 2210435211,
+        "kind": "certificate-san",
+        "meaning": "Co-occurring certificate name; ownership and Pegasus attribution unverified.",
+        "not_before": "2019-12-10T00:00:00",
+        "seed": "dashboardprompt.com"
+      }
+    ]
+  },
+  "completed_queries": [
+    "news:https://securitylab.amnesty.org/feed/",
+    "news:https://citizenlab.ca/feed/",
+    "urlscan:damanhealth.online",
+    "dns:damanhealth.online",
+    "urlscan:dancersing.net",
+    "dns:dancersing.net",
+    "urlscan:dancinglife.co",
+    "dns:dancinglife.co",
+    "ct:dashboardprompt.com",
+    "urlscan:dashboardprompt.com",
+    "dns:dashboardprompt.com",
+    "ct:data-formula.com",
+    "urlscan:data-formula.com",
+    "dns:data-formula.com",
+    "urlscan:databasemeans.net",
+    "dns:databasemeans.net",
+    "urlscan:deadwordsstory.com",
+    "dns:deadwordsstory.com",
+    "urlscan:deal4unow.com",
+    "dns:deal4unow.com",
+    "urlscan:dearlegendseed.com",
+    "dns:dearlegendseed.com",
+    "urlscan:delivery-24-7.com",
+    "dns:delivery-24-7.com",
+    "urlscan:dental-care-spa.net",
+    "dns:dental-care-spa.net",
+    "urlscan:deportesinfo.com",
+    "dns:deportesinfo.com",
+    "urlscan:designednetwork.com",
+    "dns:designednetwork.com",
+    "urlscan:destinytool.net",
+    "dns:destinytool.net",
+    "urlscan:detailrush.net",
+    "dns:detailrush.net",
+    "urlscan:deter-individuals.com",
+    "dns:deter-individuals.com",
+    "urlscan:devicer.co",
+    "dns:devicer.co",
+    "urlscan:dhcpserver.net",
+    "dns:dhcpserver.net",
+    "urlscan:diagram-shape.com",
+    "dns:diagram-shape.com",
+    "urlscan:diaspora-news.com",
+    "dns:diaspora-news.com",
+    "urlscan:diningip.com",
+    "dns:diningip.com",
+    "urlscan:dinneraroundyou.com",
+    "dns:dinneraroundyou.com",
+    "urlscan:directbegins.com",
+    "dns:directbegins.com",
+    "urlscan:directlyforuse.com",
+    "dns:directlyforuse.com"
+  ],
+  "errors": [
+    {
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "query": "ct:damanhealth.online"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:dancersing.net"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:dancinglife.co"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:databasemeans.net"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:deadwordsstory.com"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:deal4unow.com"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:dearlegendseed.com"
+    },
+    {
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "query": "ct:delivery-24-7.com"
+    },
+    {
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "query": "ct:dental-care-spa.net"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:deportesinfo.com"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:designednetwork.com"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:destinytool.net"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:detailrush.net"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:deter-individuals.com"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:devicer.co"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:dhcpserver.net"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:diagram-shape.com"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:diaspora-news.com"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:diningip.com"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:dinneraroundyou.com"
+    },
+    {
+      "error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "query": "ct:directbegins.com"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "query": "ct:directlyforuse.com"
+    }
+  ],
+  "limitations": "At most 24 rotating seeds/day and first API result pages; a lead is not Pegasus attribution. Source age differs from build/observation time.",
+  "observations": [
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "damanhealth.online"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "dancersing.net"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "dancinglife.co"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "dashboardprompt.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 0,
+      "kind": "dns-cname",
+      "seed": "data-formula.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "databasemeans.net"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "deadwordsstory.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "deal4unow.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "dearlegendseed.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "delivery-24-7.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "dental-care-spa.net"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "deportesinfo.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "designednetwork.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "destinytool.net"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "detailrush.net"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "deter-individuals.com"
+    },
+    {
+      "domain": "devicer.co",
+      "ip": "188.114.96.3",
+      "kind": "existing-urlscan",
+      "result": "https://urlscan.io/api/v1/result/01a12ec0-def7-775d-ba86-c829c3c69cc2/",
+      "seed": "devicer.co"
+    },
+    {
+      "answers": [],
+      "dns_status": 0,
+      "kind": "dns-cname",
+      "seed": "devicer.co"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "dhcpserver.net"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "diagram-shape.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "diaspora-news.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "diningip.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "dinneraroundyou.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "directbegins.com"
+    },
+    {
+      "answers": [],
+      "dns_status": 3,
+      "kind": "dns-cname",
+      "seed": "directlyforuse.com"
+    }
+  ],
+  "observed_at": "2026-11-03T11:11:02.352149+00:00",
+  "planned_queries": [
+    "news:https://securitylab.amnesty.org/feed/",
+    "news:https://citizenlab.ca/feed/",
+    "ct:damanhealth.online",
+    "urlscan:damanhealth.online",
+    "dns:damanhealth.online",
+    "ct:dancersing.net",
+    "urlscan:dancersing.net",
+    "dns:dancersing.net",
+    "ct:dancinglife.co",
+    "urlscan:dancinglife.co",
+    "dns:dancinglife.co",
+    "ct:dashboardprompt.com",
+    "urlscan:dashboardprompt.com",
+    "dns:dashboardprompt.com",
+    "ct:data-formula.com",
+    "urlscan:data-formula.com",
+    "dns:data-formula.com",
+    "ct:databasemeans.net",
+    "urlscan:databasemeans.net",
+    "dns:databasemeans.net",
+    "ct:deadwordsstory.com",
+    "urlscan:deadwordsstory.com",
+    "dns:deadwordsstory.com",
+    "ct:deal4unow.com",
+    "urlscan:deal4unow.com",
+    "dns:deal4unow.com",
+    "ct:dearlegendseed.com",
+    "urlscan:dearlegendseed.com",
+    "dns:dearlegendseed.com",
+    "ct:delivery-24-7.com",
+    "urlscan:delivery-24-7.com",
+    "dns:delivery-24-7.com",
+    "ct:dental-care-spa.net",
+    "urlscan:dental-care-spa.net",
+    "dns:dental-care-spa.net",
+    "ct:deportesinfo.com",
+    "urlscan:deportesinfo.com",
+    "dns:deportesinfo.com",
+    "ct:designednetwork.com",
+    "urlscan:designednetwork.com",
+    "dns:designednetwork.com",
+    "ct:destinytool.net",
+    "urlscan:destinytool.net",
+    "dns:destinytool.net",
+    "ct:detailrush.net",
+    "urlscan:detailrush.net",
+    "dns:detailrush.net",
+    "ct:deter-individuals.com",
+    "urlscan:deter-individuals.com",
+    "dns:deter-individuals.com",
+    "ct:devicer.co",
+    "urlscan:devicer.co",
+    "dns:devicer.co",
+    "ct:dhcpserver.net",
+    "urlscan:dhcpserver.net",
+    "dns:dhcpserver.net",
+    "ct:diagram-shape.com",
+    "urlscan:diagram-shape.com",
+    "dns:diagram-shape.com",
+    "ct:diaspora-news.com",
+    "urlscan:diaspora-news.com",
+    "dns:diaspora-news.com",
+    "ct:diningip.com",
+    "urlscan:diningip.com",
+    "dns:diningip.com",
+    "ct:dinneraroundyou.com",
+    "urlscan:dinneraroundyou.com",
+    "dns:dinneraroundyou.com",
+    "ct:directbegins.com",
+    "urlscan:directbegins.com",
+    "dns:directbegins.com",
+    "ct:directlyforuse.com",
+    "urlscan:directlyforuse.com",
+    "dns:directlyforuse.com"
+  ],
+  "publications": [
+    {
+      "feed": "https://securitylab.amnesty.org/feed/",
+      "published": "Thu, 16 Jul 2026 04:32:54 +0000",
+      "title": "Inside Pegasus: The evolution of the world\u2019s most notorious spyware system",
+      "url": "https://securitylab.amnesty.org/latest/2026/07/inside-pegasus-the-evolution-of-the-worlds-most-notorious-spyware/"
+    },
+    {
+      "feed": "https://securitylab.amnesty.org/feed/",
+      "published": "Mon, 06 Jul 2026 06:00:00 +0000",
+      "title": "Joint Statement: Pegasus in the parliament, the EU must act now",
+      "url": "https://securitylab.amnesty.org/latest/2026/07/joint-statement-pegasus-in-the-parliament-the-eu-must-act-now/"
+    },
+    {
+      "feed": "https://securitylab.amnesty.org/feed/",
+      "published": "Wed, 12 Nov 2025 12:27:17 +0000",
+      "title": "Event: Digital surveillance and how states are spying on the resistance\u00a0",
+      "url": "https://securitylab.amnesty.org/latest/2025/11/event-digital-surveillance-and-how-states-are-spying-on-the-resistance/"
+    }
+  ],
+  "seeds": [
+    "damanhealth.online",
+    "dancersing.net",
+    "dancinglife.co",
+    "dashboardprompt.com",
+    "data-formula.com",
+    "databasemeans.net",
+    "deadwordsstory.com",
+    "deal4unow.com",
+    "dearlegendseed.com",
+    "delivery-24-7.com",
+    "dental-care-spa.net",
+    "deportesinfo.com",
+    "designednetwork.com",
+    "destinytool.net",
+    "detailrush.net",
+    "deter-individuals.com",
+    "devicer.co",
+    "dhcpserver.net",
+    "diagram-shape.com",
+    "diaspora-news.com",
+    "diningip.com",
+    "dinneraroundyou.com",
+    "directbegins.com",
+    "directlyforuse.com"
+  ],
+  "source": {
+    "domains": 1438,
+    "status": "checked"
+  },
+  "status": "partial",
+  "unattempted_queries": []
+}
