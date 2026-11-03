@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "detectors": [],
+  "reason": "No current Pegasus detector has yet passed attributed positive, negative and shadow qualification. Evidence collection runs; automatic admission is disabled."
+}

@@ -1,0 +1,15 @@
+# Current detector research status
+
+Reviewed 3 November 2026. **No qualified current Pegasus detector is enabled.**
+
+The imported feeds contain historical names, IPs and endpoints, not a reproducible contemporary compound classifier. The initial discovery run found a subdomain from certificates issued in 2019/2020. That is an additional historical observation, not evidence of new 2026 Pegasus activity.
+
+[Amnesty's 2021 methodology](https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/) describes infrastructure generations, DNS/TLS investigation, cloud delivery and direct-IP C2. [Citizen Lab's 2018 Hide and Seek](https://citizenlab.ca/research/hide-and-seek-tracking-nso-groups-pegasus-spyware-to-operations-in-45-countries/) withholds specific fingerprints. [Amnesty's July 2026 analysis](https://securitylab.amnesty.org/latest/2026/07/inside-pegasus-the-evolution-of-the-worlds-most-notorious-spyware/) explains customer-specific infrastructure but does not provide a universal current server signature.
+
+A proposed detector must specify an ID/version and exact match clauses, including TLS and HTTP characteristics. Supported keys are `tls.certificate_sha256`, `tls.version`, `tls.cipher`, `http.fingerprint` and `dns.nameservers`. Optional `archive_queries` are explicit urlscan search expressions evaluated only for qualified enabled rules; query hits are candidates requiring direct measurement, never admissions.
+
+Qualification references persistent observations in `research/registry.json`: `qualification.positives`, `qualification.negatives`, `qualification.shadow`. Each example has `evidence` observation IDs, decision/reference time `at`, an attributable HTTPS `reference`, and, for negatives, `class`. Required negative classes: `cdn`, `shared-hosting`, `parking`, `reregistered`, `generic-server`. Examples must use distinct observations; positives/shadow must match, negatives must not. Include source analysis explaining why positives are Pegasus and why comparison sites are negative controls. Software validates the evidence contract, not the truth of a researcher's attribution.
+
+Perform shadow collection before setting `enabled: true`; record actual measured examples and the research judgement in the detector change PR. A repeated observation is not independent corroboration. HTTP fingerprints cover status/server/content-type/body digest/truncation; TLS and HTTP must share a measurement session. Apply current measurements (within seven days) to new admissions. Regression fixtures use explicitly synthetic control data and must never be installed as production rules.
+
+Success is a reproducible detector with attributed evidence and useful live matches. A passing fixture suite, green workflow, larger bootstrap or successful PR is not that result. If no rule qualifies, independent collection and publishing continue with zero admitted own findings. No false confidence percentage or heuristic score is substituted for missing attribution.

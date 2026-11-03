@@ -24,6 +24,8 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Offline regression tests
         run: python3 -m unittest discover -s tests -v
+      - name: Validate registry, detector qualifications and admissions
+        run: python3 scripts/publish.py --check
       - name: Check generated lists and README links
         run: python3 scripts/build.py --check
       - name: Validate Unbound syntax

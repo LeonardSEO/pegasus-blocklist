@@ -21,3 +21,6 @@ cloudflare-dns.com
 example.com
 citizenlab.ca
 confiant.com
+
+# Broken upstream record must not become a registry-suffix block.
+com.mx
