@@ -1,0 +1,13 @@
+# Title: Pegasus Independently Discovered
+# Description: Own findings supported by qualified versioned detectors; empty until qualification succeeds
+# Homepage: https://github.com/LeonardSEO/pegasus-blocklist
+# License: CC BY-NC-SA 4.0
+# Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
+# Issues: https://github.com/LeonardSEO/pegasus-blocklist/issues
+# Expires: 1 day
+# Last modified: 03 Nov 2026 12:08 UTC
+# Version: 2026.1103.120857
+# Syntax: Hosts (0.0.0.0 domain)
+# Number of entries: 0
+# Number of domains: 0
+#

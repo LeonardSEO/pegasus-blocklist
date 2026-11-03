@@ -21,9 +21,20 @@ APPROVED = ROOT / "candidates" / "approved.txt"
 ALLOWLIST = ROOT / "allowlist.txt"
 OUT = ROOT / "lists"
 
-DOMAIN_RE = re.compile(
-    r"^(?=.{1,253}$)((?!-)[a-z0-9-]{1,63}(?<!-)\.)+[a-z]{2,63}$"
-)
+from research import DOMAIN_RE, read_json, validate_registry, publication_values
+
+
+def state():
+    return read_json(ROOT / 'research/registry.json')
+
+
+def checked_state():
+    registry = state()
+    if registry is not None:
+        validate_registry(registry, read_json(ROOT / 'research/detectors.json')['detectors'],
+                          read_json(ROOT / 'sources/bootstrap.json'))
+    return registry
+
 
 
 def parse(path: pathlib.Path) -> dict[str, str]:
@@ -61,6 +72,13 @@ def load_domains() -> dict[str, str]:
             raise ValueError(f"Conflicterende categorie voor {d}")
         domains.setdefault(d, cat)
 
+    registry = checked_state() if SOURCES == ROOT / 'sources' else None
+    if registry is not None:
+        known = set(publication_values(registry, 'domain'))
+        if set(parse(APPROVED)) - known:
+            raise ValueError('Own additions require registry evidence and a qualified detector')
+        discovered = set(publication_values(registry, 'domain', discovered=True))
+        domains = {d: 'discovered' if d in discovered else 'pegasus' for d in known}
     blocked = sorted(d for d in domains if d not in allow)
     skipped = sorted(d for d in domains if d in allow)
     if skipped:
@@ -93,9 +111,10 @@ def compress(domains: list[str]) -> list[str]:
 
 
 LISTS = {
-    "pegasus": ("Pegasus Published Indicators", "Published Pegasus / NSO domain indicators; includes historical infrastructure"),
+    "pegasus": ("Pegasus Combined", "Frozen published/community seed data and qualified independent findings; includes historical infrastructure"),
+    "pegasus-discovered": ("Pegasus Independently Discovered", "Own findings supported by qualified versioned detectors; empty until qualification succeeds"),
 }
-CATEGORIES = {"pegasus"}
+CATEGORIES = {"pegasus", "discovered"}
 
 # formaat: (map, commentaarteken, syntax label, compressie, regel builder)
 FORMATS = {
@@ -139,8 +158,6 @@ def write_all(blocked: list[str], domains: dict[str, str], now: dt.datetime | No
     for slug, (title, desc) in LISTS.items():
         cat = slug.removeprefix("pegasus").lstrip("-")
         sel = [d for d in blocked if not cat or domains[d] == cat]
-        if not sel:
-            continue
         wild = compress(sel)
         for fmt, (folder, c, syntax, use_wild, fn) in FORMATS.items():
             entries = wild if use_wild else sel
@@ -160,7 +177,7 @@ def write_all(blocked: list[str], domains: dict[str, str], now: dt.datetime | No
                 f"Description: {desc}",
                 f"Homepage: {REPO}",
                 "License: CC BY-NC-SA 4.0",
-                "Sources: Amnesty International Security Lab; see docs/SOURCES.md",
+                "Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md",
                 "Issues: " + REPO + "/issues",
                 "Expires: 1 day",
                 f"Last modified: {now:%d %b %Y %H:%M} UTC",
@@ -173,6 +190,15 @@ def write_all(blocked: list[str], domains: dict[str, str], now: dt.datetime | No
             expected.add(path)
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text("\n".join(head + [c] + body) + "\n", encoding="utf-8")
+
+    registry = state()
+    for kind, folder in [('ip', 'ips'), ('endpoint', 'endpoints')]:
+        values = publication_values(registry, kind) if registry else []
+        path = OUT / folder / 'pegasus.txt'
+        expected.add(path)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text('# Pegasus/community seed and qualified own indicators; historical attribution may be stale.\n'
+                        + '# Type: ' + kind + '\n' + '\n'.join(values) + ('\n' if values else ''), encoding='utf-8')
 
     for old in OUT.glob('**/pegasus*.txt'):
         if old not in expected:
@@ -227,6 +253,12 @@ def check_output(domains: dict[str, str]) -> None:
         with tempfile.TemporaryDirectory() as directory:
             ROOT = pathlib.Path(directory)
             OUT = ROOT / 'lists'
+            for relative in ['research/registry.json', 'research/detectors.json', 'sources/bootstrap.json']:
+                source = original_root / relative
+                if source.exists():
+                    target = ROOT / relative
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_bytes(source.read_bytes())
             (ROOT / 'README.md').write_text((original_root / 'README.md').read_text(encoding='utf-8'), encoding='utf-8')
             write_all(sorted(domains), domains, now=now)
             expected = {p.relative_to(OUT): p.read_bytes() for p in OUT.glob('**/*.txt')}

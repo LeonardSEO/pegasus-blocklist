@@ -1,13 +1,18 @@
-# Sources and attribution
+# Frozen bootstrap and own source
 
-Reviewed: 3 November 2026.
+Imported once on 3 November 2026. The authoritative manifest is `sources/bootstrap.json`: pinned Git commits/URLs, original byte SHA-256, source dates, normalized membership and rejected records. Scheduled research never re-downloads these lists.
 
-- [Amnesty International Pegasus indicators](https://github.com/AmnestyTech/investigations/tree/master/2021-07-18_nso): primary domain feed, also referenced by the [MVT indicator registry](https://github.com/mvt-project/mvt-indicators/blob/main/indicators.yaml). The domain file's latest upstream commit at initial review was `993479ef14c1f0c98f0ec6cc8cb5101173d35598`, dated 14 July 2022. It contains historical reported indicators, not evidence of current malicious ownership.
-- [Forensic methodology, 18 July 2021](https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/): explains historical infrastructure generations, certificate/DNS investigation and the role of forensic corroboration.
-- [Inside Pegasus, 16 July 2026](https://securitylab.amnesty.org/latest/2026/07/inside-pegasus-the-evolution-of-the-worlds-most-notorious-spyware/): explains continuing NSO infrastructure management and customer-specific accounts/domains using disclosed internal documents. It is not a new comprehensive domain feed.
-- [Amnesty inside-pegasus documents](https://github.com/AmnestyTech/inside-pegasus): research material, not automatically imported indicators.
-- [The NSO Blacklist](https://github.com/0n1cOn3/The-NSO-Blacklist): comparison/reference only. Third-party hosts files and C2 IP:port lists are not blindly merged into DNS subscriptions.
+Bootstrap inputs:
 
-Source SHA-256 and URL are recorded in `sources/provenance.json`. Changes to a trusted source are visible in update PRs and Git history. Research/discovery reports live in `candidates/latest.json`; reviewing those records does not automatically approve their candidates.
+- [Amnesty Pegasus domains](https://github.com/AmnestyTech/investigations/tree/master/2021-07-18_nso), last changed 14 July 2022 at review: 1,438 published historical names. The directory date and a new publication/build date are not an indicator's last-seen date.
+- [0n1cOn3/The-NSO-Blacklist](https://github.com/0n1cOn3/The-NSO-Blacklist), `hosts.txt` and `C2-hosts.txt`: community claims including historical data, additional domain names, standalone IPs and endpoint pairs.
+- [Red-Laboratory/NSO-hosts](https://github.com/Red-Laboratory/NSO-hosts), `NSO-hosts.txt`.
+- [jjjxu/NSO_Pegasus_Blocklist](https://github.com/jjjxu/NSO_Pegasus_Blocklist), `Pegasus-Hosts-Formatted.txt`.
 
-RSS monitoring tracks new relevant publication links. It does not reliably extract or attribute domains from prose, linked documents or screenshots. New sources require review before joining the trusted feed set. Government trade restrictions are not technical network indicators and are not used as DNS entries.
+The exact shared root `cloudfront.net` and malformed `iusacell-movil. com.mx` records are excluded; a broken record is never split into a `com.mx` block. Explicit tenant hosts remain eligible. Duplicates retain every source ID. Seven standalone IPs are annotated NoviSpy using [Amnesty's separate NoviSpy data](https://github.com/AmnestyTech/investigations/blob/master/2024-12-16_serbia_novispy/novispy.stix2), not silently relabelled as Pegasus. A community source claim is not independent verification of current ownership/activity.
+
+`research/registry.json` is our own persistent source: candidates, observations, relationships, admissions, withdrawals and pending work. The prior discovery report's certificate observations are migrated with their original issuance dates; they do not become fresh Pegasus detections.
+
+Research basis: [Amnesty 2021 methodology](https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/), [Amnesty July 2026 architecture analysis](https://securitylab.amnesty.org/latest/2026/07/inside-pegasus-the-evolution-of-the-worlds-most-notorious-spyware/) and [Citizen Lab Hide and Seek](https://citizenlab.ca/research/hide-and-seek-tracking-nso-groups-pegasus-spyware-to-operations-in-45-countries/). These publications inform research, not automatic wholesale domain extraction. News-site references, decoy destinations, fingerprints from old generations and sanctions lists are not automatically network indicators.
+
+Dataset facts retain source attribution and applicable third-party rights. The project's license covers its own compilation/additions and code, and does not relicense research publications or imply author endorsement. Red-Laboratory and jjjxu publish their project modifications under MIT; their notices remain available at the pinned source references.

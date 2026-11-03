@@ -1,71 +1,40 @@
 #!/usr/bin/env python3
-"""Sync trusted Pegasus indicators and record bounded passive research leads."""
+"""Collect independent public observations and root-only measurements; no feed sync."""
 from __future__ import annotations
 
 import argparse
 import datetime as dt
-import hashlib
 import json
 import pathlib
 import sys
+import subprocess
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
-from build import ROOT, ALLOWLIST, DOMAIN_RE, load_domains, parse
+from research import (ROOT, DOMAIN_RE, read_json, write_json, utcnow, ensure_indicator,
+                      observe, relate, validate_registry, indicator, timestamp)
+from probe import probe
 
-SOURCE_URL = 'https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt'
 FEEDS = ['https://securitylab.amnesty.org/feed/', 'https://citizenlab.ca/feed/']
-SEED_LIMIT = 24  # Bounded public API traffic; rotate across the full source set daily.
+SEED_LIMIT = 24
 NETWORK_ERRORS = (urllib.error.URLError, OSError, TimeoutError)
 
 
-def fetch(url: str, deadline: float, *, accept: str | None = None) -> bytes:
+def fetch(url, deadline, *, accept=None):
     remaining = deadline - time.monotonic()
     if remaining <= 0:
         raise TimeoutError('research time budget reached')
-    headers = {'User-Agent': 'pegasus-blocklist/1.0 (passive defensive research)'}
-    if accept:
-        headers['Accept'] = accept
-    request = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(request, timeout=min(15, remaining)) as response:
-        return response.read()
-
-
-def validate_feed(data: bytes) -> list[str]:
-    domains = set()
-    for number, line in enumerate(data.decode('utf-8').splitlines(), 1):
-        domain = line.strip().lower()
-        if not domain or domain.startswith('#'):
-            continue
-        if not DOMAIN_RE.fullmatch(domain):
-            raise ValueError(f'Invalid trusted source domain on line {number}: {domain!r}')
-        domains.add(domain)
-    if not domains:
-        raise ValueError('Refusing an empty trusted domain feed')
-    return sorted(domains)
-
-
-def sync_source(data: bytes, root: pathlib.Path, stamp: str) -> int:
-    domains = validate_feed(data)
-    content = '# Source: ' + SOURCE_URL + '\n# Historical published Pegasus indicators; current ownership/activity unverified.\n'
-    content += ''.join(f'{domain} # pegasus: Amnesty published indicator\n' for domain in domains)
-    destination = root / 'sources/amnesty-pegasus.txt'
-    provenance = root / 'sources/provenance.json'
-    digest = hashlib.sha256(data).hexdigest()
-    content_changed = not destination.exists() or destination.read_text(encoding='utf-8') != content
-    previous_digest = json.loads(provenance.read_text(encoding='utf-8')).get('sha256') if provenance.exists() else None
-    if content_changed:
-        destination.write_text(content, encoding='utf-8')
-    if content_changed or previous_digest != digest:
-        provenance.write_text(json.dumps({
-            'source_url': SOURCE_URL, 'sha256': digest,
-            'domain_count': len(domains), 'snapshot_updated_at': stamp,
-            'scope': 'Published historical attribution; not current malicious activity verification.'
-        }, indent=2) + '\n', encoding='utf-8')
-    return len(domains)
+    try:
+        result = subprocess.run([sys.executable, str(ROOT / 'scripts/transport.py'), url, str(remaining), accept or ''],
+                                capture_output=True, timeout=remaining, check=True)
+    except subprocess.TimeoutExpired as error:
+        raise TimeoutError('Public-provider absolute deadline reached') from error
+    except subprocess.CalledProcessError as error:
+        raise OSError('Public-provider request failed') from error
+    return result.stdout
 
 
 def select_seeds(domains: list[str], day: dt.date) -> list[str]:
@@ -109,82 +78,172 @@ def publications(data: bytes, feed: str) -> list[dict]:
     return found
 
 
-def research(known: set[str], allowed: set[str], seeds: list[str], deadline: float) -> dict:
-    result = {'candidates': {}, 'observations': [], 'publications': [], 'errors': [], 'completed_queries': [], 'attempted_queries': []}
-    tasks = [(f'news:{feed}', 'news', feed, feed) for feed in FEEDS]
-    # Interleave services for each seed, so early seeds receive corroborating observations.
-    for seed in seeds:
-        tasks.extend([
-            (f'ct:{seed}', 'ct', seed, 'https://crt.sh/?' + urllib.parse.urlencode({'q': '%.' + seed, 'output': 'json'})),
-            (f'urlscan:{seed}', 'urlscan', seed, 'https://urlscan.io/api/v1/search/?' + urllib.parse.urlencode({'q': 'page.domain:' + seed, 'size': 100})),
-            (f'dns:{seed}', 'dns', seed, 'https://cloudflare-dns.com/dns-query?' + urllib.parse.urlencode({'name': seed, 'type': 'CNAME'})),
-        ])
-    result['planned_queries'] = [task[0] for task in tasks]
-    for index, (label, kind, seed, url) in enumerate(tasks):
-        now = time.monotonic()
-        if now >= deadline:
-            result['errors'].append({'query': label, 'error': 'Overall research time budget reached; remaining queries unattempted.'})
-            break
-        # Reserve a fair share for every remaining query instead of letting CT starve DNS/news.
-        query_deadline = min(deadline, now + max(0.1, (deadline - now) / (len(tasks) - index)))
-        result['attempted_queries'].append(label)
+def enqueue(registry, key, tasks):
+    if not any(row['target'] == key for row in registry['queue']):
+        registry['queue'].append({'target': key, 'tasks': list(tasks)})
+
+
+def record_scans(registry, rows, url, at, allowed, anchor=None):
+    for row in rows:
+        page = row.get('page', {})
+        domain = page.get('domain', '').lower().rstrip('.')
+        if not DOMAIN_RE.fullmatch(domain) or domain in allowed:
+            continue
+        if anchor:
+            host = registry['indicators'][anchor]['value']
+            if not (domain == host or domain.endswith('.' + host)):
+                continue  # Publishers loading a known resource are not infrastructure.
+        child = ensure_indicator(registry, domain, 'existing-scan' if anchor else 'archive-query')
+        data = {'domain': domain, 'ip': page.get('ip'), 'port': page.get('port'), 'reference': row.get('_id')}
+        oid = observe(registry, child, 'scan-service', data, url, row.get('task', {}).get('time'), at)
+        if anchor:
+            relate(registry, anchor, domain, 'existing-scan', oid)
+        if data['ip']:
+            _, typ, address = indicator(data['ip'])
+            if typ != 'ip':
+                raise ValueError('Invalid scan IP')
+            relate(registry, child, address, 'historical-scan-ip', oid)
+        if registry['indicators'][child]['status'] == 'candidate':
+            enqueue(registry, child, ['dns', 'measure'])
+
+
+def task(registry, key, kind, deadline, at, allowed):
+    host = registry['indicators'][key]['value']
+    if kind == 'ct':
+        url = 'https://crt.sh/?' + urllib.parse.urlencode({'q': '%.' + host, 'output': 'json'})
+        rows = json.loads(fetch(url, deadline))
+        for name, evidence in certificate_names(rows, host).items():
+            if name in allowed:
+                continue
+            for row in evidence:
+                observed = row['not_before']
+                if observed:
+                    observed = observed.replace(' ', 'T')
+                    if not observed.endswith('Z') and '+' not in observed:
+                        observed += '+00:00'
+                oid = observe(registry, key, 'certificate-log', row, url, observed, at)
+                child = relate(registry, key, name, 'certificate-san', oid)
+                if registry['indicators'][child]['status'] == 'candidate':
+                    enqueue(registry, child, ['dns', 'measure'])
+    elif kind == 'urlscan':
+        url = 'https://urlscan.io/api/v1/search/?' + urllib.parse.urlencode({'q': 'page.domain:' + host, 'size': 100})
+        record_scans(registry, json.loads(fetch(url, deadline)).get('results', []), url, at, allowed, key)
+    elif kind == 'dns':
+        for qtype in ('A', 'AAAA', 'CNAME', 'NS'):
+            url = 'https://cloudflare-dns.com/dns-query?' + urllib.parse.urlencode({'name': host, 'type': qtype})
+            data = json.loads(fetch(url, deadline, accept='application/dns-json'))
+            if data.get('Status') not in (0, 3):
+                raise ValueError('DNS resolver error')
+            payload = {'query_type': qtype, 'status': data['Status'], 'answers': data.get('Answer', [])}
+            if qtype == 'NS':
+                payload['nameservers'] = sorted(a['data'].rstrip('.').lower() for a in data.get('Answer', []) if a.get('type') == 2)
+            oid = observe(registry, key, 'dns', payload, url, at, at)
+            for answer in data.get('Answer', []):
+                if answer.get('type') in (1, 28, 5, 2):
+                    value = answer['data'].rstrip('.')
+                    try:
+                        _, typ, normal = indicator(value)
+                    except ValueError:
+                        continue
+                    if normal not in allowed:
+                        relate(registry, key, normal, 'dns-' + qtype.lower(), oid)
+    elif kind == 'measure':
+        ports = []
+        for oid in registry['indicators'][key]['evidence']:
+            row = registry['observations'][oid]
+            if row['kind'] == 'scan-service' and row['observed_at']:
+                age = (timestamp(at) - timestamp(row['observed_at'])).total_seconds()
+                port = row['data'].get('port')
+                if 0 <= age <= 7 * 86400 and isinstance(port, int) and not isinstance(port, bool) and 1 <= port <= 65535:
+                    ports.append(port)
+        results, errors = probe(host, deadline, ports)
+        for result in results:
+            actual = ensure_indicator(registry, result['host'], 'redirect' if result['host'] != host else 'measurement')
+            for channel in ('tls', 'http'):
+                if result[channel]:
+                    oid = observe(registry, actual, channel, result[channel], 'direct-root-probe', at, at)
+                    relate(registry, actual, result['ip'], 'connected-ip', oid)
+        for error in errors:
+            observe(registry, key, 'measurement-error', error, 'direct-root-probe', None, at)
+        if errors:
+            raise ValueError('Some root probes failed; evidence and previous indicators retained')
+
+
+def run(registry, deadline, at, allowed, rules=()):
+    # Candidates only get bounded DNS/probe work, never independent graph expansion.
+    for key, item in sorted(registry['indicators'].items()):
+        if item['type'] == 'domain' and item['status'] == 'candidate' and item['origin'] in ('certificate-san', 'existing-scan', 'dns-cname', 'archive-query') and item['value'] not in allowed and (not item.get('last_attempts', {}).get('measure') or (timestamp(at) - timestamp(item['last_attempts']['measure'])).total_seconds() >= 86400):
+            enqueue(registry, key, ['dns', 'measure'])
+    seeds = [r['value'] for r in registry['indicators'].values() if r['type'] == 'domain' and r['status'] in ('historical', 'accepted') and r['value'] not in allowed]
+    for host in select_seeds(seeds, timestamp(at).date()):
+        enqueue(registry, indicator(host)[0], ['ct', 'urlscan', 'dns', 'measure'])
+    registry['queue'].sort(key=lambda row: registry['indicators'][row['target']]['status'] != 'candidate')
+    report = {'observed_at': at, 'status': 'completed', 'completed_queries': [], 'errors': [], 'publications': [],
+              'limits': {'max_seed_domains': SEED_LIMIT, 'api_pages': 1, 'probe_path': '/', 'max_body_bytes': 65536}}
+    # News is context only and never becomes an indicator automatically.
+    for feed in FEEDS:
         try:
-            data = fetch(url, query_deadline, accept='application/dns-json' if kind == 'dns' else None)
-            if kind == 'news':
-                result['publications'].extend(publications(data, seed))
-            elif kind == 'ct':
-                for domain, evidence in certificate_names(json.loads(data), seed).items():
-                    if domain not in known and domain not in allowed:
-                        result['candidates'].setdefault(domain, []).extend(evidence)
-            elif kind == 'urlscan':
-                for row in json.loads(data).get('results', []):
-                    page = row.get('page', {})
-                    domain = page.get('domain', '').lower().rstrip('.')
-                    # Do not turn publishers that loaded a resource into suspected infrastructure.
-                    if DOMAIN_RE.fullmatch(domain) and (domain == seed or domain.endswith('.' + seed)):
-                        result['observations'].append({'kind': 'existing-urlscan', 'seed': seed,
-                            'domain': domain, 'ip': page.get('ip'), 'result': row.get('result')})
-            else:
-                answers = json.loads(data)
-                if answers.get('Status') not in (0, 3):
-                    raise ValueError('DNS resolver returned an error status')
-                result['observations'].append({'kind': 'dns-cname', 'seed': seed,
-                    'dns_status': answers.get('Status'), 'answers': answers.get('Answer', [])})
-            result['completed_queries'].append(label)
+            report['publications'].extend(publications(fetch(feed, min(deadline, time.monotonic()+5)), feed))
+            report['completed_queries'].append('news:' + feed)
         except (NETWORK_ERRORS + (ValueError, ET.ParseError)) as error:
-            result['errors'].append({'query': label, 'error': f'{type(error).__name__}: {error}'})
-        # Respect public-service pacing even on fast responses.
-        time.sleep(min(1, max(0, deadline - time.monotonic())))
-    return result
+            report['errors'].append({'query': 'news:' + feed, 'error': type(error).__name__})
+    from research import qualified
+    for rule in rules:
+        if not qualified(rule, registry):
+            continue
+        for query in rule.get('archive_queries', []):
+            if not isinstance(query, str) or not query.strip():
+                raise ValueError('Invalid urlscan detector query')
+            url = 'https://urlscan.io/api/v1/search/?' + urllib.parse.urlencode({'q': query, 'size': 100})
+            try:
+                record_scans(registry, json.loads(fetch(url, min(deadline, time.monotonic()+10))).get('results', []), url, at, allowed)
+                report['completed_queries'].append('detector-archive:' + rule['id'])
+            except (NETWORK_ERRORS + (ValueError,)) as error:
+                report['errors'].append({'query': 'detector-archive:' + rule['id'], 'error': type(error).__name__})
+    # Work present at run start is bounded; newly found candidates wait until next run.
+    for row in list(registry['queue']):
+        for kind in list(row['tasks']):
+            if time.monotonic() >= deadline:
+                break
+            label = kind + ':' + row['target']
+            succeeded = False
+            try:
+                task(registry, row['target'], kind, min(deadline, time.monotonic()+15), at, allowed)
+                report['completed_queries'].append(label)
+                succeeded = True
+            except (NETWORK_ERRORS + (ValueError, ET.ParseError)) as error:
+                report['errors'].append({'query': label, 'error': type(error).__name__})
+            registry['indicators'][row['target']].setdefault('last_attempts', {})[kind] = at
+            if time.monotonic() >= deadline:
+                break  # Preserve interrupted work, including partially completed DNS/probe tasks.
+            if succeeded:
+                row['tasks'].remove(kind)
+        if not row['tasks']:
+            registry['queue'].remove(row)
+    report['pending_tasks'] = sum(len(row['tasks']) for row in registry['queue'])
+    if report['errors'] or report['pending_tasks']:
+        report['status'] = 'partial'
+    report['candidate_count'] = sum(r['status'] == 'candidate' for r in registry['indicators'].values())
+    return report
 
 
-def main() -> None:
+def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--max-seconds', type=int, default=600)
     args = parser.parse_args()
-    if not 1 <= args.max_seconds <= 900:
-        parser.error('--max-seconds must be between 1 and 900')
-    started = time.monotonic()
-    now = dt.datetime.now(dt.timezone.utc)
-    stamp = now.isoformat()
-    source_errors = []
-    try:
-        count = sync_source(fetch(SOURCE_URL, started + min(30, args.max_seconds)), ROOT, stamp)
-        source_state = {'status': 'checked', 'domains': count}
-    except NETWORK_ERRORS as error:
-        source_errors.append({'query': 'trusted-source', 'error': f'{type(error).__name__}: {error}'})
-        source_state = {'status': 'unavailable; retained previous validated snapshot'}
-    known = set(load_domains())
-    seeds = select_seeds(sorted(known), now.date())
-    report = research(known, set(parse(ALLOWLIST)), seeds, started + args.max_seconds)
-    report['errors'] = source_errors + report['errors']
-    report.update({'observed_at': stamp, 'source': source_state, 'seeds': seeds,
-        'status': 'partial' if report['errors'] else 'completed',
-        'unattempted_queries': sorted(set(report['planned_queries']) - set(report['attempted_queries'])),
-        'limitations': 'At most 24 rotating seeds/day and first API result pages; a lead is not Pegasus attribution. Source age differs from build/observation time.'})
-    (ROOT / 'candidates/latest.json').write_text(json.dumps(report, indent=2, sort_keys=True) + '\n', encoding='utf-8')
-    print(f'{report["status"]}: {len(report["candidates"])} unapproved candidates; {len(report["publications"])} relevant publication links')
-    if report['errors']:
+    if not 1 <= args.max_seconds <= 600:
+        parser.error('--max-seconds must be between 1 and 600')
+    registry = read_json(ROOT / 'research/registry.json')
+    rules = read_json(ROOT / 'research/detectors.json')['detectors']
+    bootstrap = read_json(ROOT / 'sources/bootstrap.json')
+    validate_registry(registry, rules, bootstrap)
+    allowed = {line.strip() for line in (ROOT / 'allowlist.txt').read_text().splitlines() if line.strip() and not line.startswith('#')}
+    report = run(registry, time.monotonic()+args.max_seconds, utcnow(), allowed, rules)
+    validate_registry(registry, rules, bootstrap)
+    write_json(ROOT / 'research/registry.json', registry)
+    write_json(ROOT / 'candidates/latest.json', report)
+    print(f'{report["status"]}: {len(report["completed_queries"])} completed queries; {report["pending_tasks"]} pending tasks')
+    if report['status'] == 'partial':
         sys.exit(3)
 
 
