@@ -21,11 +21,19 @@ APPROVED = ROOT / "candidates" / "approved.txt"
 ALLOWLIST = ROOT / "allowlist.txt"
 OUT = ROOT / "lists"
 
-from research import DOMAIN_RE, read_json, validate_registry, publication_values
+from research import DOMAIN_RE, read_json, validate_registry, publication_values, check_unverified
 
 
 def state():
     return read_json(ROOT / 'research/registry.json')
+
+
+def unverified():
+    registry = state()
+    if registry is None:
+        return {}
+    return check_unverified(registry, read_json(ROOT / "research/project.json", {}),
+                            read_json(ROOT / "research/unverified.json"), set(parse(ALLOWLIST)))
 
 
 def checked_state():
@@ -111,6 +119,7 @@ def compress(domains: list[str]) -> list[str]:
 
 
 LISTS = {
+    "pegasus-unverified": ("Pegasus Unverified", "Opt-in: evidence-backed candidates with unverified attribution; higher false-positive risk"),
     "pegasus": ("Pegasus Combined", "Frozen published/community seed data and qualified independent findings; includes historical infrastructure"),
     "pegasus-discovered": ("Pegasus Independently Discovered", "Own findings supported by qualified versioned detectors; empty until qualification succeeds"),
 }
@@ -157,7 +166,7 @@ def write_all(blocked: list[str], domains: dict[str, str], now: dt.datetime | No
 
     for slug, (title, desc) in LISTS.items():
         cat = slug.removeprefix("pegasus").lstrip("-")
-        sel = [d for d in blocked if not cat or domains[d] == cat]
+        sel = sorted(unverified()) if cat == "unverified" else [d for d in blocked if not cat or domains[d] == cat]
         wild = compress(sel)
         for fmt, (folder, c, syntax, use_wild, fn) in FORMATS.items():
             entries = wild if use_wild else sel
@@ -253,7 +262,7 @@ def check_output(domains: dict[str, str]) -> None:
         with tempfile.TemporaryDirectory() as directory:
             ROOT = pathlib.Path(directory)
             OUT = ROOT / 'lists'
-            for relative in ['research/registry.json', 'research/detectors.json', 'sources/bootstrap.json']:
+            for relative in ['research/registry.json', 'research/detectors.json', 'research/project.json', 'research/unverified.json', 'sources/bootstrap.json', 'allowlist.txt']:
                 source = original_root / relative
                 if source.exists():
                     target = ROOT / relative

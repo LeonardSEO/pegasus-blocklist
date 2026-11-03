@@ -20,7 +20,8 @@ class DiscoveryTests(unittest.TestCase):
 
     def test_publications_do_not_import_domains_from_text(self):
         xml = b'<rss><channel><item><title>Pegasus research evil.example.org</title><link>https://citizenlab.ca/report/</link></item><item><title>NSO Group</title><link>https://evil.example.org/</link></item></channel></rss>'
-        self.assertEqual(len(refresh.publications(xml, 'https://citizenlab.ca/feed/')), 1)
+        with patch.object(refresh, 'POLICY', {'news_terms':['pegasus','nso group']}):
+            self.assertEqual(len(refresh.publications(xml, 'https://citizenlab.ca/feed/')), 1)
 
     def test_rotation_visits_full_seed_set(self):
         names = [f'd{i}.example.org' for i in range(50)]

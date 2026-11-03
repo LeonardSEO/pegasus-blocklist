@@ -1,12 +1,37 @@
 # Pegasus blocklist and independent research
 
-A frozen published/community starting dataset plus our own persistent research source. Daily GitHub Actions collect observations, perform bounded root-only measurements and publish evidence through tested pull requests. External blocklists are **not** downloaded during daily runs.
+A frozen published/community starting dataset plus our own persistent research source. Daily GitHub Actions collect observations, perform bounded root-only measurements and publish validated evidence directly to main. External blocklists are **not** downloaded during daily runs.
 
 **Historical attribution is not current malicious ownership. DNS blocking cannot prevent all spyware infections. No current Pegasus detector has passed qualification yet: independent evidence collection is active, automatic admission of own findings is disabled.**
+
+## Independent source and optional unverified list
+
+Daily Actions now produce this project's own evidence dataset. Community and published indicators remain a frozen starting set; daily runs do not download other blocklists.
+
+**`pegasus-unverified.txt` is a separate, opt-in blocklist.** It automatically includes candidates with concrete infrastructure/measurement evidence before full actor attribution is verified. It has greater false-positive risk. Use it alongside the regular list if you want this broader coverage. All eight formats are linked below. Each inclusion has a reproducible rule and evidence IDs in [research/unverified.json](research/unverified.json); it does not claim verified malware or current actor control.
+
+Research runs daily at **06:47 UTC**, with a ten-minute budget and a persistent queue. A read-only collector and separate offline publisher validate observations, tests, output consistency and resolver syntax, then push generated updates **directly to `main`**. No maintenance PR or per-domain human approval is required for the opt-in tier. Qualified detector rules remain available for automatic admission to the regular discovered list.
+
+See [architecture and evidence rules](docs/ARCHITECTURE.md), [research policy](research/project.json), [persistent register](research/registry.json) and [latest report](candidates/latest.json). Historical source dates and actual measurement dates are distinct.
 
 <!-- LISTS:START -->
 
 **5087 unique domains**, **5000 after wildcard compression**.
+
+### Pegasus Unverified
+
+Opt-in: evidence-backed candidates with unverified attribution; higher false-positive risk
+
+| Format | Intended use | Download / subscription |
+| --- | --- | --- |
+| Adblock | AdGuard Home, uBlock Origin; root + subdomains | [adblock/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/adblock/pegasus-unverified.txt) |
+| DNSMasq | dnsmasq, OpenWrt, Pi-hole (dnsmasq.d) | [dnsmasq/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/dnsmasq/pegasus-unverified.txt) |
+| Wildcard | Compressed roots; importer must match subdomains | [wildcard/pegasus-unverified-onlydomains.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/wildcard/pegasus-unverified-onlydomains.txt) |
+| Asterisk Wildcard | Explicit root + *.domain pairs; check importer support | [wildcard/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/wildcard/pegasus-unverified.txt) |
+| Domains | Pi-hole / plain domain import; all explicit hosts | [domains/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/domains/pegasus-unverified.txt) |
+| Hosts | OS hosts file; exact hostnames | [hosts/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/hosts/pegasus-unverified.txt) |
+| RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/rpz/pegasus-unverified.txt) |
+| Unbound | Unbound local-zone configuration | [unbound/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/unbound/pegasus-unverified.txt) |
 
 ### Pegasus Combined
 
@@ -64,7 +89,7 @@ Expected source/probe failures produce partial reports and preserve existing evi
 
 Every admitted finding records the detector ID/version, supporting evidence and decision time. Measurements supporting a decision must be fresh (seven days), belong to one target and TLS/HTTP session, and pass the rule. Duplicating evidence does not add a channel. Disabling or replacing a detector withdraws its findings while preserving the bootstrap and all historical evidence. Qualification is a research judgement captured once per detector, not human approval of every match.
 
-The privileged publication job checks out trusted `main`, downloads only this run's JSON artifact, merges new observations without trusting artifact admission/status fields, evaluates rules offline and validates every admission. It then rebuilds lists and creates a PR to `main`. Explicitly dispatched CI publishes `CI validated`; successful updates auto-merge. The measurement job has no repository write token or secrets, and checkout does not persist credentials.
+The privileged publication job checks out trusted `main`, downloads only this run's JSON artifact, merges new observations without trusting artifact admission/status fields, evaluates rules offline and validates every admission. It then rebuilds lists, runs offline tests and resolver validation, and pushes directly to `main`. CI is explicitly dispatched after publication. The measurement job has no repository write token or secrets, and checkout does not persist credentials.
 
 The source import is frozen. Changes to the historical startset are explicit reviewed migrations, not an ongoing external-feed dependency. Existing `candidates/approved.txt` cannot bypass the evidence register for new own findings.
 

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "slug": "pegasus",
+  "title": "Pegasus",
+  "feeds": [
+    "https://securitylab.amnesty.org/feed/",
+    "https://citizenlab.ca/feed/"
+  ],
+  "news_terms": [
+    "pegasus",
+    "nso group"
+  ],
+  "owned_roots": [],
+  "cname_targets": [],
+  "asset_paths": []
+}

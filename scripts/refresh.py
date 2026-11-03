@@ -15,10 +15,11 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 from research import (ROOT, DOMAIN_RE, read_json, write_json, utcnow, ensure_indicator,
-                      observe, relate, validate_registry, indicator, timestamp)
+                      observe, relate, validate_registry, indicator, timestamp, asset_supported)
 from probe import probe
 
-FEEDS = ['https://securitylab.amnesty.org/feed/', 'https://citizenlab.ca/feed/']
+POLICY = read_json(ROOT / 'research/project.json', {})
+FEEDS = POLICY.get('feeds', [])
 SEED_LIMIT = 24
 NETWORK_ERRORS = (urllib.error.URLError, OSError, TimeoutError)
 
@@ -59,7 +60,7 @@ def certificate_names(rows: list[dict], seed: str) -> dict[str, list[dict]]:
         for name in sorted(names):
             found.setdefault(name, []).append({'kind': 'certificate-san', 'seed': seed,
                 'certificate_id': row.get('id'), 'not_before': row.get('not_before'),
-                'meaning': 'Co-occurring certificate name; ownership and Pegasus attribution unverified.'})
+                'meaning': 'Co-occurring certificate name; ownership and attribution unverified.'})
     return found
 
 
@@ -69,7 +70,7 @@ def publications(data: bytes, feed: str) -> list[dict]:
     for item in root.findall('.//item'):
         title, link = item.findtext('title', ''), item.findtext('link', '')
         text = title + ' ' + item.findtext('description', '')
-        if not any(term in text.lower() for term in ('pegasus', 'nso group')):
+        if not any(term in text.lower() for term in POLICY.get('news_terms', ['pegasus','nso group'])):
             continue
         parsed = urllib.parse.urlsplit(link)
         if parsed.scheme != 'https' or parsed.hostname != urllib.parse.urlsplit(feed).hostname:
@@ -79,8 +80,11 @@ def publications(data: bytes, feed: str) -> list[dict]:
 
 
 def enqueue(registry, key, tasks):
-    if not any(row['target'] == key for row in registry['queue']):
-        registry['queue'].append({'target': key, 'tasks': list(tasks)})
+    for row in registry['queue']:
+        if row['target'] == key:
+            row['tasks'] = list(dict.fromkeys(row['tasks'] + list(tasks)))
+            return
+    registry['queue'].append({'target': key, 'tasks': list(tasks)})
 
 
 def record_scans(registry, rows, url, at, allowed, anchor=None):
@@ -107,7 +111,40 @@ def record_scans(registry, rows, url, at, allowed, anchor=None):
             enqueue(registry, child, ['dns', 'measure'])
 
 
+
+def discover_assets(registry, deadline, at, allowed):
+    for path in POLICY.get('asset_paths', []):
+        url = 'https://urlscan.io/api/v1/search/?' + urllib.parse.urlencode({'q': 'filename:"'+path.rsplit('/',1)[-1]+'"', 'size': 20})
+        for hit in json.loads(fetch(url, deadline)).get('results', []):
+            reference = hit.get('_id', '')
+            import re
+            if not re.fullmatch(r'[a-f0-9-]{36}', reference):
+                continue
+            detail = 'https://urlscan.io/api/v1/result/' + reference + '/'
+            scan = json.loads(fetch(detail, deadline))
+            observed = scan.get('task', {}).get('time')
+            if not observed:
+                continue
+            for row in scan.get('data', {}).get('requests', []):
+                request = row.get('request', {}).get('request', {})
+                parsed = urllib.parse.urlsplit(request.get('url', ''))
+                host = (parsed.hostname or '').lower().rstrip('.')
+                if parsed.path != path or not DOMAIN_RE.fullmatch(host) or host in allowed:
+                    continue
+                response=row.get('response',{})
+                http=response.get('response',{})
+                served=urllib.parse.urlsplit(http.get('url',''))
+                data={'path':path,'scan_id':reference,'status':http.get('status'),
+                      'mime_type':http.get('mimeType',''),'body_sha256':response.get('hash','')}
+                if served.hostname != host or served.path != path or not asset_supported(data,POLICY):
+                    continue
+                key = ensure_indicator(registry, host, 'asset-scan')
+                observe(registry,key,'asset-scan',data,detail,observed,at)
+                if registry['indicators'][key]['status']=='candidate':
+                    enqueue(registry,key,['dns','measure'])
+
 def task(registry, key, kind, deadline, at, allowed):
+    at = utcnow()
     host = registry['indicators'][key]['value']
     if kind == 'ct':
         url = 'https://crt.sh/?' + urllib.parse.urlencode({'q': '%.' + host, 'output': 'json'})
@@ -172,12 +209,12 @@ def task(registry, key, kind, deadline, at, allowed):
 def run(registry, deadline, at, allowed, rules=()):
     # Candidates only get bounded DNS/probe work, never independent graph expansion.
     for key, item in sorted(registry['indicators'].items()):
-        if item['type'] == 'domain' and item['status'] == 'candidate' and item['origin'] in ('certificate-san', 'existing-scan', 'dns-cname', 'archive-query') and item['value'] not in allowed and (not item.get('last_attempts', {}).get('measure') or (timestamp(at) - timestamp(item['last_attempts']['measure'])).total_seconds() >= 86400):
+        if item['type'] == 'domain' and item['status'] == 'candidate' and item['origin'] in ('certificate-san', 'existing-scan', 'dns-cname', 'archive-query', 'legacy-lead', 'asset-scan') and item['value'] not in allowed and (not item.get('last_attempts', {}).get('measure') or (timestamp(at) - timestamp(item['last_attempts']['measure'])).total_seconds() >= 86400):
             enqueue(registry, key, ['dns', 'measure'])
     seeds = [r['value'] for r in registry['indicators'].values() if r['type'] == 'domain' and r['status'] in ('historical', 'accepted') and r['value'] not in allowed]
     for host in select_seeds(seeds, timestamp(at).date()):
         enqueue(registry, indicator(host)[0], ['ct', 'urlscan', 'dns', 'measure'])
-    registry['queue'].sort(key=lambda row: registry['indicators'][row['target']]['status'] != 'candidate')
+    registry['queue'].sort(key=lambda row: (registry['indicators'][row['target']]['status'] != 'candidate', min((registry['indicators'][row['target']].get('last_attempts', {}).get(t, '') for t in row['tasks']), default='')))
     report = {'observed_at': at, 'status': 'completed', 'completed_queries': [], 'errors': [], 'publications': [],
               'limits': {'max_seed_domains': SEED_LIMIT, 'api_pages': 1, 'probe_path': '/', 'max_body_bytes': 65536}}
     # News is context only and never becomes an indicator automatically.
@@ -187,6 +224,11 @@ def run(registry, deadline, at, allowed, rules=()):
             report['completed_queries'].append('news:' + feed)
         except (NETWORK_ERRORS + (ValueError, ET.ParseError)) as error:
             report['errors'].append({'query': 'news:' + feed, 'error': type(error).__name__})
+    try:
+        discover_assets(registry, min(deadline,time.monotonic()+30),at,allowed)
+        if POLICY.get('asset_paths'): report['completed_queries'].append('specific-assets')
+    except (NETWORK_ERRORS + (ValueError,)) as error:
+        report['errors'].append({'query':'specific-assets','error':type(error).__name__})
     from research import qualified
     for rule in rules:
         if not qualified(rule, registry):

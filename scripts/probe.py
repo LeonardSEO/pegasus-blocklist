@@ -113,6 +113,9 @@ def request_root(url, deadline):
                 'body_sha256': hashlib.sha256(body[:MAX_BODY]).hexdigest(),
                 'truncated': len(body) > MAX_BODY}
         http_data['fingerprint'] = digest(http_data)
+        lower = bytes(body).lower()
+        http_data['body_bytes'] = len(body[:MAX_BODY])
+        http_data['generic'] = any(token in lower for token in (b'domain for sale', b'buy this domain', b'parkingcrew', b'sedo parking', b'just a moment', b'welcome to nginx', b'apache2 default page', b'domain has expired'))
         for record in (tls, http_data):
             if record is not None:
                 record.update({'session': session, 'ip': ip, 'port': port, 'host': host})
