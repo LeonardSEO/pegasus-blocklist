@@ -10,34 +10,17 @@ Both projects use one credential-isolated urlscan/Censys coordinator in Adfectio
 
 See [Free API setup, limits and diagnosis](docs/FREE-API.md). The normal measurement jobs remain secret-free and use our sanitized public observations.
 
-## Independent source and optional unverified list
+## Independent research
 
-Daily Actions now produce this project's own evidence dataset. Community and published indicators remain a frozen starting set; daily runs do not download other blocklists.
+Daily Actions produce this project's own evidence dataset. Community and published indicators remain a frozen starting set; daily runs do not download other blocklists. The regular subscriptions contain historical bootstrap indicators and any own findings admitted by qualified detectors. Their presence does not imply every historical host is currently malicious.
 
-**`pegasus-unverified.txt` is a separate, opt-in blocklist.** It automatically includes candidates with concrete infrastructure/measurement evidence before full actor attribution is verified. It has greater false-positive risk. Use it alongside the regular list if you want this broader coverage. All eight formats are linked below. Each inclusion has a reproducible rule and evidence IDs in [research/unverified.json](research/unverified.json); it does not claim verified malware or current actor control.
+Candidate observations and supporting evidence remain in [research/registry.json](research/registry.json). Candidates receive bounded DNS/TLS/HTTP measurements and enter a blocklist only after the configured admission requirements are met. The removed optional candidate-list subscriptions are no longer published.
 
-Research runs daily at **06:47 UTC**, with a ten-minute budget and a persistent queue. A read-only collector and separate offline publisher validate observations, tests, output consistency and resolver syntax, then push generated updates **directly to `main`**. No maintenance PR or per-domain human approval is required for the opt-in tier. Qualified detector rules remain available for automatic admission to the regular discovered list.
-
-See [architecture and evidence rules](docs/ARCHITECTURE.md), [research policy](research/project.json), [persistent register](research/registry.json) and [latest report](candidates/latest.json). Historical source dates and actual measurement dates are distinct.
+A read-only collector and separate publisher validate evidence, tests, generated lists and resolver syntax, then push updates directly to `main`. The shared Free API integration and daily schedules continue as described above and in [architecture](docs/ARCHITECTURE.md).
 
 <!-- LISTS:START -->
 
 **5087 unique domains**, **5000 after wildcard compression**.
-
-### Pegasus Unverified
-
-Opt-in: evidence-backed candidates with unverified attribution; higher false-positive risk
-
-| Format | Intended use | Download / subscription |
-| --- | --- | --- |
-| Adblock | AdGuard Home, uBlock Origin; root + subdomains | [adblock/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/adblock/pegasus-unverified.txt) |
-| DNSMasq | dnsmasq, OpenWrt, Pi-hole (dnsmasq.d) | [dnsmasq/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/dnsmasq/pegasus-unverified.txt) |
-| Wildcard | Compressed roots; importer must match subdomains | [wildcard/pegasus-unverified-onlydomains.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/wildcard/pegasus-unverified-onlydomains.txt) |
-| Asterisk Wildcard | Explicit root + *.domain pairs; check importer support | [wildcard/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/wildcard/pegasus-unverified.txt) |
-| Domains | Pi-hole / plain domain import; all explicit hosts | [domains/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/domains/pegasus-unverified.txt) |
-| Hosts | OS hosts file; exact hostnames | [hosts/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/hosts/pegasus-unverified.txt) |
-| RPZ | BIND, PowerDNS, Knot, Technitium | [rpz/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/rpz/pegasus-unverified.txt) |
-| Unbound | Unbound local-zone configuration | [unbound/pegasus-unverified.txt](https://raw.githubusercontent.com/LeonardSEO/pegasus-blocklist/main/lists/unbound/pegasus-unverified.txt) |
 
 ### Pegasus Combined
 
