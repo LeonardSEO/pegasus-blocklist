@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        python: ['3.10', '3.14']
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Offline regression tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Check generated lists and README links
+        run: python3 scripts/build.py --check
+      - name: Validate Unbound syntax
+        if: matrix.python == '3.14'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y unbound bind9-utils dnsmasq-base
+          for file in lists/unbound/*.txt; do unbound-checkconf "$file"; done
+          for file in lists/rpz/*.txt; do named-checkzone rpz.invalid "$file"; done
+          for file in lists/dnsmasq/*.txt; do dnsmasq --test --conf-file="$file"; done
+
+  finalize-dispatched-ci:
+    if: github.event_name == 'workflow_dispatch'
+    needs: validate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      statuses: write
+      contents: write
+      pull-requests: write
+    steps:
+      # Dispatch job checks do not attach to PRs; publish an explicit commit status.
+      - name: Publish validated status and merge matching PRs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          HEAD_BRANCH: ${{ github.ref_name }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          gh api --method POST "repos/$GH_REPO/statuses/$HEAD_SHA" \
+            -f state=success -f context='CI validated' \
+            -f description='Both Python versions, generated output and resolver syntax passed' \
+            -f target_url="$GITHUB_SERVER_URL/$GH_REPO/actions/runs/$GITHUB_RUN_ID"
+          gh pr list --base main --head "$HEAD_BRANCH" --state open --json number,headRefOid,isDraft,isCrossRepository \
+            --jq '.[] | select(.isDraft == false and .isCrossRepository == false) | [.number, .headRefOid] | @tsv' > "$RUNNER_TEMP/prs.tsv"
+          while IFS=$'\t' read -r number sha; do
+            if [ "$sha" = "$HEAD_SHA" ]; then
+              gh pr merge "$number" --auto --squash --match-head-commit "$HEAD_SHA"
+            fi
+          done < "$RUNNER_TEMP/prs.tsv"
