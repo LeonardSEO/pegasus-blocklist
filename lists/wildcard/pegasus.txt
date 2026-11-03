@@ -5,8 +5,8 @@
 # Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 # Issues: https://github.com/LeonardSEO/pegasus-blocklist/issues
 # Expires: 1 day
-# Last modified: 03 Nov 2026 13:02 UTC
-# Version: 2026.1103.130253
+# Last modified: 03 Nov 2026 13:05 UTC
+# Version: 2026.1103.130541
 # Syntax: Explicit root and wildcard pairs (domain and *.domain)
 # Number of entries: 10000
 # Number of domains: 5000

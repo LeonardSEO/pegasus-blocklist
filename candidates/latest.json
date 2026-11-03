@@ -3,7 +3,6 @@
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
-    "dns:domain:cpu20fk3p.dashboardprompt.com",
     "urlscan:domain:treadingcollapse.com",
     "dns:domain:treadingcollapse.com",
     "urlscan:domain:treatmoodiness.com",
@@ -260,7 +259,7 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-03T12:14:27.578106+00:00",
+  "observed_at": "2026-11-03T13:04:20.570929+00:00",
   "pending_tasks": 50,
   "publications": [
     {
