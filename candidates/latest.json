@@ -259,7 +259,7 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-03T13:44:58.968942+00:00",
+  "observed_at": "2026-11-03T13:51:00.656570+00:00",
   "pending_tasks": 50,
   "providers": {
     "at": "2026-11-03T13:43:53.669704+00:00",
