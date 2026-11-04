@@ -5,8 +5,8 @@
 # Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 # Issues: https://github.com/LeonardSEO/pegasus-blocklist/issues
 # Expires: 1 day
-# Last modified: 03 Nov 2026 13:51 UTC
-# Version: 2026.1103.135153
+# Last modified: 04 Nov 2026 14:54 UTC
+# Version: 2026.1104.145450
 # Syntax: DNSMasq (local=/domain/, includes subdomains)
 # Number of entries: 5000
 # Number of domains: 5000

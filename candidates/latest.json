@@ -1,60 +1,251 @@
 {
-  "candidate_count": 1,
+  "candidate_count": 5,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
-    "urlscan:domain:treadingcollapse.com",
-    "dns:domain:treadingcollapse.com",
-    "urlscan:domain:treatmoodiness.com",
-    "dns:domain:treatmoodiness.com",
-    "urlscan:domain:trecv.xyz",
-    "dns:domain:trecv.xyz",
-    "urlscan:domain:trecvf.xyz",
-    "dns:domain:trecvf.xyz",
-    "urlscan:domain:treestumps.net",
-    "dns:domain:treestumps.net",
-    "urlscan:domain:trekkereggnog.com",
-    "dns:domain:trekkereggnog.com",
-    "urlscan:domain:tremblingroundness.net",
-    "dns:domain:tremblingroundness.net",
-    "urlscan:domain:trenchcheek.com",
-    "dns:domain:trenchcheek.com",
-    "urlscan:domain:trendsymbol.net",
-    "dns:domain:trendsymbol.net",
-    "urlscan:domain:trialvariable.net",
-    "dns:domain:trialvariable.net",
-    "urlscan:domain:trianglerank.net",
-    "dns:domain:trianglerank.net",
-    "urlscan:domain:tribune-mg.xyz",
-    "dns:domain:tribune-mg.xyz",
-    "urlscan:domain:tribunews.net",
-    "dns:domain:tribunews.net",
-    "urlscan:domain:tribunews.org",
-    "dns:domain:tribunews.org",
-    "urlscan:domain:tribunnevs.com",
-    "dns:domain:tribunnevs.com",
-    "urlscan:domain:tribunnevs.net",
-    "dns:domain:tribunnevs.net",
-    "urlscan:domain:tribunnevs.org",
-    "dns:domain:tribunnevs.org",
-    "urlscan:domain:tribunnews.org",
-    "urlscan:domain:tributaryoxygen.com",
-    "dns:domain:tributaryoxygen.com",
-    "urlscan:domain:trickeryrectify.com",
-    "dns:domain:trickeryrectify.com",
-    "urlscan:domain:tricksinswiss.com",
-    "dns:domain:tricksinswiss.com",
-    "urlscan:domain:trickytape.net",
-    "dns:domain:trickytape.net",
-    "urlscan:domain:tridentagreeably.com",
-    "dns:domain:tridentagreeably.com",
-    "urlscan:domain:tridentamused.com",
-    "dns:domain:tridentamused.com"
+    "dns:domain:cpu20fk3p.dashboardprompt.com",
+    "urlscan:domain:trililihihi.com",
+    "dns:domain:trililihihi.com",
+    "urlscan:domain:trimmerenvoy.net",
+    "dns:domain:trimmerenvoy.net",
+    "urlscan:domain:trinay.net",
+    "dns:domain:trinay.net",
+    "urlscan:domain:tripleclickpays.com",
+    "dns:domain:tripleclickpays.com",
+    "urlscan:domain:tripletowers.net",
+    "dns:domain:tripletowers.net",
+    "urlscan:domain:triptrick.net",
+    "dns:domain:triptrick.net",
+    "urlscan:domain:trivialstock.net",
+    "dns:domain:trivialstock.net",
+    "urlscan:domain:trkc.online",
+    "dns:domain:trkc.online",
+    "urlscan:domain:tropicalalmanac.com",
+    "dns:domain:tropicalalmanac.com",
+    "urlscan:domain:tropicalzz.eu",
+    "dns:domain:tropicalzz.eu",
+    "urlscan:domain:tropicsastride.com",
+    "dns:domain:tropicsastride.com",
+    "urlscan:domain:tropicsenergy.net",
+    "dns:domain:tropicsenergy.net",
+    "urlscan:domain:troublingstack.com",
+    "dns:domain:troublingstack.com",
+    "urlscan:domain:trousersslashed.link",
+    "dns:domain:trousersslashed.link",
+    "urlscan:domain:troutpastrami.net",
+    "dns:domain:troutpastrami.net",
+    "urlscan:domain:truckmarsh.uk",
+    "dns:domain:truckmarsh.uk",
+    "urlscan:domain:truecaller.services",
+    "dns:domain:truecaller.services",
+    "urlscan:domain:trumpshallot.com",
+    "dns:domain:trumpshallot.com",
+    "urlscan:domain:trustfulunsolved.net",
+    "dns:domain:trustfulunsolved.net",
+    "urlscan:domain:trvelingguide.org",
+    "dns:domain:trvelingguide.org",
+    "urlscan:domain:trynotnow.net",
+    "dns:domain:trynotnow.net",
+    "urlscan:domain:tsrt.xyz",
+    "dns:domain:tsrt.xyz",
+    "measure:domain:tsrt.xyz",
+    "urlscan:domain:tubbydevalue.com",
+    "dns:domain:tubbydevalue.com",
+    "urlscan:domain:tubbyrockfish.com",
+    "dns:domain:tubbyrockfish.com"
   ],
   "errors": [
     {
       "error": "ValueError",
       "query": "measure:domain:cpu20fk3p.dashboardprompt.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:trililihihi.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:trililihihi.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:trimmerenvoy.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:trimmerenvoy.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:trinay.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:trinay.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tripleclickpays.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tripleclickpays.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tripletowers.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tripletowers.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:triptrick.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:triptrick.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:trivialstock.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:trivialstock.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:trkc.online"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:trkc.online"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tropicalalmanac.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tropicalalmanac.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tropicalzz.eu"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tropicalzz.eu"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tropicsastride.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tropicsastride.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tropicsenergy.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tropicsenergy.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:troublingstack.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:troublingstack.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:trousersslashed.link"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:trousersslashed.link"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:troutpastrami.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:troutpastrami.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:truckmarsh.uk"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:truckmarsh.uk"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:truecaller.services"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:truecaller.services"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:trumpshallot.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:trumpshallot.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:trustfulunsolved.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:trustfulunsolved.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:trvelingguide.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:trvelingguide.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:trynotnow.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:trynotnow.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tsrt.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tubbydevalue.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tubbydevalue.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tubbyrockfish.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tubbyrockfish.com"
     },
     {
       "error": "OSError",
@@ -259,15 +450,14 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-03T13:51:00.656570+00:00",
-  "pending_tasks": 50,
+  "observed_at": "2026-11-04T14:53:55.999077+00:00",
+  "pending_tasks": 97,
   "providers": {
-    "at": "2026-11-03T13:43:53.669704+00:00",
+    "at": "2026-11-04T13:24:01.043289+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
       "quota": 1,
-      "retrieve": 4,
       "search": 50
     },
     "deferred": {},
@@ -311,12 +501,6 @@
       },
       {
         "action": "search",
-        "error": "TimeoutError",
-        "provider": "urlscan",
-        "status": 0
-      },
-      {
-        "action": "search",
         "error": null,
         "provider": "urlscan",
         "status": 200
@@ -436,25 +620,7 @@
         "status": 200
       },
       {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "retrieve",
+        "action": "search",
         "error": null,
         "provider": "urlscan",
         "status": 200
@@ -616,12 +782,12 @@
         "status": 200
       }
     ],
-    "generated_at": "2026-11-03T13:37:48.811741+00:00",
+    "generated_at": "2026-11-04T13:17:58.108370+00:00",
     "remaining_daily_allowance": {
-      "retrieve": 9996,
+      "retrieve": 10000,
       "search": 950
     },
-    "status": "partial"
+    "status": "completed"
   },
   "publications": [
     {
