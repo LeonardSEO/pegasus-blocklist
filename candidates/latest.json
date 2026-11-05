@@ -1,63 +1,251 @@
 {
-  "candidate_count": 5,
+  "candidate_count": 16,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
     "dns:domain:cpu20fk3p.dashboardprompt.com",
-    "urlscan:domain:trililihihi.com",
-    "dns:domain:trililihihi.com",
-    "urlscan:domain:trimmerenvoy.net",
-    "dns:domain:trimmerenvoy.net",
-    "urlscan:domain:trinay.net",
-    "dns:domain:trinay.net",
-    "urlscan:domain:tripleclickpays.com",
-    "dns:domain:tripleclickpays.com",
-    "urlscan:domain:tripletowers.net",
-    "dns:domain:tripletowers.net",
-    "urlscan:domain:triptrick.net",
-    "dns:domain:triptrick.net",
-    "urlscan:domain:trivialstock.net",
-    "dns:domain:trivialstock.net",
-    "urlscan:domain:trkc.online",
-    "dns:domain:trkc.online",
-    "urlscan:domain:tropicalalmanac.com",
-    "dns:domain:tropicalalmanac.com",
-    "urlscan:domain:tropicalzz.eu",
-    "dns:domain:tropicalzz.eu",
-    "urlscan:domain:tropicsastride.com",
-    "dns:domain:tropicsastride.com",
-    "urlscan:domain:tropicsenergy.net",
-    "dns:domain:tropicsenergy.net",
-    "urlscan:domain:troublingstack.com",
-    "dns:domain:troublingstack.com",
-    "urlscan:domain:trousersslashed.link",
-    "dns:domain:trousersslashed.link",
-    "urlscan:domain:troutpastrami.net",
-    "dns:domain:troutpastrami.net",
-    "urlscan:domain:truckmarsh.uk",
-    "dns:domain:truckmarsh.uk",
-    "urlscan:domain:truecaller.services",
-    "dns:domain:truecaller.services",
-    "urlscan:domain:trumpshallot.com",
-    "dns:domain:trumpshallot.com",
-    "urlscan:domain:trustfulunsolved.net",
-    "dns:domain:trustfulunsolved.net",
-    "urlscan:domain:trvelingguide.org",
-    "dns:domain:trvelingguide.org",
-    "urlscan:domain:trynotnow.net",
-    "dns:domain:trynotnow.net",
-    "urlscan:domain:tsrt.xyz",
-    "dns:domain:tsrt.xyz",
-    "measure:domain:tsrt.xyz",
-    "urlscan:domain:tubbydevalue.com",
-    "dns:domain:tubbydevalue.com",
-    "urlscan:domain:tubbyrockfish.com",
-    "dns:domain:tubbyrockfish.com"
+    "urlscan:domain:tubedvision.net",
+    "dns:domain:tubedvision.net",
+    "urlscan:domain:tubelesslushly.com",
+    "dns:domain:tubelesslushly.com",
+    "urlscan:domain:tubelesstrophy.org",
+    "dns:domain:tubelesstrophy.org",
+    "urlscan:domain:tubularrisotto.com",
+    "dns:domain:tubularrisotto.com",
+    "urlscan:domain:tuitionpants.net",
+    "dns:domain:tuitionpants.net",
+    "urlscan:domain:tuliptravels.in",
+    "dns:domain:tuliptravels.in",
+    "urlscan:domain:tummycasino.net",
+    "dns:domain:tummycasino.net",
+    "urlscan:domain:tunnelprotocol.net",
+    "dns:domain:tunnelprotocol.net",
+    "urlscan:domain:turbanopossum.com",
+    "dns:domain:turbanopossum.com",
+    "urlscan:domain:turbojetpasta.net",
+    "dns:domain:turbojetpasta.net",
+    "urlscan:domain:turbulentcrazy.net",
+    "dns:domain:turbulentcrazy.net",
+    "urlscan:domain:turismo-aqui.com",
+    "dns:domain:turismo-aqui.com",
+    "urlscan:domain:turkeynewsupdates.com",
+    "dns:domain:turkeynewsupdates.com",
+    "urlscan:domain:turkishairines.info",
+    "dns:domain:turkishairines.info",
+    "urlscan:domain:turretplatter.net",
+    "dns:domain:turretplatter.net",
+    "urlscan:domain:turtleanimating.com",
+    "dns:domain:turtleanimating.com",
+    "urlscan:domain:tutanota.org",
+    "dns:domain:tutanota.org",
+    "measure:domain:tutanota.org",
+    "urlscan:domain:tv54d2ml1.topadblocker.net",
+    "dns:domain:tv54d2ml1.topadblocker.net",
+    "urlscan:domain:tvshowcusting.com",
+    "dns:domain:tvshowcusting.com",
+    "urlscan:domain:tvxs.news",
+    "dns:domain:tvxs.news",
+    "urlscan:domain:tw.itter.me",
+    "dns:domain:tw.itter.me",
+    "urlscan:domain:tweedtranslate.net",
+    "dns:domain:tweedtranslate.net",
+    "urlscan:domain:twentyamusable.net",
+    "dns:domain:twentyamusable.net",
+    "urlscan:domain:twentynutty.org",
+    "dns:domain:twentynutty.org"
   ],
   "errors": [
     {
       "error": "ValueError",
       "query": "measure:domain:cpu20fk3p.dashboardprompt.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tubedvision.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tubedvision.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tubelesslushly.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tubelesslushly.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tubelesstrophy.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tubelesstrophy.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tubularrisotto.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tubularrisotto.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tuitionpants.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tuitionpants.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tuliptravels.in"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tuliptravels.in"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tummycasino.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tummycasino.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tunnelprotocol.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tunnelprotocol.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:turbanopossum.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:turbanopossum.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:turbojetpasta.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:turbojetpasta.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:turbulentcrazy.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:turbulentcrazy.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:turismo-aqui.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:turismo-aqui.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:turkeynewsupdates.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:turkeynewsupdates.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:turkishairines.info"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:turkishairines.info"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:turretplatter.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:turretplatter.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:turtleanimating.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:turtleanimating.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tutanota.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tv54d2ml1.topadblocker.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tv54d2ml1.topadblocker.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tvshowcusting.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tvshowcusting.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tvxs.news"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tvxs.news"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tw.itter.me"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tw.itter.me"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tweedtranslate.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tweedtranslate.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twentyamusable.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twentyamusable.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twentynutty.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twentynutty.org"
     },
     {
       "error": "OSError",
@@ -450,10 +638,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-04T14:53:55.999077+00:00",
-  "pending_tasks": 97,
+  "observed_at": "2026-11-05T14:58:38.552791+00:00",
+  "pending_tasks": 144,
   "providers": {
-    "at": "2026-11-04T13:24:01.043289+00:00",
+    "at": "2026-11-05T13:36:23.036965+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -782,7 +970,7 @@
         "status": 200
       }
     ],
-    "generated_at": "2026-11-04T13:17:58.108370+00:00",
+    "generated_at": "2026-11-05T13:30:04.125018+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
