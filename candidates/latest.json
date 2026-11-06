@@ -1,63 +1,252 @@
 {
-  "candidate_count": 16,
+  "candidate_count": 35,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
-    "dns:domain:cpu20fk3p.dashboardprompt.com",
-    "urlscan:domain:tubedvision.net",
-    "dns:domain:tubedvision.net",
-    "urlscan:domain:tubelesslushly.com",
-    "dns:domain:tubelesslushly.com",
-    "urlscan:domain:tubelesstrophy.org",
-    "dns:domain:tubelesstrophy.org",
-    "urlscan:domain:tubularrisotto.com",
-    "dns:domain:tubularrisotto.com",
-    "urlscan:domain:tuitionpants.net",
-    "dns:domain:tuitionpants.net",
-    "urlscan:domain:tuliptravels.in",
-    "dns:domain:tuliptravels.in",
-    "urlscan:domain:tummycasino.net",
-    "dns:domain:tummycasino.net",
-    "urlscan:domain:tunnelprotocol.net",
-    "dns:domain:tunnelprotocol.net",
-    "urlscan:domain:turbanopossum.com",
-    "dns:domain:turbanopossum.com",
-    "urlscan:domain:turbojetpasta.net",
-    "dns:domain:turbojetpasta.net",
-    "urlscan:domain:turbulentcrazy.net",
-    "dns:domain:turbulentcrazy.net",
-    "urlscan:domain:turismo-aqui.com",
-    "dns:domain:turismo-aqui.com",
-    "urlscan:domain:turkeynewsupdates.com",
-    "dns:domain:turkeynewsupdates.com",
-    "urlscan:domain:turkishairines.info",
-    "dns:domain:turkishairines.info",
-    "urlscan:domain:turretplatter.net",
-    "dns:domain:turretplatter.net",
-    "urlscan:domain:turtleanimating.com",
-    "dns:domain:turtleanimating.com",
-    "urlscan:domain:tutanota.org",
-    "dns:domain:tutanota.org",
-    "measure:domain:tutanota.org",
-    "urlscan:domain:tv54d2ml1.topadblocker.net",
-    "dns:domain:tv54d2ml1.topadblocker.net",
-    "urlscan:domain:tvshowcusting.com",
-    "dns:domain:tvshowcusting.com",
-    "urlscan:domain:tvxs.news",
-    "dns:domain:tvxs.news",
-    "urlscan:domain:tw.itter.me",
-    "dns:domain:tw.itter.me",
-    "urlscan:domain:tweedtranslate.net",
-    "dns:domain:tweedtranslate.net",
-    "urlscan:domain:twentyamusable.net",
-    "dns:domain:twentyamusable.net",
-    "urlscan:domain:twentynutty.org",
-    "dns:domain:twentynutty.org"
+    "dns:domain:tuta.com",
+    "measure:domain:tuta.com",
+    "urlscan:domain:twiddlesandbox.org",
+    "dns:domain:twiddlesandbox.org",
+    "urlscan:domain:twiguntainted.com",
+    "dns:domain:twiguntainted.com",
+    "urlscan:domain:twiitter.com.mx",
+    "dns:domain:twiitter.com.mx",
+    "urlscan:domain:twilightexpert.net",
+    "dns:domain:twilightexpert.net",
+    "urlscan:domain:twinklingspot.com",
+    "dns:domain:twinklingspot.com",
+    "urlscan:domain:twinstipoff.link",
+    "dns:domain:twinstipoff.link",
+    "urlscan:domain:twistedblocks.net",
+    "dns:domain:twistedblocks.net",
+    "urlscan:domain:twistedcamera.org",
+    "dns:domain:twistedcamera.org",
+    "urlscan:domain:twistedshovels.net",
+    "dns:domain:twistedshovels.net",
+    "urlscan:domain:twistedtubes.net",
+    "dns:domain:twistedtubes.net",
+    "urlscan:domain:twistythumb.org",
+    "dns:domain:twistythumb.org",
+    "urlscan:domain:twitt-er.app",
+    "dns:domain:twitt-er.app",
+    "urlscan:domain:twittre.co",
+    "dns:domain:twittre.co",
+    "urlscan:domain:twtter.net",
+    "dns:domain:twtter.net",
+    "urlscan:domain:tycoonautomaker.com",
+    "dns:domain:tycoonautomaker.com",
+    "urlscan:domain:tyinggonad.com",
+    "dns:domain:tyinggonad.com",
+    "urlscan:domain:uaenews.online",
+    "dns:domain:uaenews.online",
+    "urlscan:domain:ube.gr.com",
+    "dns:domain:ube.gr.com",
+    "urlscan:domain:uberegypt.cn.com",
+    "dns:domain:uberegypt.cn.com",
+    "measure:domain:uberegypt.cn.com",
+    "urlscan:domain:uidebol.info",
+    "dns:domain:uidebol.info",
+    "urlscan:domain:ultimatumgalore.net",
+    "dns:domain:ultimatumgalore.net",
+    "urlscan:domain:ultimauscita.net",
+    "dns:domain:ultimauscita.net",
+    "urlscan:domain:ultrajewelery.net",
+    "dns:domain:ultrajewelery.net",
+    "urlscan:domain:umbrellacover.net",
+    "dns:domain:umbrellacover.net"
   ],
   "errors": [
     {
       "error": "ValueError",
       "query": "measure:domain:cpu20fk3p.dashboardprompt.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twiddlesandbox.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twiddlesandbox.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twiguntainted.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twiguntainted.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twiitter.com.mx"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twiitter.com.mx"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twilightexpert.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twilightexpert.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twinklingspot.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twinklingspot.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twinstipoff.link"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twinstipoff.link"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twistedblocks.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twistedblocks.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twistedcamera.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twistedcamera.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twistedshovels.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twistedshovels.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twistedtubes.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twistedtubes.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twistythumb.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twistythumb.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twitt-er.app"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twitt-er.app"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twittre.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twittre.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:twtter.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:twtter.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tycoonautomaker.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tycoonautomaker.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:tyinggonad.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:tyinggonad.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:uaenews.online"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:uaenews.online"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:ube.gr.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ube.gr.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:uberegypt.cn.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:uidebol.info"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:uidebol.info"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:ultimatumgalore.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ultimatumgalore.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:ultimauscita.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ultimauscita.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:ultrajewelery.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ultrajewelery.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:umbrellacover.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:umbrellacover.net"
     },
     {
       "error": "OSError",
@@ -638,10 +827,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-05T14:58:38.552791+00:00",
-  "pending_tasks": 144,
+  "observed_at": "2026-11-06T14:38:16.041485+00:00",
+  "pending_tasks": 191,
   "providers": {
-    "at": "2026-11-05T13:36:23.036965+00:00",
+    "at": "2026-11-06T13:21:08.496096+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -970,7 +1159,7 @@
         "status": 200
       }
     ],
-    "generated_at": "2026-11-05T13:30:04.125018+00:00",
+    "generated_at": "2026-11-06T13:15:08.394539+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
