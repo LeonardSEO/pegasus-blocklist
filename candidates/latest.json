@@ -1,62 +1,253 @@
 {
-  "candidate_count": 35,
+  "candidate_count": 39,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
+    "dns:domain:cpu20fk3p.dashboardprompt.com",
     "dns:domain:tuta.com",
     "measure:domain:tuta.com",
-    "urlscan:domain:un-limitededitions.com",
-    "dns:domain:un-limitededitions.com",
-    "urlscan:domain:unadorneddisburse.net",
-    "dns:domain:unadorneddisburse.net",
-    "urlscan:domain:unalignedonyx.net",
-    "dns:domain:unalignedonyx.net",
-    "urlscan:domain:unangryspecht.org",
-    "dns:domain:unangryspecht.org",
-    "urlscan:domain:unauditedkilometer.com",
-    "dns:domain:unauditedkilometer.com",
-    "urlscan:domain:unavailableentry.com",
-    "dns:domain:unavailableentry.com",
-    "urlscan:domain:unboltedlevers.com",
-    "dns:domain:unboltedlevers.com",
-    "dns:domain:unbridleeating.com",
-    "urlscan:domain:uncaringantitrust.net",
-    "dns:domain:uncaringantitrust.net",
-    "urlscan:domain:uncaringglowworm.net",
-    "dns:domain:uncaringglowworm.net",
-    "urlscan:domain:unchecklagoon.net",
-    "dns:domain:unchecklagoon.net",
-    "urlscan:domain:unclipenvoy.com",
-    "dns:domain:unclipenvoy.com",
-    "urlscan:domain:uncloakbulge.net",
-    "dns:domain:uncloakbulge.net",
-    "urlscan:domain:uncloakcolt.com",
-    "dns:domain:uncloakcolt.com",
-    "urlscan:domain:uncombedunfixed.net",
-    "dns:domain:uncombedunfixed.net",
-    "urlscan:domain:uncrossangriness.org",
-    "dns:domain:uncrossangriness.org",
-    "urlscan:domain:undamagedappraiser.com",
-    "dns:domain:undamagedappraiser.com",
-    "urlscan:domain:undauntedbagginess.com",
-    "dns:domain:undauntedbagginess.com",
-    "urlscan:domain:undercookqualify.net",
-    "dns:domain:undercookqualify.net",
-    "urlscan:domain:undergradaversion.net",
-    "dns:domain:undergradaversion.net",
-    "urlscan:domain:underlinglair.org",
-    "dns:domain:underlinglair.org",
-    "urlscan:domain:undraftedglorify.net",
-    "dns:domain:undraftedglorify.net",
-    "urlscan:domain:unendingexemplary.com",
-    "dns:domain:unendingexemplary.com",
-    "urlscan:domain:unfittedhandwash.org",
-    "dns:domain:unfittedhandwash.org"
+    "urlscan:domain:unfundedsubtly.link",
+    "dns:domain:unfundedsubtly.link",
+    "urlscan:domain:unglazedamplifier.net",
+    "dns:domain:unglazedamplifier.net",
+    "urlscan:domain:unglazeddimmed.net",
+    "dns:domain:unglazeddimmed.net",
+    "urlscan:domain:ungradeddislocate.com",
+    "dns:domain:ungradeddislocate.com",
+    "urlscan:domain:unhearingunshaven.com",
+    "dns:domain:unhearingunshaven.com",
+    "urlscan:domain:unhelpfulgenerous.net",
+    "dns:domain:unhelpfulgenerous.net",
+    "urlscan:domain:unicornpresoak.net",
+    "dns:domain:unicornpresoak.net",
+    "urlscan:domain:uniformedonline.net",
+    "dns:domain:uniformedonline.net",
+    "urlscan:domain:uninstallhandsaw.net",
+    "dns:domain:uninstallhandsaw.net",
+    "urlscan:domain:uninvitedduct.org",
+    "dns:domain:uninvitedduct.org",
+    "urlscan:domain:unionofteenagers.com",
+    "dns:domain:unionofteenagers.com",
+    "urlscan:domain:uniquesite.co",
+    "dns:domain:uniquesite.co",
+    "urlscan:domain:universetactics.net",
+    "dns:domain:universetactics.net",
+    "urlscan:domain:univision.click",
+    "dns:domain:univision.click",
+    "urlscan:domain:unknownupfront.com",
+    "dns:domain:unknownupfront.com",
+    "urlscan:domain:unlightedprism.com",
+    "dns:domain:unlightedprism.com",
+    "urlscan:domain:unlockaccount.net",
+    "dns:domain:unlockaccount.net",
+    "urlscan:domain:unlockcredit.net",
+    "dns:domain:unlockcredit.net",
+    "measure:domain:unlockcredit.net",
+    "urlscan:domain:unlockedabroad.org",
+    "dns:domain:unlockedabroad.org",
+    "urlscan:domain:unlockingplating.net",
+    "dns:domain:unlockingplating.net",
+    "urlscan:domain:unluckilywharf.com",
+    "dns:domain:unluckilywharf.com",
+    "urlscan:domain:unmarkedkinswoman.net",
+    "dns:domain:unmarkedkinswoman.net",
+    "urlscan:domain:unmaskingattest.net",
+    "dns:domain:unmaskingattest.net",
+    "urlscan:domain:unneededfeminine.net",
+    "dns:domain:unneededfeminine.net"
   ],
   "errors": [
     {
       "error": "ValueError",
       "query": "measure:domain:cpu20fk3p.dashboardprompt.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unfundedsubtly.link"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unfundedsubtly.link"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unglazedamplifier.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unglazedamplifier.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unglazeddimmed.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unglazeddimmed.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:ungradeddislocate.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ungradeddislocate.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unhearingunshaven.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unhearingunshaven.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unhelpfulgenerous.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unhelpfulgenerous.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unicornpresoak.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unicornpresoak.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:uniformedonline.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:uniformedonline.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:uninstallhandsaw.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:uninstallhandsaw.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:uninvitedduct.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:uninvitedduct.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unionofteenagers.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unionofteenagers.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:uniquesite.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:uniquesite.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:universetactics.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:universetactics.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:univision.click"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:univision.click"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unknownupfront.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unknownupfront.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unlightedprism.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unlightedprism.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unlockaccount.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unlockaccount.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unlockcredit.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unlockedabroad.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unlockedabroad.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unlockingplating.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unlockingplating.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unluckilywharf.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unluckilywharf.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unmarkedkinswoman.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unmarkedkinswoman.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unmaskingattest.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unmaskingattest.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:unneededfeminine.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:unneededfeminine.net"
     },
     {
       "error": "OSError",
@@ -1021,10 +1212,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-07T13:36:00.288561+00:00",
-  "pending_tasks": 240,
+  "observed_at": "2026-11-08T13:53:20.278171+00:00",
+  "pending_tasks": 287,
   "providers": {
-    "at": "2026-11-07T12:02:31.520937+00:00",
+    "at": "2026-11-08T12:18:46.608255+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -1200,7 +1391,7 @@
         "action": "censys",
         "error": null,
         "provider": "censys",
-        "status": 200
+        "status": 404
       },
       {
         "action": "search",
@@ -1246,9 +1437,9 @@
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
@@ -1353,7 +1544,7 @@
         "status": 200
       }
     ],
-    "generated_at": "2026-11-07T11:56:16.034733+00:00",
+    "generated_at": "2026-11-08T12:12:53.599789+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
