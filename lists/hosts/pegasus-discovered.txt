@@ -5,8 +5,8 @@
 # Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 # Issues: https://github.com/LeonardSEO/pegasus-blocklist/issues
 # Expires: 1 day
-# Last modified: 08 Nov 2026 13:54 UTC
-# Version: 2026.1108.135457
+# Last modified: 09 Nov 2026 16:56 UTC
+# Version: 2026.1109.165618
 # Syntax: Hosts (0.0.0.0 domain)
 # Number of entries: 0
 # Number of domains: 0
