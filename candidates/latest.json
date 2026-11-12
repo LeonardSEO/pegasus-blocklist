@@ -1,8 +1,18 @@
 {
-  "candidate_count": 300,
+  "candidate_count": 329,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
+    "dns:domain:cpu20fk3p.dashboardprompt.com",
+    "dns:domain:2025eaca.com",
+    "dns:domain:2d3.xyz",
+    "dns:domain:33jl.app",
+    "dns:domain:443809.cc",
+    "dns:domain:771287.com",
+    "dns:domain:tuta.com",
+    "measure:domain:tuta.com",
+    "dns:domain:www.unlockcredit.net",
+    "measure:domain:www.unlockcredit.net",
     "dns:domain:0.hiu33.workers.dev",
     "measure:domain:0.hiu33.workers.dev",
     "dns:domain:0088betb.com",
@@ -59,7 +69,6 @@
     "measure:domain:2-yd-yx.mjuygb67.workers.dev",
     "dns:domain:20230814.inkyiyo.workers.dev",
     "measure:domain:20230814.inkyiyo.workers.dev",
-    "dns:domain:2025eaca.com",
     "dns:domain:20bgd11.com",
     "measure:domain:20bgd11.com",
     "dns:domain:2144z.tv",
@@ -82,12 +91,10 @@
     "measure:domain:2647montereyblvd.com",
     "dns:domain:2663.casino",
     "measure:domain:2663.casino",
-    "dns:domain:2d3.xyz",
     "dns:domain:2treehousellc-com.sitessmith.com",
     "measure:domain:2treehousellc-com.sitessmith.com",
     "dns:domain:33033688.com",
     "measure:domain:33033688.com",
-    "dns:domain:33jl.app",
     "dns:domain:33rr.22bb.app",
     "measure:domain:33rr.22bb.app",
     "dns:domain:355betws.com",
@@ -100,7 +107,6 @@
     "measure:domain:3fun.club",
     "dns:domain:4000135800.com",
     "measure:domain:4000135800.com",
-    "dns:domain:443809.cc",
     "dns:domain:44rrapk.com",
     "measure:domain:44rrapk.com",
     "dns:domain:4bdt99.cam",
@@ -167,7 +173,6 @@
     "measure:domain:71902.com",
     "dns:domain:748392.vu",
     "measure:domain:748392.vu",
-    "dns:domain:771287.com",
     "dns:domain:7777mr.com",
     "measure:domain:7777mr.com",
     "dns:domain:777hokigacor.xyz",
@@ -179,7 +184,6 @@
     "dns:domain:77win9loginvip.com",
     "measure:domain:77win9loginvip.com",
     "dns:domain:783330.email",
-    "measure:domain:783330.email",
     "dns:domain:7a7777.net",
     "measure:domain:7a7777.net",
     "dns:domain:7k5f98qx6c.top",
@@ -191,67 +195,68 @@
     "dns:domain:88ef3.cam",
     "measure:domain:88ef3.cam",
     "dns:domain:89phpcom.com",
-    "measure:domain:89phpcom.com",
     "dns:domain:89y.com.br",
     "measure:domain:89y.com.br",
     "dns:domain:8be.eternalspark.xyz",
     "measure:domain:8be.eternalspark.xyz",
     "dns:domain:8el.eternalspark.xyz",
     "measure:domain:8el.eternalspark.xyz",
-    "dns:domain:tuta.com",
-    "measure:domain:tuta.com",
-    "dns:domain:www.unlockcredit.net",
-    "measure:domain:www.unlockcredit.net",
-    "urlscan:domain:untidygumming.com",
-    "dns:domain:untidygumming.com",
-    "urlscan:domain:untoldinfo.net",
-    "dns:domain:untoldinfo.net",
-    "urlscan:domain:untrackedtrifocals.com",
-    "dns:domain:untrackedtrifocals.com",
-    "urlscan:domain:untrimmedscrubber.org",
-    "dns:domain:untrimmedscrubber.org",
-    "urlscan:domain:untrueduller.com",
-    "dns:domain:untrueduller.com",
-    "urlscan:domain:untwistsinging.net",
-    "dns:domain:untwistsinging.net",
-    "urlscan:domain:unusalneigbhor.com",
-    "dns:domain:unusalneigbhor.com",
-    "urlscan:domain:unusualneighbor.com",
-    "dns:domain:unusualneighbor.com",
-    "urlscan:domain:unvaluedmagma.com",
-    "dns:domain:unvaluedmagma.com",
-    "urlscan:domain:unvisitedessence.net",
-    "dns:domain:unvisitedessence.net",
-    "urlscan:domain:unwatchedglancing.com",
-    "dns:domain:unwatchedglancing.com",
-    "urlscan:domain:unwellcheer.com",
-    "dns:domain:unwellcheer.com",
-    "urlscan:domain:unwillingscheme.net",
-    "dns:domain:unwillingscheme.net",
-    "urlscan:domain:unwiredgrudging.net",
-    "dns:domain:unwiredgrudging.net",
-    "urlscan:domain:unwiredworsening.net",
-    "dns:domain:unwiredworsening.net",
-    "urlscan:domain:unwittingblinked.net",
-    "dns:domain:unwittingblinked.net",
-    "urlscan:domain:unwittingcanning.com",
-    "dns:domain:unwittingcanning.com",
-    "urlscan:domain:upbeatconfining.org",
-    "dns:domain:upbeatconfining.org",
-    "urlscan:domain:updateapps.net",
-    "dns:domain:updateapps.net",
-    "urlscan:domain:updatedchargers.com",
-    "dns:domain:updatedchargers.com",
-    "urlscan:domain:updatedcharges.net",
-    "dns:domain:updatedcharges.net",
-    "urlscan:domain:updates4you.xyz",
-    "dns:domain:updates4you.xyz",
-    "urlscan:domain:updateservice.center",
-    "dns:domain:updateservice.center",
-    "urlscan:domain:updatetime.zone",
-    "dns:domain:updatetime.zone"
+    "urlscan:domain:urchindecipher.com",
+    "dns:domain:urchindecipher.com",
+    "urlscan:domain:url-configure.com",
+    "dns:domain:url-configure.com",
+    "urlscan:domain:url-direct.com",
+    "dns:domain:url-direct.com",
+    "urlscan:domain:url-hoster.com",
+    "dns:domain:url-hoster.com",
+    "urlscan:domain:url-loading.com",
+    "dns:domain:url-loading.com",
+    "urlscan:domain:url-promo.club",
+    "dns:domain:url-promo.club",
+    "urlscan:domain:url-redirect.com",
+    "dns:domain:url-redirect.com",
+    "dns:domain:url-redirect.net",
+    "measure:domain:url-redirect.net",
+    "urlscan:domain:url-tiny.app",
+    "dns:domain:url-tiny.app",
+    "urlscan:domain:url2all.net",
+    "dns:domain:url2all.net",
+    "urlscan:domain:urlconfig.net",
+    "dns:domain:urlconfig.net",
+    "urlscan:domain:urlconnection.net",
+    "dns:domain:urlconnection.net",
+    "urlscan:domain:urldefender.net",
+    "dns:domain:urldefender.net",
+    "urlscan:domain:urllink.xyz",
+    "dns:domain:urllink.xyz",
+    "urlscan:domain:urlpage-redirect.com",
+    "dns:domain:urlpage-redirect.com",
+    "urlscan:domain:urlpush.net",
+    "dns:domain:urlpush.net",
+    "urlscan:domain:urlredirect.net",
+    "dns:domain:urlredirect.net",
+    "measure:domain:urlredirect.net",
+    "urlscan:domain:urlregistrar.net",
+    "dns:domain:urlregistrar.net",
+    "urlscan:domain:urlreload.net",
+    "dns:domain:urlreload.net",
+    "urlscan:domain:urlscanner.net",
+    "dns:domain:urlscanner.net",
+    "urlscan:domain:urlsync.com",
+    "dns:domain:urlsync.com",
+    "measure:domain:urlsync.com",
+    "urlscan:domain:urlupdates.com",
+    "dns:domain:urlupdates.com",
+    "urlscan:domain:urlviaweb.com",
+    "dns:domain:urlviaweb.com",
+    "urlscan:domain:ursidaewinter.org",
+    "dns:domain:ursidaewinter.org"
   ],
   "errors": [
+    {
+      "error": "ValueError",
+      "query": "measure:domain:cpu20fk3p.dashboardprompt.com"
+    },
     {
       "error": "ValueError",
       "query": "measure:domain:2025eaca.com"
@@ -274,7 +279,195 @@
     },
     {
       "error": "ValueError",
-      "query": "measure:domain:cpu20fk3p.dashboardprompt.com"
+      "query": "measure:domain:783330.email"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:89phpcom.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urchindecipher.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urchindecipher.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:url-configure.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:url-configure.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:url-direct.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:url-direct.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:url-hoster.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:url-hoster.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:url-loading.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:url-loading.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:url-promo.club"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:url-promo.club"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:url-redirect.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:url-redirect.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:url-redirect.net"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:url-redirect.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:url-tiny.app"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:url-tiny.app"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:url2all.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:url2all.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlconfig.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urlconfig.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlconnection.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urlconnection.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urldefender.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urldefender.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urllink.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urllink.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlpage-redirect.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urlpage-redirect.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlpush.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urlpush.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlredirect.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlregistrar.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urlregistrar.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlreload.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urlreload.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlscanner.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urlscanner.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlsync.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlupdates.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urlupdates.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urlviaweb.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urlviaweb.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:ursidaewinter.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:ursidaewinter.org"
     },
     {
       "error": "OSError",
@@ -1815,10 +2008,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-10T15:15:19.412420+00:00",
-  "pending_tasks": 389,
+  "observed_at": "2026-11-12T15:37:56.304989+00:00",
+  "pending_tasks": 437,
   "providers": {
-    "at": "2026-11-10T13:53:39.814555+00:00",
+    "at": "2026-11-12T14:06:42.851100+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -1844,6 +2037,156 @@
         "action": "search",
         "error": null,
         "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": "TimeoutError",
+        "provider": "urlscan",
+        "status": 0
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": "TimeoutError",
+        "provider": "urlscan",
+        "status": 0
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "censys",
+        "error": null,
+        "provider": "censys",
         "status": 200
       },
       {
@@ -1994,160 +2337,10 @@
         "action": "censys",
         "error": null,
         "provider": "censys",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "censys",
-        "error": null,
-        "provider": "censys",
-        "status": 200
+        "status": 404
       }
     ],
-    "generated_at": "2026-11-10T13:47:41.800824+00:00",
+    "generated_at": "2026-11-12T13:59:40.513139+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
