@@ -1,16 +1,15 @@
 {
-  "candidate_count": 329,
+  "candidate_count": 331,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
-    "dns:domain:cpu20fk3p.dashboardprompt.com",
     "dns:domain:2025eaca.com",
     "dns:domain:2d3.xyz",
     "dns:domain:33jl.app",
     "dns:domain:443809.cc",
     "dns:domain:771287.com",
-    "dns:domain:tuta.com",
-    "measure:domain:tuta.com",
+    "dns:domain:783330.email",
+    "dns:domain:89phpcom.com",
     "dns:domain:www.unlockcredit.net",
     "measure:domain:www.unlockcredit.net",
     "dns:domain:0.hiu33.workers.dev",
@@ -64,7 +63,6 @@
     "dns:domain:1win-eeh.top",
     "measure:domain:1win-eeh.top",
     "dns:domain:1xy.eternalspark.xyz",
-    "measure:domain:1xy.eternalspark.xyz",
     "dns:domain:2-yd-yx.mjuygb67.workers.dev",
     "measure:domain:2-yd-yx.mjuygb67.workers.dev",
     "dns:domain:20230814.inkyiyo.workers.dev",
@@ -114,9 +112,7 @@
     "dns:domain:4m7x9b.com",
     "measure:domain:4m7x9b.com",
     "dns:domain:4sk.eternalspark.xyz",
-    "measure:domain:4sk.eternalspark.xyz",
     "dns:domain:4tb.eternalspark.xyz",
-    "measure:domain:4tb.eternalspark.xyz",
     "dns:domain:5-cn-yx.mjuygb67.workers.dev",
     "measure:domain:5-cn-yx.mjuygb67.workers.dev",
     "dns:domain:5-lr-yx.mjuygb67.workers.dev",
@@ -166,11 +162,9 @@
     "dns:domain:6nchain.cn",
     "measure:domain:6nchain.cn",
     "dns:domain:6nu.eternalspark.xyz",
-    "measure:domain:6nu.eternalspark.xyz",
     "dns:domain:70dollar-30voucer.brotherseventcenter.com",
     "measure:domain:70dollar-30voucer.brotherseventcenter.com",
     "dns:domain:71902.com",
-    "measure:domain:71902.com",
     "dns:domain:748392.vu",
     "measure:domain:748392.vu",
     "dns:domain:7777mr.com",
@@ -183,7 +177,6 @@
     "measure:domain:7799betvip.com",
     "dns:domain:77win9loginvip.com",
     "measure:domain:77win9loginvip.com",
-    "dns:domain:783330.email",
     "dns:domain:7a7777.net",
     "measure:domain:7a7777.net",
     "dns:domain:7k5f98qx6c.top",
@@ -194,63 +187,54 @@
     "measure:domain:888winsh.com",
     "dns:domain:88ef3.cam",
     "measure:domain:88ef3.cam",
-    "dns:domain:89phpcom.com",
     "dns:domain:89y.com.br",
     "measure:domain:89y.com.br",
     "dns:domain:8be.eternalspark.xyz",
-    "measure:domain:8be.eternalspark.xyz",
     "dns:domain:8el.eternalspark.xyz",
-    "measure:domain:8el.eternalspark.xyz",
-    "urlscan:domain:urchindecipher.com",
-    "dns:domain:urchindecipher.com",
-    "urlscan:domain:url-configure.com",
-    "dns:domain:url-configure.com",
-    "urlscan:domain:url-direct.com",
-    "dns:domain:url-direct.com",
-    "urlscan:domain:url-hoster.com",
-    "dns:domain:url-hoster.com",
-    "urlscan:domain:url-loading.com",
-    "dns:domain:url-loading.com",
-    "urlscan:domain:url-promo.club",
-    "dns:domain:url-promo.club",
-    "urlscan:domain:url-redirect.com",
-    "dns:domain:url-redirect.com",
-    "dns:domain:url-redirect.net",
-    "measure:domain:url-redirect.net",
-    "urlscan:domain:url-tiny.app",
-    "dns:domain:url-tiny.app",
-    "urlscan:domain:url2all.net",
-    "dns:domain:url2all.net",
-    "urlscan:domain:urlconfig.net",
-    "dns:domain:urlconfig.net",
-    "urlscan:domain:urlconnection.net",
-    "dns:domain:urlconnection.net",
-    "urlscan:domain:urldefender.net",
-    "dns:domain:urldefender.net",
-    "urlscan:domain:urllink.xyz",
-    "dns:domain:urllink.xyz",
-    "urlscan:domain:urlpage-redirect.com",
-    "dns:domain:urlpage-redirect.com",
-    "urlscan:domain:urlpush.net",
-    "dns:domain:urlpush.net",
-    "urlscan:domain:urlredirect.net",
-    "dns:domain:urlredirect.net",
-    "measure:domain:urlredirect.net",
-    "urlscan:domain:urlregistrar.net",
-    "dns:domain:urlregistrar.net",
-    "urlscan:domain:urlreload.net",
-    "dns:domain:urlreload.net",
-    "urlscan:domain:urlscanner.net",
-    "dns:domain:urlscanner.net",
-    "urlscan:domain:urlsync.com",
-    "dns:domain:urlsync.com",
-    "measure:domain:urlsync.com",
-    "urlscan:domain:urlupdates.com",
-    "dns:domain:urlupdates.com",
-    "urlscan:domain:urlviaweb.com",
-    "dns:domain:urlviaweb.com",
-    "urlscan:domain:ursidaewinter.org",
-    "dns:domain:ursidaewinter.org"
+    "urlscan:domain:urspanishteacher.net",
+    "dns:domain:urspanishteacher.net",
+    "urlscan:domain:usedrecite.com",
+    "dns:domain:usedrecite.com",
+    "urlscan:domain:user-members.pro",
+    "dns:domain:user-members.pro",
+    "dns:domain:user-registration.com",
+    "dns:domain:userauthen.pw",
+    "dns:domain:uservicescheck.com",
+    "urlscan:domain:uservicesforyou.com",
+    "dns:domain:uservicesforyou.com",
+    "urlscan:domain:utensils.pro",
+    "dns:domain:utensils.pro",
+    "urlscan:domain:utmostcalamari.net",
+    "dns:domain:utmostcalamari.net",
+    "urlscan:domain:utterbust.net",
+    "dns:domain:utterbust.net",
+    "urlscan:domain:utube.digital",
+    "dns:domain:utube.digital",
+    "urlscan:domain:vacanzesuprema.com",
+    "dns:domain:vacanzesuprema.com",
+    "urlscan:domain:vacationfavored.com",
+    "dns:domain:vacationfavored.com",
+    "urlscan:domain:vaguenessenforcer.net",
+    "dns:domain:vaguenessenforcer.net",
+    "urlscan:domain:validunpadded.com",
+    "dns:domain:validunpadded.com",
+    "urlscan:domain:valuecharm.net",
+    "dns:domain:valuecharm.net",
+    "urlscan:domain:vamizi.info",
+    "dns:domain:vamizi.info",
+    "urlscan:domain:vanillaandcream.com",
+    "dns:domain:vanillaandcream.com",
+    "urlscan:domain:vanitycelery.net",
+    "dns:domain:vanitycelery.net",
+    "urlscan:domain:vanitycredibly.com",
+    "dns:domain:vanitycredibly.com",
+    "urlscan:domain:vaporizerfiddling.com",
+    "dns:domain:vaporizerfiddling.com",
+    "urlscan:domain:variedmud.net",
+    "dns:domain:variedmud.net",
+    "urlscan:domain:varietyjobspaid.org",
+    "dns:domain:varietyjobspaid.org",
+    "dns:domain:varietyregistrar.com"
   ],
   "errors": [
     {
@@ -284,6 +268,242 @@
     {
       "error": "ValueError",
       "query": "measure:domain:89phpcom.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:1xy.eternalspark.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:4sk.eternalspark.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:4tb.eternalspark.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:6nu.eternalspark.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:71902.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:8be.eternalspark.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:8el.eternalspark.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:urspanishteacher.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:urspanishteacher.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:usedrecite.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:usedrecite.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:user-members.pro"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:user-members.pro"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:user-registration.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:user-registration.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:user-registration.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:userauthen.pw"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:userauthen.pw"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:userauthen.pw"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:uservicescheck.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:uservicescheck.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:uservicescheck.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:uservicesforyou.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:uservicesforyou.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:utensils.pro"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:utensils.pro"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:utmostcalamari.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:utmostcalamari.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:utterbust.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:utterbust.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:utube.digital"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:utube.digital"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vacanzesuprema.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vacanzesuprema.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vacationfavored.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vacationfavored.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vaguenessenforcer.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vaguenessenforcer.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:validunpadded.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:validunpadded.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:valuecharm.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:valuecharm.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vamizi.info"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vamizi.info"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vanillaandcream.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vanillaandcream.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vanitycelery.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vanitycelery.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vanitycredibly.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vanitycredibly.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vaporizerfiddling.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vaporizerfiddling.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:variedmud.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:variedmud.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:varietyjobspaid.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:varietyjobspaid.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:varietyregistrar.com"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:varietyregistrar.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:varietyregistrar.com"
     },
     {
       "error": "OSError",
@@ -2008,10 +2228,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-12T15:37:56.304989+00:00",
-  "pending_tasks": 437,
+  "observed_at": "2026-11-13T14:55:49.276676+00:00",
+  "pending_tasks": 496,
   "providers": {
-    "at": "2026-11-12T14:06:42.851100+00:00",
+    "at": "2026-11-13T13:34:00.855508+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -2089,36 +2309,6 @@
       },
       {
         "action": "search",
-        "error": "TimeoutError",
-        "provider": "urlscan",
-        "status": 0
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
         "error": null,
         "provider": "urlscan",
         "status": 200
@@ -2176,6 +2366,36 @@
         "error": "TimeoutError",
         "provider": "urlscan",
         "status": 0
+      },
+      {
+        "action": "search",
+        "error": "TimeoutError",
+        "provider": "urlscan",
+        "status": 0
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
       },
       {
         "action": "search",
@@ -2209,27 +2429,15 @@
       },
       {
         "action": "search",
-        "error": null,
+        "error": "TimeoutError",
         "provider": "urlscan",
-        "status": 200
+        "status": 0
       },
       {
         "action": "search",
-        "error": null,
+        "error": "TimeoutError",
         "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
+        "status": 0
       },
       {
         "action": "search",
@@ -2332,6 +2540,18 @@
         "error": null,
         "provider": "urlscan",
         "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": "TimeoutError",
+        "provider": "urlscan",
+        "status": 0
       },
       {
         "action": "censys",
@@ -2340,7 +2560,7 @@
         "status": 404
       }
     ],
-    "generated_at": "2026-11-12T13:59:40.513139+00:00",
+    "generated_at": "2026-11-13T13:26:49.181345+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
