@@ -1,8 +1,9 @@
 {
-  "candidate_count": 333,
+  "candidate_count": 355,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
+    "dns:domain:cpu20fk3p.dashboardprompt.com",
     "dns:domain:2025eaca.com",
     "dns:domain:2d3.xyz",
     "dns:domain:33jl.app",
@@ -14,8 +15,6 @@
     "dns:domain:4sk.eternalspark.xyz",
     "dns:domain:4tb.eternalspark.xyz",
     "dns:domain:6nu.eternalspark.xyz",
-    "measure:domain:71902.com",
-    "dns:domain:71902.com",
     "dns:domain:8be.eternalspark.xyz",
     "dns:domain:8el.eternalspark.xyz",
     "dns:domain:www.unlockcredit.net",
@@ -61,7 +60,6 @@
     "dns:domain:1ban.cc",
     "measure:domain:1ban.cc",
     "dns:domain:1lott.cloud",
-    "measure:domain:1lott.cloud",
     "dns:domain:1naya.cn",
     "measure:domain:1naya.cn",
     "dns:domain:1router.com",
@@ -168,6 +166,8 @@
     "measure:domain:6nchain.cn",
     "dns:domain:70dollar-30voucer.brotherseventcenter.com",
     "measure:domain:70dollar-30voucer.brotherseventcenter.com",
+    "dns:domain:71902.com",
+    "measure:domain:71902.com",
     "dns:domain:748392.vu",
     "measure:domain:748392.vu",
     "dns:domain:7777mr.com",
@@ -192,53 +192,56 @@
     "measure:domain:88ef3.cam",
     "dns:domain:89y.com.br",
     "measure:domain:89y.com.br",
-    "urlscan:domain:varmintreptile.com",
-    "dns:domain:varmintreptile.com",
-    "urlscan:domain:varnishdeeply.com",
-    "dns:domain:varnishdeeply.com",
-    "urlscan:domain:vastdealsnow.com",
-    "dns:domain:vastdealsnow.com",
-    "urlscan:domain:vault-encryption.com",
-    "dns:domain:vault-encryption.com",
-    "dns:domain:vealcomfy.net",
-    "urlscan:domain:velvetroad.net",
-    "dns:domain:velvetroad.net",
-    "urlscan:domain:ventriclesample.net",
-    "dns:domain:ventriclesample.net",
-    "urlscan:domain:venturecheesy.net",
-    "dns:domain:venturecheesy.net",
-    "urlscan:domain:verdictdelirious.net",
-    "dns:domain:verdictdelirious.net",
-    "urlscan:domain:verification-approve.com",
-    "dns:domain:verification-approve.com",
-    "urlscan:domain:verification-approves.com",
-    "dns:domain:verification-approves.com",
-    "urlscan:domain:verifications-approve.com",
-    "dns:domain:verifications-approve.com",
-    "urlscan:domain:verify-app.online",
-    "dns:domain:verify-app.online",
-    "urlscan:domain:verify-mail.pro",
-    "dns:domain:verify-mail.pro",
-    "urlscan:domain:verifymail.live",
-    "dns:domain:verifymail.live",
-    "urlscan:domain:vers.pw",
-    "dns:domain:vers.pw",
-    "urlscan:domain:versionbobtail.com",
-    "dns:domain:versionbobtail.com",
-    "urlscan:domain:vertigoreviver.com",
-    "dns:domain:vertigoreviver.com",
-    "urlscan:domain:vestruby.com",
-    "dns:domain:vestruby.com",
-    "urlscan:domain:vetostate.link",
-    "dns:domain:vetostate.link",
-    "urlscan:domain:vhelpu.eu",
-    "dns:domain:vhelpu.eu",
-    "urlscan:domain:viabilitydriver.com",
-    "dns:domain:viabilitydriver.com",
-    "urlscan:domain:viaggiarenelmondo.net",
-    "dns:domain:viaggiarenelmondo.net",
-    "urlscan:domain:victorscivils.com",
-    "dns:domain:victorscivils.com"
+    "urlscan:domain:videosdownload.co",
+    "dns:domain:videosdownload.co",
+    "urlscan:domain:videotubbe.net",
+    "dns:domain:videotubbe.net",
+    "urlscan:domain:vider-image.com",
+    "dns:domain:vider-image.com",
+    "urlscan:domain:vie-en-islam.com",
+    "dns:domain:vie-en-islam.com",
+    "urlscan:domain:viedechretien.org",
+    "dns:domain:viedechretien.org",
+    "urlscan:domain:vieweraide.link",
+    "dns:domain:vieweraide.link",
+    "urlscan:domain:viewhdvideos.com",
+    "dns:domain:viewhdvideos.com",
+    "urlscan:domain:viewstracker.com",
+    "dns:domain:viewstracker.com",
+    "urlscan:domain:vindicatestew.net",
+    "dns:domain:vindicatestew.net",
+    "urlscan:domain:violateascent.com",
+    "dns:domain:violateascent.com",
+    "urlscan:domain:vipmasajes.com",
+    "dns:domain:vipmasajes.com",
+    "urlscan:domain:viscoustiring.net",
+    "dns:domain:viscoustiring.net",
+    "urlscan:domain:viselikeheadstand.com",
+    "dns:domain:viselikeheadstand.com",
+    "urlscan:domain:vision-tech.org",
+    "dns:domain:vision-tech.org",
+    "measure:domain:vision-tech.org",
+    "urlscan:domain:visitorsilo.link",
+    "dns:domain:visitorsilo.link",
+    "urlscan:domain:vitaminsportside.com",
+    "dns:domain:vitaminsportside.com",
+    "urlscan:domain:viva-droid.com",
+    "dns:domain:viva-droid.com",
+    "urlscan:domain:viva.gr.com",
+    "dns:domain:viva.gr.com",
+    "urlscan:domain:vividlyproponent.com",
+    "dns:domain:vividlyproponent.com",
+    "urlscan:domain:vivrechezsoi.info",
+    "dns:domain:vivrechezsoi.info",
+    "urlscan:domain:vivva.org",
+    "dns:domain:vivva.org",
+    "urlscan:domain:vkan-profile.com",
+    "dns:domain:vkan-profile.com",
+    "urlscan:domain:vkontak1e.com",
+    "dns:domain:vkontak1e.com",
+    "urlscan:domain:vmlogistics.in",
+    "dns:domain:vmlogistics.in",
+    "measure:domain:vmlogistics.in"
   ],
   "errors": [
     {
@@ -296,6 +299,194 @@
     {
       "error": "ValueError",
       "query": "measure:domain:8el.eternalspark.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:1lott.cloud"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:videosdownload.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:videosdownload.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:videotubbe.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:videotubbe.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vider-image.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vider-image.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vie-en-islam.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vie-en-islam.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:viedechretien.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:viedechretien.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vieweraide.link"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vieweraide.link"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:viewhdvideos.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:viewhdvideos.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:viewstracker.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:viewstracker.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vindicatestew.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vindicatestew.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:violateascent.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:violateascent.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vipmasajes.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vipmasajes.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:viscoustiring.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:viscoustiring.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:viselikeheadstand.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:viselikeheadstand.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vision-tech.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:visitorsilo.link"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:visitorsilo.link"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vitaminsportside.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vitaminsportside.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:viva-droid.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:viva-droid.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:viva.gr.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:viva.gr.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vividlyproponent.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vividlyproponent.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vivrechezsoi.info"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vivrechezsoi.info"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vivva.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vivva.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vkan-profile.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vkan-profile.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vkontak1e.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:vkontak1e.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:vmlogistics.in"
     },
     {
       "error": "OSError",
@@ -2424,10 +2615,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-14T13:48:58.378738+00:00",
-  "pending_tasks": 544,
+  "observed_at": "2026-11-15T14:20:36.492196+00:00",
+  "pending_tasks": 591,
   "providers": {
-    "at": "2026-11-14T12:37:39.764224+00:00",
+    "at": "2026-11-15T13:04:58.574153+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -2571,21 +2762,21 @@
       },
       {
         "action": "search",
-        "error": null,
+        "error": "TimeoutError",
         "provider": "urlscan",
-        "status": 200
+        "status": 0
       },
       {
         "action": "search",
-        "error": null,
+        "error": "TimeoutError",
         "provider": "urlscan",
-        "status": 200
+        "status": 0
       },
       {
         "action": "search",
-        "error": null,
+        "error": "TimeoutError",
         "provider": "urlscan",
-        "status": 200
+        "status": 0
       },
       {
         "action": "search",
@@ -2631,9 +2822,9 @@
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "search",
@@ -2756,7 +2947,7 @@
         "status": 404
       }
     ],
-    "generated_at": "2026-11-14T12:31:22.424501+00:00",
+    "generated_at": "2026-11-15T12:58:04.407843+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
