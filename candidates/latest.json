@@ -1,5 +1,5 @@
 {
-  "candidate_count": 387,
+  "candidate_count": 392,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
@@ -16,6 +16,10 @@
     "dns:domain:6nu.eternalspark.xyz",
     "dns:domain:8be.eternalspark.xyz",
     "dns:domain:8el.eternalspark.xyz",
+    "measure:domain:1naya.cn",
+    "dns:domain:1naya.cn",
+    "measure:domain:67017.club",
+    "dns:domain:67017.club",
     "dns:domain:0.hiu33.workers.dev",
     "measure:domain:0.hiu33.workers.dev",
     "dns:domain:0088betb.com",
@@ -58,7 +62,6 @@
     "measure:domain:1ban.cc",
     "dns:domain:1lott.cloud",
     "measure:domain:1lott.cloud",
-    "dns:domain:1naya.cn",
     "dns:domain:1router.com",
     "measure:domain:1router.com",
     "dns:domain:1win-1.cl",
@@ -149,7 +152,6 @@
     "measure:domain:64phmajesty.xyz",
     "dns:domain:656737.com",
     "measure:domain:656737.com",
-    "dns:domain:67017.club",
     "dns:domain:67h225.com",
     "measure:domain:67h225.com",
     "dns:domain:6947y.top",
@@ -192,56 +194,55 @@
     "measure:domain:89y.com.br",
     "dns:domain:www.unlockcredit.net",
     "measure:domain:www.unlockcredit.net",
-    "urlscan:domain:web-check.co",
-    "dns:domain:web-check.co",
-    "urlscan:domain:web-config.org",
-    "dns:domain:web-config.org",
-    "urlscan:domain:web-developper.net",
-    "dns:domain:web-developper.net",
-    "urlscan:domain:web-domain.net",
-    "dns:domain:web-domain.net",
-    "urlscan:domain:web-hoster.co",
-    "dns:domain:web-hoster.co",
-    "urlscan:domain:web-loading.com",
-    "dns:domain:web-loading.com",
-    "urlscan:domain:web-loading.net",
-    "dns:domain:web-loading.net",
-    "urlscan:domain:web-only.net",
-    "dns:domain:web-only.net",
-    "urlscan:domain:web-page.co",
-    "dns:domain:web-page.co",
-    "measure:domain:web-page.co",
-    "urlscan:domain:web-scanner.co",
-    "dns:domain:web-scanner.co",
-    "urlscan:domain:web-spider.net",
-    "dns:domain:web-spider.net",
-    "urlscan:domain:web-url.net",
-    "dns:domain:web-url.net",
-    "measure:domain:web-url.net",
-    "urlscan:domain:web-viewer.online",
-    "dns:domain:web-viewer.online",
-    "urlscan:domain:webadv.co",
-    "dns:domain:webadv.co",
-    "urlscan:domain:webaffise.com",
-    "dns:domain:webaffise.com",
-    "urlscan:domain:webdisk.documentpro.org",
-    "dns:domain:webdisk.documentpro.org",
-    "urlscan:domain:webdisk.tahmilmilafate.com",
-    "dns:domain:webdisk.tahmilmilafate.com",
-    "urlscan:domain:webexaminer.net",
-    "dns:domain:webexaminer.net",
-    "urlscan:domain:webjars.net",
-    "dns:domain:webjars.net",
-    "urlscan:domain:weblive.pw",
-    "dns:domain:weblive.pw",
-    "urlscan:domain:webmail.documentpro.org",
-    "dns:domain:webmail.documentpro.org",
-    "urlscan:domain:webmail.tahmilmilafate.com",
-    "dns:domain:webmail.tahmilmilafate.com",
-    "urlscan:domain:webpageupdate.co",
-    "dns:domain:webpageupdate.co",
-    "urlscan:domain:webprotector.co",
-    "dns:domain:webprotector.co"
+    "urlscan:domain:webprotocol.net",
+    "dns:domain:webprotocol.net",
+    "urlscan:domain:webresourcer.com",
+    "dns:domain:webresourcer.com",
+    "urlscan:domain:websconnector.co",
+    "dns:domain:websconnector.co",
+    "urlscan:domain:websiteconnecting.com",
+    "dns:domain:websiteconnecting.com",
+    "urlscan:domain:websiteeco.com",
+    "dns:domain:websiteeco.com",
+    "urlscan:domain:websitereconnecting.com",
+    "dns:domain:websitereconnecting.com",
+    "urlscan:domain:websites4yourhost.com",
+    "dns:domain:websites4yourhost.com",
+    "urlscan:domain:websitetosubmit.com",
+    "dns:domain:websitetosubmit.com",
+    "measure:domain:websitetosubmit.com",
+    "urlscan:domain:webstrings.net",
+    "dns:domain:webstrings.net",
+    "urlscan:domain:websupporter.co",
+    "dns:domain:websupporter.co",
+    "urlscan:domain:webtechuse.net",
+    "dns:domain:webtechuse.net",
+    "urlscan:domain:webtunnels.net",
+    "dns:domain:webtunnels.net",
+    "urlscan:domain:webupdater.net",
+    "dns:domain:webupdater.net",
+    "urlscan:domain:webview-redirect.com",
+    "dns:domain:webview-redirect.com",
+    "urlscan:domain:wedding-strategy.com",
+    "dns:domain:wedding-strategy.com",
+    "urlscan:domain:weddingbandsoft.com",
+    "dns:domain:weddingbandsoft.com",
+    "urlscan:domain:welcomehosting.net",
+    "dns:domain:welcomehosting.net",
+    "urlscan:domain:welovebigcakes.com",
+    "dns:domain:welovebigcakes.com",
+    "urlscan:domain:welovelollipops.com",
+    "dns:domain:welovelollipops.com",
+    "urlscan:domain:welovemorningcoffees.com",
+    "dns:domain:welovemorningcoffees.com",
+    "urlscan:domain:westcareast.net",
+    "dns:domain:westcareast.net",
+    "urlscan:domain:wewantflowersnow.com",
+    "dns:domain:wewantflowersnow.com",
+    "urlscan:domain:wha.tsapp.me",
+    "dns:domain:wha.tsapp.me",
+    "urlscan:domain:whatcando.net",
+    "dns:domain:whatcando.net"
   ],
   "errors": [
     {
@@ -297,12 +298,192 @@
       "query": "measure:domain:8el.eternalspark.xyz"
     },
     {
-      "error": "ValueError",
-      "query": "measure:domain:1naya.cn"
+      "error": "OSError",
+      "query": "ct:domain:webprotocol.net"
     },
     {
       "error": "ValueError",
-      "query": "measure:domain:67017.club"
+      "query": "measure:domain:webprotocol.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:webresourcer.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:webresourcer.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:websconnector.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:websconnector.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:websiteconnecting.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:websiteconnecting.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:websiteeco.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:websiteeco.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:websitereconnecting.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:websitereconnecting.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:websites4yourhost.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:websites4yourhost.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:websitetosubmit.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:webstrings.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:webstrings.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:websupporter.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:websupporter.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:webtechuse.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:webtechuse.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:webtunnels.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:webtunnels.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:webupdater.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:webupdater.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:webview-redirect.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:webview-redirect.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wedding-strategy.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wedding-strategy.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:weddingbandsoft.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:weddingbandsoft.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:welcomehosting.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:welcomehosting.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:welovebigcakes.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:welovebigcakes.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:welovelollipops.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:welovelollipops.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:welovemorningcoffees.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:welovemorningcoffees.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:westcareast.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:westcareast.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wewantflowersnow.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wewantflowersnow.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wha.tsapp.me"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wha.tsapp.me"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:whatcando.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:whatcando.net"
     },
     {
       "error": "OSError",
@@ -2991,10 +3172,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-18T15:59:05.723032+00:00",
-  "pending_tasks": 685,
+  "observed_at": "2026-11-19T16:05:50.744581+00:00",
+  "pending_tasks": 730,
   "providers": {
-    "at": "2026-11-18T14:40:56.780673+00:00",
+    "at": "2026-11-19T14:48:12.328718+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -3323,7 +3504,7 @@
         "status": 404
       }
     ],
-    "generated_at": "2026-11-18T14:35:08.285990+00:00",
+    "generated_at": "2026-11-19T14:42:11.991698+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
