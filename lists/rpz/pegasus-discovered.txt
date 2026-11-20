@@ -5,13 +5,13 @@
 ; Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 ; Issues: https://github.com/LeonardSEO/pegasus-blocklist/issues
 ; Expires: 1 day
-; Last modified: 19 Nov 2026 16:13 UTC
-; Version: 2026.1119.161342
+; Last modified: 20 Nov 2026 15:50 UTC
+; Version: 2026.1120.155001
 ; Syntax: Response Policy Zone (BIND, PowerDNS, Knot, Technitium)
 ; Number of entries: 0
 ; Number of domains: 0
 ;
 $TTL 300
-@ IN SOA localhost. root.localhost. 1795104822 43200 3600 259200 300
+@ IN SOA localhost. root.localhost. 1795189801 43200 3600 259200 300
 @ IN NS localhost.
 
