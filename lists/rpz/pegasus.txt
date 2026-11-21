@@ -5,14 +5,14 @@
 ; Sources: Frozen bootstrap and independent evidence register; see docs/SOURCES.md
 ; Issues: https://github.com/LeonardSEO/pegasus-blocklist/issues
 ; Expires: 1 day
-; Last modified: 20 Nov 2026 15:50 UTC
-; Version: 2026.1120.155001
+; Last modified: 21 Nov 2026 15:02 UTC
+; Version: 2026.1121.150259
 ; Syntax: Response Policy Zone (BIND, PowerDNS, Knot, Technitium)
 ; Number of entries: 10000
 ; Number of domains: 5000
 ;
 $TTL 300
-@ IN SOA localhost. root.localhost. 1795189801 43200 3600 259200 300
+@ IN SOA localhost. root.localhost. 1795273379 43200 3600 259200 300
 @ IN NS localhost.
 
 123tramites.com CNAME .
