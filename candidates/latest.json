@@ -1,234 +1,58 @@
 {
-  "candidate_count": 450,
+  "candidate_count": 456,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
-    "dns:domain:0.hiu33.workers.dev",
-    "measure:domain:0.hiu33.workers.dev",
-    "dns:domain:0088betb.com",
-    "measure:domain:0088betb.com",
-    "dns:domain:020tt.com",
-    "measure:domain:020tt.com",
-    "dns:domain:028tt.com",
-    "measure:domain:028tt.com",
-    "dns:domain:10-zy-ypsp.mjuygb67.workers.dev",
-    "measure:domain:10-zy-ypsp.mjuygb67.workers.dev",
-    "dns:domain:10-zy-yx.mjuygb67.workers.dev",
-    "measure:domain:10-zy-yx.mjuygb67.workers.dev",
-    "dns:domain:100yo.cn",
-    "measure:domain:100yo.cn",
-    "dns:domain:10655889.com",
-    "measure:domain:10655889.com",
-    "dns:domain:11-js-spyp.mjuygb67.workers.dev",
-    "measure:domain:11-js-spyp.mjuygb67.workers.dev",
-    "dns:domain:11-js-yx.mjuygb67.workers.dev",
-    "measure:domain:11-js-yx.mjuygb67.workers.dev",
-    "dns:domain:11tbet12r.top",
-    "measure:domain:11tbet12r.top",
-    "dns:domain:1200winfc.com",
-    "measure:domain:1200winfc.com",
-    "dns:domain:123-dzo.123dzocasinobet.com",
-    "measure:domain:123-dzo.123dzocasinobet.com",
-    "dns:domain:123.yansariel.cc.cd",
-    "measure:domain:123.yansariel.cc.cd",
-    "dns:domain:123dzocasinobet.com",
-    "measure:domain:123dzocasinobet.com",
-    "dns:domain:12uu88.app",
-    "measure:domain:12uu88.app",
-    "dns:domain:158bit.net",
-    "measure:domain:158bit.net",
-    "dns:domain:1777betfb.com",
-    "measure:domain:1777betfb.com",
-    "dns:domain:192168o1.cc",
-    "measure:domain:192168o1.cc",
-    "dns:domain:1ban.cc",
-    "measure:domain:1ban.cc",
-    "dns:domain:1lott.cloud",
-    "measure:domain:1lott.cloud",
-    "dns:domain:1naya.cn",
-    "measure:domain:1naya.cn",
-    "dns:domain:1router.com",
-    "measure:domain:1router.com",
-    "dns:domain:1win-1.cl",
-    "measure:domain:1win-1.cl",
-    "dns:domain:1win-eeh.top",
-    "measure:domain:1win-eeh.top",
-    "dns:domain:2-yd-yx.mjuygb67.workers.dev",
-    "measure:domain:2-yd-yx.mjuygb67.workers.dev",
-    "dns:domain:20230814.inkyiyo.workers.dev",
-    "measure:domain:20230814.inkyiyo.workers.dev",
-    "dns:domain:20bgd11.com",
-    "measure:domain:20bgd11.com",
-    "dns:domain:2144z.tv",
-    "measure:domain:2144z.tv",
-    "dns:domain:2233.inkyiyo.workers.dev",
-    "measure:domain:2233.inkyiyo.workers.dev",
-    "dns:domain:22999908.com",
-    "measure:domain:22999908.com",
-    "dns:domain:22bb.app",
-    "measure:domain:22bb.app",
-    "dns:domain:22ccbets.com",
-    "measure:domain:22ccbets.com",
-    "dns:domain:22job.pro",
-    "measure:domain:22job.pro",
-    "dns:domain:23.people-people.app",
-    "measure:domain:23.people-people.app",
-    "dns:domain:247stats.com",
-    "measure:domain:247stats.com",
-    "dns:domain:2647montereyblvd.com",
-    "measure:domain:2647montereyblvd.com",
-    "dns:domain:2663.casino",
-    "measure:domain:2663.casino",
-    "dns:domain:2treehousellc-com.sitessmith.com",
-    "measure:domain:2treehousellc-com.sitessmith.com",
-    "dns:domain:33033688.com",
-    "measure:domain:33033688.com",
-    "dns:domain:33rr.22bb.app",
-    "measure:domain:33rr.22bb.app",
-    "dns:domain:355betws.com",
-    "measure:domain:355betws.com",
-    "dns:domain:399bet33.com",
-    "measure:domain:399bet33.com",
-    "dns:domain:399slots.lat",
-    "measure:domain:399slots.lat",
-    "dns:domain:3fun.club",
-    "measure:domain:3fun.club",
-    "dns:domain:4000135800.com",
-    "measure:domain:4000135800.com",
-    "dns:domain:44rrapk.com",
-    "measure:domain:44rrapk.com",
-    "dns:domain:4bdt99.cam",
-    "measure:domain:4bdt99.cam",
-    "dns:domain:4m7x9b.com",
-    "measure:domain:4m7x9b.com",
-    "dns:domain:5-cn-yx.mjuygb67.workers.dev",
-    "measure:domain:5-cn-yx.mjuygb67.workers.dev",
-    "dns:domain:5-lr-yx.mjuygb67.workers.dev",
-    "measure:domain:5-lr-yx.mjuygb67.workers.dev",
-    "dns:domain:519897793.xyz",
-    "measure:domain:519897793.xyz",
-    "dns:domain:51qer.com",
-    "measure:domain:51qer.com",
-    "dns:domain:51shiping.net",
-    "measure:domain:51shiping.net",
-    "dns:domain:51xmmw.com",
-    "measure:domain:51xmmw.com",
-    "dns:domain:547546.com",
-    "measure:domain:547546.com",
-    "dns:domain:556bet-bonus.com",
-    "measure:domain:556bet-bonus.com",
-    "dns:domain:55clubs.link",
-    "measure:domain:55clubs.link",
-    "dns:domain:55rp66.com",
-    "measure:domain:55rp66.com",
-    "dns:domain:5c458.com",
-    "measure:domain:5c458.com",
-    "dns:domain:5pplegal.com",
-    "measure:domain:5pplegal.com",
-    "dns:domain:6-ss-ypsp.mjuygb67.workers.dev",
-    "measure:domain:6-ss-ypsp.mjuygb67.workers.dev",
-    "dns:domain:6-ss-yx.mjuygb67.workers.dev",
-    "measure:domain:6-ss-yx.mjuygb67.workers.dev",
-    "dns:domain:6019222.com",
-    "measure:domain:6019222.com",
-    "dns:domain:602340760.xyz",
-    "measure:domain:602340760.xyz",
-    "dns:domain:64phmajesty.xyz",
-    "measure:domain:64phmajesty.xyz",
-    "dns:domain:656737.com",
-    "measure:domain:656737.com",
-    "dns:domain:67017.club",
-    "measure:domain:67017.club",
-    "dns:domain:67h225.com",
-    "measure:domain:67h225.com",
-    "dns:domain:6947y.top",
-    "measure:domain:6947y.top",
-    "dns:domain:69k5057q0r.519897793.xyz",
-    "measure:domain:69k5057q0r.519897793.xyz",
-    "dns:domain:6guacm32mz.519897793.xyz",
-    "measure:domain:6guacm32mz.519897793.xyz",
-    "dns:domain:6nchain.cn",
-    "measure:domain:6nchain.cn",
-    "dns:domain:70dollar-30voucer.brotherseventcenter.com",
-    "measure:domain:70dollar-30voucer.brotherseventcenter.com",
-    "dns:domain:71902.com",
-    "measure:domain:71902.com",
-    "dns:domain:748392.vu",
-    "measure:domain:748392.vu",
-    "dns:domain:771287.com",
-    "measure:domain:771287.com",
-    "dns:domain:7777mr.com",
-    "measure:domain:7777mr.com",
-    "dns:domain:777hokigacor.xyz",
-    "measure:domain:777hokigacor.xyz",
-    "dns:domain:777ya.vu",
-    "measure:domain:777ya.vu",
-    "dns:domain:7799betvip.com",
-    "measure:domain:7799betvip.com",
-    "dns:domain:77win9loginvip.com",
-    "measure:domain:77win9loginvip.com",
-    "dns:domain:7a7777.net",
-    "measure:domain:7a7777.net",
-    "dns:domain:7k5f98qx6c.top",
-    "measure:domain:7k5f98qx6c.top",
-    "dns:domain:7q777.casino",
-    "measure:domain:7q777.casino",
-    "dns:domain:888winsh.com",
-    "dns:domain:88ef3.cam",
-    "measure:domain:88ef3.cam",
-    "dns:domain:89y.com.br",
-    "measure:domain:89y.com.br",
-    "dns:domain:www.unlockcredit.net",
-    "measure:domain:www.unlockcredit.net",
-    "urlscan:domain:willowsquishy.net",
-    "dns:domain:willowsquishy.net",
-    "urlscan:domain:willpurpleshe.com",
-    "dns:domain:willpurpleshe.com",
-    "urlscan:domain:windowtiles.net",
-    "dns:domain:windowtiles.net",
-    "urlscan:domain:windwhensolar.com",
-    "dns:domain:windwhensolar.com",
-    "urlscan:domain:windyone.net",
-    "dns:domain:windyone.net",
-    "urlscan:domain:winfoxflip.com",
-    "dns:domain:winfoxflip.com",
-    "urlscan:domain:winkingtapestry.net",
-    "dns:domain:winkingtapestry.net",
-    "urlscan:domain:winningsdwarf.link",
-    "dns:domain:winningsdwarf.link",
-    "urlscan:domain:winter-balance.com",
-    "dns:domain:winter-balance.com",
-    "urlscan:domain:winterflavorful.net",
-    "dns:domain:winterflavorful.net",
-    "urlscan:domain:wintertimes.co",
-    "dns:domain:wintertimes.co",
-    "urlscan:domain:wirelesspuritan.org",
-    "dns:domain:wirelesspuritan.org",
-    "urlscan:domain:wisehardware.net",
-    "dns:domain:wisehardware.net",
-    "urlscan:domain:wishdownget.com",
-    "dns:domain:wishdownget.com",
-    "urlscan:domain:without-additional.com",
-    "dns:domain:without-additional.com",
-    "urlscan:domain:witness-delay.com",
-    "dns:domain:witness-delay.com",
-    "urlscan:domain:witquote.com",
-    "dns:domain:witquote.com",
-    "urlscan:domain:wobbleaerosol.link",
-    "dns:domain:wobbleaerosol.link",
-    "urlscan:domain:wobblingduration.net",
-    "dns:domain:wobblingduration.net",
-    "urlscan:domain:wobblyprofessed.net",
-    "dns:domain:wobblyprofessed.net",
-    "urlscan:domain:womanlyshrapnel.net",
-    "dns:domain:womanlyshrapnel.net",
-    "urlscan:domain:wondercakemake.com",
-    "dns:domain:wondercakemake.com",
-    "urlscan:domain:wonderfulinsights.com",
-    "dns:domain:wonderfulinsights.com",
-    "measure:domain:wonderfulinsights.com",
-    "urlscan:domain:wonderonbrain.net",
-    "dns:domain:wonderonbrain.net"
+    "urlscan:domain:wonderwhythis.net",
+    "dns:domain:wonderwhythis.net",
+    "urlscan:domain:woodhome4u.com",
+    "dns:domain:woodhome4u.com",
+    "urlscan:domain:woofdarkened.com",
+    "dns:domain:woofdarkened.com",
+    "urlscan:domain:woozysnugly.org",
+    "dns:domain:woozysnugly.org",
+    "urlscan:domain:wordstore.net",
+    "dns:domain:wordstore.net",
+    "urlscan:domain:working-online.net",
+    "dns:domain:working-online.net",
+    "urlscan:domain:workshopmanager.net",
+    "dns:domain:workshopmanager.net",
+    "measure:domain:workshopmanager.net",
+    "urlscan:domain:worldnws.xyz",
+    "dns:domain:worldnws.xyz",
+    "urlscan:domain:worrisomejailhouse.org",
+    "dns:domain:worrisomejailhouse.org",
+    "urlscan:domain:worshiperborrower.net",
+    "dns:domain:worshiperborrower.net",
+    "urlscan:domain:worshiperunsoiled.com",
+    "dns:domain:worshiperunsoiled.com",
+    "urlscan:domain:worstdaycare.com",
+    "dns:domain:worstdaycare.com",
+    "urlscan:domain:worthyumbrella.org",
+    "dns:domain:worthyumbrella.org",
+    "urlscan:domain:wrangleprimate.net",
+    "dns:domain:wrangleprimate.net",
+    "urlscan:domain:wranglesmartness.net",
+    "dns:domain:wranglesmartness.net",
+    "urlscan:domain:wrappedaural.org",
+    "dns:domain:wrappedaural.org",
+    "urlscan:domain:wraptext.net",
+    "dns:domain:wraptext.net",
+    "urlscan:domain:wrathpushcart.net",
+    "dns:domain:wrathpushcart.net",
+    "urlscan:domain:wrenchhappier.net",
+    "dns:domain:wrenchhappier.net",
+    "urlscan:domain:writtenunmanned.com",
+    "dns:domain:writtenunmanned.com",
+    "urlscan:domain:wrongedshun.net",
+    "dns:domain:wrongedshun.net",
+    "urlscan:domain:wronglyobscurity.net",
+    "dns:domain:wronglyobscurity.net",
+    "urlscan:domain:wrongright.net",
+    "dns:domain:wrongright.net",
+    "urlscan:domain:wtc1111.com",
+    "dns:domain:wtc1111.com",
+    "measure:domain:wikistone.net"
   ],
   "errors": [
     {
@@ -286,6 +110,194 @@
     {
       "error": "ValueError",
       "query": "measure:domain:8el.eternalspark.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wonderwhythis.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wonderwhythis.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:woodhome4u.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:woodhome4u.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:woofdarkened.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:woofdarkened.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:woozysnugly.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:woozysnugly.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wordstore.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wordstore.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:working-online.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:working-online.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:workshopmanager.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:worldnws.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:worldnws.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:worrisomejailhouse.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:worrisomejailhouse.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:worshiperborrower.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:worshiperborrower.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:worshiperunsoiled.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:worshiperunsoiled.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:worstdaycare.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:worstdaycare.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:worthyumbrella.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:worthyumbrella.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wrangleprimate.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wrangleprimate.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wranglesmartness.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wranglesmartness.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wrappedaural.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wrappedaural.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wraptext.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wraptext.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wrathpushcart.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wrathpushcart.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wrenchhappier.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wrenchhappier.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:writtenunmanned.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:writtenunmanned.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wrongedshun.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wrongedshun.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wronglyobscurity.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wronglyobscurity.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wrongright.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wrongright.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:wtc1111.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:wtc1111.com"
     },
     {
       "error": "OSError",
@@ -654,10 +666,6 @@
     {
       "error": "OSError",
       "query": "ct:domain:wikistone.net"
-    },
-    {
-      "error": "ValueError",
-      "query": "measure:domain:wikistone.net"
     },
     {
       "error": "OSError",
@@ -3542,10 +3550,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-21T14:56:58.190498+00:00",
-  "pending_tasks": 826,
+  "observed_at": "2026-11-22T14:55:22.533746+00:00",
+  "pending_tasks": 872,
   "providers": {
-    "at": "2026-11-21T13:49:21.795330+00:00",
+    "at": "2026-11-22T13:43:18.860261+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -3874,7 +3882,7 @@
         "status": 404
       }
     ],
-    "generated_at": "2026-11-21T13:43:31.685514+00:00",
+    "generated_at": "2026-11-22T13:37:27.752783+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
