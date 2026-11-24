@@ -1,247 +1,54 @@
 {
-  "candidate_count": 485,
+  "candidate_count": 492,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
-    "dns:domain:cpu20fk3p.dashboardprompt.com",
-    "dns:domain:2025eaca.com",
-    "dns:domain:2d3.xyz",
-    "dns:domain:33jl.app",
-    "dns:domain:443809.cc",
-    "dns:domain:783330.email",
-    "dns:domain:89phpcom.com",
-    "dns:domain:1xy.eternalspark.xyz",
-    "dns:domain:4sk.eternalspark.xyz",
-    "dns:domain:4tb.eternalspark.xyz",
-    "dns:domain:6nu.eternalspark.xyz",
-    "dns:domain:8be.eternalspark.xyz",
-    "dns:domain:8el.eternalspark.xyz",
-    "dns:domain:888winsh.com",
-    "dns:domain:0.hiu33.workers.dev",
-    "measure:domain:0.hiu33.workers.dev",
-    "dns:domain:0088betb.com",
-    "measure:domain:0088betb.com",
-    "dns:domain:020tt.com",
-    "measure:domain:020tt.com",
-    "dns:domain:028tt.com",
-    "measure:domain:028tt.com",
-    "dns:domain:10-zy-ypsp.mjuygb67.workers.dev",
-    "measure:domain:10-zy-ypsp.mjuygb67.workers.dev",
-    "dns:domain:10-zy-yx.mjuygb67.workers.dev",
-    "measure:domain:10-zy-yx.mjuygb67.workers.dev",
-    "dns:domain:100yo.cn",
-    "measure:domain:100yo.cn",
-    "dns:domain:10655889.com",
-    "measure:domain:10655889.com",
-    "dns:domain:11-js-spyp.mjuygb67.workers.dev",
-    "measure:domain:11-js-spyp.mjuygb67.workers.dev",
-    "dns:domain:11-js-yx.mjuygb67.workers.dev",
-    "measure:domain:11-js-yx.mjuygb67.workers.dev",
-    "dns:domain:11tbet12r.top",
-    "measure:domain:11tbet12r.top",
-    "dns:domain:1200winfc.com",
-    "measure:domain:1200winfc.com",
-    "dns:domain:123-dzo.123dzocasinobet.com",
-    "measure:domain:123-dzo.123dzocasinobet.com",
-    "dns:domain:123.yansariel.cc.cd",
-    "measure:domain:123.yansariel.cc.cd",
-    "dns:domain:123dzocasinobet.com",
-    "measure:domain:123dzocasinobet.com",
-    "dns:domain:12uu88.app",
-    "measure:domain:12uu88.app",
-    "dns:domain:158bit.net",
-    "measure:domain:158bit.net",
-    "dns:domain:1777betfb.com",
-    "measure:domain:1777betfb.com",
-    "dns:domain:192168o1.cc",
-    "measure:domain:192168o1.cc",
-    "dns:domain:1ban.cc",
-    "measure:domain:1ban.cc",
-    "dns:domain:1lott.cloud",
-    "measure:domain:1lott.cloud",
-    "dns:domain:1naya.cn",
-    "measure:domain:1naya.cn",
-    "dns:domain:1router.com",
-    "measure:domain:1router.com",
-    "dns:domain:1win-1.cl",
-    "measure:domain:1win-1.cl",
-    "dns:domain:1win-eeh.top",
-    "measure:domain:1win-eeh.top",
-    "dns:domain:2-yd-yx.mjuygb67.workers.dev",
-    "measure:domain:2-yd-yx.mjuygb67.workers.dev",
-    "dns:domain:20230814.inkyiyo.workers.dev",
-    "measure:domain:20230814.inkyiyo.workers.dev",
-    "dns:domain:20bgd11.com",
-    "measure:domain:20bgd11.com",
-    "dns:domain:2144z.tv",
-    "measure:domain:2144z.tv",
-    "dns:domain:2233.inkyiyo.workers.dev",
-    "measure:domain:2233.inkyiyo.workers.dev",
-    "dns:domain:22999908.com",
-    "measure:domain:22999908.com",
-    "dns:domain:22bb.app",
-    "measure:domain:22bb.app",
-    "dns:domain:22ccbets.com",
-    "measure:domain:22ccbets.com",
-    "dns:domain:22job.pro",
-    "measure:domain:22job.pro",
-    "dns:domain:23.people-people.app",
-    "measure:domain:23.people-people.app",
-    "dns:domain:247stats.com",
-    "measure:domain:247stats.com",
-    "dns:domain:2647montereyblvd.com",
-    "measure:domain:2647montereyblvd.com",
-    "dns:domain:2663.casino",
-    "measure:domain:2663.casino",
-    "dns:domain:2treehousellc-com.sitessmith.com",
-    "measure:domain:2treehousellc-com.sitessmith.com",
-    "dns:domain:33033688.com",
-    "measure:domain:33033688.com",
-    "dns:domain:33rr.22bb.app",
-    "measure:domain:33rr.22bb.app",
-    "dns:domain:355betws.com",
-    "measure:domain:355betws.com",
-    "dns:domain:399bet33.com",
-    "measure:domain:399bet33.com",
-    "dns:domain:399slots.lat",
-    "measure:domain:399slots.lat",
-    "dns:domain:3fun.club",
-    "measure:domain:3fun.club",
-    "dns:domain:4000135800.com",
-    "measure:domain:4000135800.com",
-    "dns:domain:44rrapk.com",
-    "measure:domain:44rrapk.com",
-    "dns:domain:4bdt99.cam",
-    "measure:domain:4bdt99.cam",
-    "dns:domain:4m7x9b.com",
-    "measure:domain:4m7x9b.com",
-    "dns:domain:5-cn-yx.mjuygb67.workers.dev",
-    "measure:domain:5-cn-yx.mjuygb67.workers.dev",
-    "dns:domain:5-lr-yx.mjuygb67.workers.dev",
-    "measure:domain:5-lr-yx.mjuygb67.workers.dev",
-    "dns:domain:519897793.xyz",
-    "measure:domain:519897793.xyz",
-    "dns:domain:51qer.com",
-    "measure:domain:51qer.com",
-    "dns:domain:51shiping.net",
-    "measure:domain:51shiping.net",
-    "dns:domain:51xmmw.com",
-    "measure:domain:51xmmw.com",
-    "dns:domain:547546.com",
-    "measure:domain:547546.com",
-    "dns:domain:556bet-bonus.com",
-    "measure:domain:556bet-bonus.com",
-    "dns:domain:55clubs.link",
-    "measure:domain:55clubs.link",
-    "dns:domain:55rp66.com",
-    "measure:domain:55rp66.com",
-    "dns:domain:5c458.com",
-    "measure:domain:5c458.com",
-    "dns:domain:5pplegal.com",
-    "measure:domain:5pplegal.com",
-    "dns:domain:6-ss-ypsp.mjuygb67.workers.dev",
-    "measure:domain:6-ss-ypsp.mjuygb67.workers.dev",
-    "dns:domain:6-ss-yx.mjuygb67.workers.dev",
-    "measure:domain:6-ss-yx.mjuygb67.workers.dev",
-    "dns:domain:6019222.com",
-    "measure:domain:6019222.com",
-    "dns:domain:602340760.xyz",
-    "measure:domain:602340760.xyz",
-    "dns:domain:64phmajesty.xyz",
-    "measure:domain:64phmajesty.xyz",
-    "dns:domain:656737.com",
-    "measure:domain:656737.com",
-    "dns:domain:67017.club",
-    "measure:domain:67017.club",
-    "dns:domain:67h225.com",
-    "measure:domain:67h225.com",
-    "dns:domain:6947y.top",
-    "measure:domain:6947y.top",
-    "dns:domain:69k5057q0r.519897793.xyz",
-    "measure:domain:69k5057q0r.519897793.xyz",
-    "dns:domain:6guacm32mz.519897793.xyz",
-    "measure:domain:6guacm32mz.519897793.xyz",
-    "dns:domain:6nchain.cn",
-    "measure:domain:6nchain.cn",
-    "dns:domain:70dollar-30voucer.brotherseventcenter.com",
-    "measure:domain:70dollar-30voucer.brotherseventcenter.com",
-    "dns:domain:71902.com",
-    "measure:domain:71902.com",
-    "dns:domain:748392.vu",
-    "measure:domain:748392.vu",
-    "dns:domain:771287.com",
-    "measure:domain:771287.com",
-    "dns:domain:7777mr.com",
-    "measure:domain:7777mr.com",
-    "dns:domain:777hokigacor.xyz",
-    "measure:domain:777hokigacor.xyz",
-    "dns:domain:777ya.vu",
-    "measure:domain:777ya.vu",
-    "dns:domain:7799betvip.com",
-    "measure:domain:7799betvip.com",
-    "dns:domain:77win9loginvip.com",
-    "measure:domain:77win9loginvip.com",
-    "dns:domain:7a7777.net",
-    "measure:domain:7a7777.net",
-    "dns:domain:7k5f98qx6c.top",
-    "measure:domain:7k5f98qx6c.top",
-    "dns:domain:7q777.casino",
-    "measure:domain:7q777.casino",
-    "dns:domain:88ef3.cam",
-    "measure:domain:88ef3.cam",
-    "dns:domain:89y.com.br",
-    "measure:domain:89y.com.br",
-    "dns:domain:www.unlockcredit.net",
-    "measure:domain:www.unlockcredit.net",
-    "urlscan:domain:wtc2222.com",
-    "dns:domain:wtc2222.com",
-    "urlscan:domain:wtc3333.com",
-    "dns:domain:wtc3333.com",
-    "urlscan:domain:www.documentpro.org",
-    "dns:domain:www.documentpro.org",
-    "measure:domain:www.documentpro.org",
-    "urlscan:domain:www.hmizat.co",
-    "dns:domain:www.hmizat.co",
-    "urlscan:domain:www.infopress.com",
-    "dns:domain:www.infopress.com",
-    "measure:domain:www.infopress.com",
-    "urlscan:domain:www.revolution-news.co",
-    "dns:domain:www.revolution-news.co",
-    "urlscan:domain:www.secure-email.site",
-    "dns:domain:www.secure-email.site",
-    "urlscan:domain:www.stopsms.biz",
-    "dns:domain:www.stopsms.biz",
-    "measure:domain:www.stopsms.biz",
-    "urlscan:domain:www.tahmilmilafate.com",
-    "dns:domain:www.tahmilmilafate.com",
-    "dns:domain:www.videosdownload.co",
-    "urlscan:domain:xbz.pw",
-    "dns:domain:xbz.pw",
-    "urlscan:domain:xchange4u.net",
-    "dns:domain:xchange4u.net",
-    "urlscan:domain:xchangerates247.net",
-    "dns:domain:xchangerates247.net",
-    "urlscan:domain:xf.actor",
-    "dns:domain:xf.actor",
-    "dns:domain:xn--avyfedera-yubm.org",
-    "urlscan:domain:xn--bckchain-v3a30f.com",
-    "dns:domain:xn--bckchain-v3a30f.com",
-    "urlscan:domain:xn--blckchain-17c.com",
-    "dns:domain:xn--blckchain-17c.com",
-    "urlscan:domain:xn--blockcain-lmb.com",
-    "dns:domain:xn--blockcain-lmb.com",
-    "urlscan:domain:xn--mxamya0a.ccn",
-    "dns:domain:xn--mxamya0a.ccn",
-    "urlscan:domain:xn--mynavyfedera-occ.org",
-    "dns:domain:xn--mynavyfedera-occ.org",
-    "urlscan:domain:xn--navyfderal-36a.com",
-    "dns:domain:xn--navyfderal-36a.com",
-    "urlscan:domain:xn--navyfedera-j0b.org",
-    "dns:domain:xn--navyfedera-j0b.org",
-    "urlscan:domain:xn--nissn-3jc.com",
-    "dns:domain:xn--nissn-3jc.com",
-    "urlscan:domain:xn--noki-t5b.com",
-    "dns:domain:xn--noki-t5b.com"
+    "urlscan:domain:xn--telegrm-qbd.com",
+    "dns:domain:xn--telegrm-qbd.com",
+    "urlscan:domain:xnxx-hub.com",
+    "dns:domain:xnxx-hub.com",
+    "urlscan:domain:xtremelivesupport.com",
+    "dns:domain:xtremelivesupport.com",
+    "urlscan:domain:xyvok.xyz",
+    "dns:domain:xyvok.xyz",
+    "urlscan:domain:y0utube.com.mx",
+    "dns:domain:y0utube.com.mx",
+    "urlscan:domain:yachtatdock.com",
+    "dns:domain:yachtatdock.com",
+    "urlscan:domain:yahoo.llc",
+    "dns:domain:yahoo.llc",
+    "urlscan:domain:yallakora-egy.com",
+    "dns:domain:yallakora-egy.com",
+    "urlscan:domain:yandex-account-security.com",
+    "dns:domain:yandex-account-security.com",
+    "urlscan:domain:yappingemit.net",
+    "dns:domain:yappingemit.net",
+    "urlscan:domain:yearlingtwenty.org",
+    "dns:domain:yearlingtwenty.org",
+    "urlscan:domain:yellowbirdcage.net",
+    "dns:domain:yellowbirdcage.net",
+    "urlscan:domain:yellowflashinglines.com",
+    "dns:domain:yellowflashinglines.com",
+    "urlscan:domain:yellowgarbage.net",
+    "dns:domain:yellowgarbage.net",
+    "urlscan:domain:yellowgardens.net",
+    "dns:domain:yellowgardens.net",
+    "urlscan:domain:yellowgolfcar.link",
+    "dns:domain:yellowgolfcar.link",
+    "urlscan:domain:yellowwildtiger.com",
+    "dns:domain:yellowwildtiger.com",
+    "urlscan:domain:yieldecosphere.net",
+    "dns:domain:yieldecosphere.net",
+    "urlscan:domain:yippeelaziness.net",
+    "dns:domain:yippeelaziness.net",
+    "urlscan:domain:yo.utube.digital",
+    "dns:domain:yo.utube.digital",
+    "urlscan:domain:yo.utube.to",
+    "urlscan:domain:yogurthome.org",
+    "dns:domain:yogurthome.org",
+    "urlscan:domain:youarefired.xyz",
+    "dns:domain:youarefired.xyz",
+    "dns:domain:youaresostupid.net"
   ],
   "errors": [
     {
@@ -299,6 +106,206 @@
     {
       "error": "ValueError",
       "query": "measure:domain:888winsh.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:xn--telegrm-qbd.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:xn--telegrm-qbd.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:xnxx-hub.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:xnxx-hub.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:xtremelivesupport.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:xtremelivesupport.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:xyvok.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:xyvok.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:y0utube.com.mx"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:y0utube.com.mx"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yachtatdock.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yachtatdock.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yahoo.llc"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yahoo.llc"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yallakora-egy.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yallakora-egy.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yandex-account-security.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yandex-account-security.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yappingemit.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yappingemit.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yearlingtwenty.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yearlingtwenty.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yellowbirdcage.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yellowbirdcage.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yellowflashinglines.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yellowflashinglines.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yellowgarbage.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yellowgarbage.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yellowgardens.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yellowgardens.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yellowgolfcar.link"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yellowgolfcar.link"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yellowwildtiger.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yellowwildtiger.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yieldecosphere.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yieldecosphere.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yippeelaziness.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yippeelaziness.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yo.utube.digital"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yo.utube.digital"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yo.utube.to"
+    },
+    {
+      "error": "ValueError",
+      "query": "dns:domain:yo.utube.to"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yo.utube.to"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:yogurthome.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:yogurthome.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:youarefired.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:youarefired.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:youaresostupid.net"
+    },
+    {
+      "error": "OSError",
+      "query": "urlscan:domain:youaresostupid.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:youaresostupid.net"
     },
     {
       "error": "OSError",
@@ -3927,10 +3934,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-23T18:46:19.287419+00:00",
-  "pending_tasks": 919,
+  "observed_at": "2026-11-24T18:21:56.660841+00:00",
+  "pending_tasks": 969,
   "providers": {
-    "at": "2026-11-23T16:36:55.085514+00:00",
+    "at": "2026-11-24T16:34:27.127088+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -4026,75 +4033,75 @@
       },
       {
         "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
         "error": "TimeoutError",
         "provider": "urlscan",
         "status": 0
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
       },
       {
         "action": "search",
@@ -4164,93 +4171,93 @@
       },
       {
         "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
         "error": "TimeoutError",
         "provider": "urlscan",
         "status": 0
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": "TimeoutError",
-        "provider": "urlscan",
-        "status": 0
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
       },
       {
         "action": "censys",
@@ -4259,7 +4266,7 @@
         "status": 404
       }
     ],
-    "generated_at": "2026-11-23T16:30:18.711242+00:00",
+    "generated_at": "2026-11-24T16:28:17.612466+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
