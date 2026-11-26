@@ -1,213 +1,59 @@
 {
-  "candidate_count": 503,
+  "candidate_count": 504,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
-    "dns:domain:0.hiu33.workers.dev",
-    "measure:domain:0.hiu33.workers.dev",
-    "dns:domain:0088betb.com",
-    "measure:domain:0088betb.com",
-    "dns:domain:020tt.com",
-    "measure:domain:020tt.com",
-    "dns:domain:028tt.com",
-    "measure:domain:028tt.com",
-    "dns:domain:10-zy-ypsp.mjuygb67.workers.dev",
-    "measure:domain:10-zy-ypsp.mjuygb67.workers.dev",
-    "dns:domain:10-zy-yx.mjuygb67.workers.dev",
-    "measure:domain:10-zy-yx.mjuygb67.workers.dev",
-    "dns:domain:100yo.cn",
-    "measure:domain:100yo.cn",
-    "dns:domain:10655889.com",
-    "measure:domain:10655889.com",
-    "dns:domain:11-js-spyp.mjuygb67.workers.dev",
-    "measure:domain:11-js-spyp.mjuygb67.workers.dev",
-    "dns:domain:11-js-yx.mjuygb67.workers.dev",
-    "measure:domain:11-js-yx.mjuygb67.workers.dev",
-    "dns:domain:11tbet12r.top",
-    "measure:domain:11tbet12r.top",
-    "dns:domain:1200winfc.com",
-    "measure:domain:1200winfc.com",
-    "dns:domain:123-dzo.123dzocasinobet.com",
-    "measure:domain:123-dzo.123dzocasinobet.com",
-    "dns:domain:123.yansariel.cc.cd",
-    "measure:domain:123.yansariel.cc.cd",
-    "dns:domain:123dzocasinobet.com",
-    "measure:domain:123dzocasinobet.com",
-    "dns:domain:12uu88.app",
-    "measure:domain:12uu88.app",
-    "dns:domain:158bit.net",
-    "measure:domain:158bit.net",
-    "dns:domain:1777betfb.com",
-    "measure:domain:1777betfb.com",
-    "dns:domain:192168o1.cc",
-    "measure:domain:192168o1.cc",
-    "dns:domain:1ban.cc",
-    "measure:domain:1ban.cc",
-    "dns:domain:1lott.cloud",
-    "measure:domain:1lott.cloud",
-    "dns:domain:1naya.cn",
-    "measure:domain:1naya.cn",
-    "dns:domain:1router.com",
-    "measure:domain:1router.com",
-    "dns:domain:1win-1.cl",
-    "measure:domain:1win-1.cl",
-    "dns:domain:1win-eeh.top",
-    "dns:domain:2-yd-yx.mjuygb67.workers.dev",
-    "measure:domain:2-yd-yx.mjuygb67.workers.dev",
-    "dns:domain:20230814.inkyiyo.workers.dev",
-    "measure:domain:20230814.inkyiyo.workers.dev",
-    "dns:domain:20bgd11.com",
-    "measure:domain:20bgd11.com",
-    "dns:domain:2144z.tv",
-    "measure:domain:2144z.tv",
-    "dns:domain:2233.inkyiyo.workers.dev",
-    "measure:domain:2233.inkyiyo.workers.dev",
-    "dns:domain:22999908.com",
-    "measure:domain:22999908.com",
-    "dns:domain:22bb.app",
-    "measure:domain:22bb.app",
-    "dns:domain:22ccbets.com",
-    "measure:domain:22ccbets.com",
-    "dns:domain:22job.pro",
-    "measure:domain:22job.pro",
-    "dns:domain:23.people-people.app",
-    "measure:domain:23.people-people.app",
-    "dns:domain:247stats.com",
-    "measure:domain:247stats.com",
-    "dns:domain:2647montereyblvd.com",
-    "measure:domain:2647montereyblvd.com",
-    "dns:domain:2663.casino",
-    "measure:domain:2663.casino",
-    "dns:domain:2treehousellc-com.sitessmith.com",
-    "measure:domain:2treehousellc-com.sitessmith.com",
-    "dns:domain:33033688.com",
-    "measure:domain:33033688.com",
-    "dns:domain:33rr.22bb.app",
-    "measure:domain:33rr.22bb.app",
-    "dns:domain:355betws.com",
-    "measure:domain:355betws.com",
-    "dns:domain:399bet33.com",
-    "measure:domain:399bet33.com",
-    "dns:domain:399slots.lat",
-    "measure:domain:399slots.lat",
-    "dns:domain:3fun.club",
-    "measure:domain:3fun.club",
-    "dns:domain:4000135800.com",
-    "measure:domain:4000135800.com",
-    "dns:domain:44rrapk.com",
-    "measure:domain:44rrapk.com",
-    "dns:domain:4bdt99.cam",
-    "measure:domain:4bdt99.cam",
-    "dns:domain:4m7x9b.com",
-    "measure:domain:4m7x9b.com",
-    "dns:domain:5-cn-yx.mjuygb67.workers.dev",
-    "measure:domain:5-cn-yx.mjuygb67.workers.dev",
-    "dns:domain:5-lr-yx.mjuygb67.workers.dev",
-    "measure:domain:5-lr-yx.mjuygb67.workers.dev",
-    "dns:domain:519897793.xyz",
-    "measure:domain:519897793.xyz",
-    "dns:domain:51qer.com",
-    "measure:domain:51qer.com",
-    "dns:domain:51shiping.net",
-    "measure:domain:51shiping.net",
-    "dns:domain:51xmmw.com",
-    "measure:domain:51xmmw.com",
-    "dns:domain:547546.com",
-    "measure:domain:547546.com",
-    "dns:domain:556bet-bonus.com",
-    "measure:domain:556bet-bonus.com",
-    "dns:domain:55clubs.link",
-    "measure:domain:55clubs.link",
-    "dns:domain:55rp66.com",
-    "measure:domain:55rp66.com",
-    "dns:domain:5c458.com",
-    "measure:domain:5c458.com",
-    "dns:domain:5pplegal.com",
-    "measure:domain:5pplegal.com",
-    "dns:domain:6-ss-ypsp.mjuygb67.workers.dev",
-    "measure:domain:6-ss-ypsp.mjuygb67.workers.dev",
-    "dns:domain:6-ss-yx.mjuygb67.workers.dev",
-    "measure:domain:6-ss-yx.mjuygb67.workers.dev",
-    "dns:domain:6019222.com",
-    "measure:domain:6019222.com",
-    "dns:domain:602340760.xyz",
-    "measure:domain:602340760.xyz",
-    "dns:domain:64phmajesty.xyz",
-    "measure:domain:64phmajesty.xyz",
-    "dns:domain:656737.com",
-    "measure:domain:656737.com",
-    "dns:domain:67017.club",
-    "measure:domain:67017.club",
-    "dns:domain:67h225.com",
-    "measure:domain:67h225.com",
-    "dns:domain:6947y.top",
-    "measure:domain:6947y.top",
-    "dns:domain:69k5057q0r.519897793.xyz",
-    "measure:domain:69k5057q0r.519897793.xyz",
-    "dns:domain:6guacm32mz.519897793.xyz",
-    "measure:domain:6guacm32mz.519897793.xyz",
-    "dns:domain:6nchain.cn",
-    "measure:domain:6nchain.cn",
-    "dns:domain:70dollar-30voucer.brotherseventcenter.com",
-    "measure:domain:70dollar-30voucer.brotherseventcenter.com",
-    "dns:domain:71902.com",
-    "measure:domain:71902.com",
-    "dns:domain:748392.vu",
-    "measure:domain:748392.vu",
-    "dns:domain:771287.com",
-    "measure:domain:771287.com",
-    "dns:domain:7777mr.com",
-    "measure:domain:7777mr.com",
-    "dns:domain:777hokigacor.xyz",
-    "measure:domain:777hokigacor.xyz",
-    "dns:domain:777ya.vu",
-    "measure:domain:777ya.vu",
-    "dns:domain:7799betvip.com",
-    "measure:domain:7799betvip.com",
-    "dns:domain:77win9loginvip.com",
-    "measure:domain:77win9loginvip.com",
-    "dns:domain:7a7777.net",
-    "measure:domain:7a7777.net",
-    "dns:domain:7k5f98qx6c.top",
-    "measure:domain:7k5f98qx6c.top",
-    "dns:domain:7q777.casino",
-    "measure:domain:7q777.casino",
-    "dns:domain:88ef3.cam",
-    "measure:domain:88ef3.cam",
-    "dns:domain:89y.com.br",
-    "measure:domain:89y.com.br",
-    "dns:domain:www.unlockcredit.net",
-    "measure:domain:www.unlockcredit.net",
-    "dns:domain:youcantpass.com",
-    "dns:domain:youintelligence.com",
-    "measure:domain:youintelligence.com",
-    "dns:domain:youl.tube",
-    "dns:domain:youliehow.com",
-    "dns:domain:yourbestclothes.com",
-    "dns:domain:yourbestefforts.com",
-    "dns:domain:yourbestvaca.com",
-    "dns:domain:yourgreatestsmartphone.com",
-    "dns:domain:yourhotelreservation.info",
-    "dns:domain:yourlastchance.net",
-    "dns:domain:yourlongsearch.net",
-    "dns:domain:yousunhard.com",
-    "dns:domain:youtu-be.net",
-    "dns:domain:youtub.app",
-    "dns:domain:youtube.gr.live",
-    "dns:domain:youtube.voto",
-    "dns:domain:youtubesyncapi.com",
-    "dns:domain:youtubewatch.co",
-    "dns:domain:yummyfoodallover.com",
-    "dns:domain:yuom7.net",
-    "dns:domain:z2a.digital",
-    "dns:domain:z2adigital.cloud",
-    "dns:domain:z2digital.cloud"
+    "measure:domain:1win-eeh.top",
+    "urlscan:domain:zaracommercio.com",
+    "dns:domain:zaracommercio.com",
+    "urlscan:domain:zealouslint.com",
+    "dns:domain:zealouslint.com",
+    "urlscan:domain:zednewszm.com",
+    "dns:domain:zednewszm.com",
+    "urlscan:domain:zeppelinextrude.com",
+    "dns:domain:zeppelinextrude.com",
+    "urlscan:domain:zippydoornail.com",
+    "dns:domain:zippydoornail.com",
+    "urlscan:domain:zm-banks.com",
+    "dns:domain:zm-banks.com",
+    "urlscan:domain:zm-weather.com",
+    "dns:domain:zm-weather.com",
+    "urlscan:domain:zoologycustomer.com",
+    "dns:domain:zoologycustomer.com",
+    "urlscan:domain:zougla.gr.com",
+    "dns:domain:zougla.gr.com",
+    "urlscan:domain:zougla.news",
+    "dns:domain:zougla.news",
+    "urlscan:domain:zshirts.in",
+    "dns:domain:zshirts.in",
+    "urlscan:domain:zsports-info.com",
+    "dns:domain:zsports-info.com",
+    "urlscan:domain:zumba.tampotrust.agency",
+    "dns:domain:zumba.tampotrust.agency",
+    "urlscan:domain:123tramites.com",
+    "dns:domain:123tramites.com",
+    "urlscan:domain:14-tracking.com",
+    "dns:domain:14-tracking.com",
+    "urlscan:domain:1minto-start.com",
+    "dns:domain:1minto-start.com",
+    "urlscan:domain:24-7clinic.com",
+    "dns:domain:24-7clinic.com",
+    "urlscan:domain:2y4nothing.xyz",
+    "dns:domain:2y4nothing.xyz",
+    "urlscan:domain:301-redirecting.com",
+    "dns:domain:301-redirecting.com",
+    "urlscan:domain:365redirect.co",
+    "dns:domain:365redirect.co",
+    "urlscan:domain:3driving.com",
+    "dns:domain:3driving.com",
+    "urlscan:domain:456h612i458g.com",
+    "dns:domain:456h612i458g.com",
+    "urlscan:domain:5m5.io",
+    "dns:domain:5m5.io",
+    "urlscan:domain:7style.org",
+    "dns:domain:7style.org"
   ],
   "errors": [
-    {
-      "error": "ValueError",
-      "query": "measure:domain:1win-eeh.top"
-    },
     {
       "error": "ValueError",
       "query": "measure:domain:cpu20fk3p.dashboardprompt.com"
@@ -263,6 +109,198 @@
     {
       "error": "ValueError",
       "query": "measure:domain:888winsh.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zaracommercio.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zaracommercio.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zealouslint.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zealouslint.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zednewszm.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zednewszm.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zeppelinextrude.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zeppelinextrude.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zippydoornail.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zippydoornail.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zm-banks.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zm-banks.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zm-weather.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zm-weather.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zoologycustomer.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zoologycustomer.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zougla.gr.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zougla.gr.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zougla.news"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zougla.news"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zshirts.in"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zshirts.in"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zsports-info.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zsports-info.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:zumba.tampotrust.agency"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:zumba.tampotrust.agency"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:123tramites.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:123tramites.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:14-tracking.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:14-tracking.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:1minto-start.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:1minto-start.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:24-7clinic.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:24-7clinic.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:2y4nothing.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:2y4nothing.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:301-redirecting.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:301-redirecting.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:365redirect.co"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:365redirect.co"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:3driving.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:3driving.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:456h612i458g.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:456h612i458g.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:5m5.io"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:5m5.io"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:7style.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:7style.org"
     },
     {
       "error": "OSError",
@@ -4379,10 +4417,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-25T17:38:38.881456+00:00",
-  "pending_tasks": 1042,
+  "observed_at": "2026-11-26T17:21:09.007479+00:00",
+  "pending_tasks": 1089,
   "providers": {
-    "at": "2026-11-24T16:34:27.127088+00:00",
+    "at": "2026-11-26T15:55:05.596777+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -4430,123 +4468,123 @@
       },
       {
         "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
-        "error": null,
-        "provider": "urlscan",
-        "status": 200
-      },
-      {
-        "action": "search",
         "error": "TimeoutError",
         "provider": "urlscan",
         "status": 0
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
+      },
+      {
+        "action": "search",
+        "error": null,
+        "provider": "urlscan",
+        "status": 200
       },
       {
         "action": "search",
@@ -4700,9 +4738,9 @@
       },
       {
         "action": "search",
-        "error": "TimeoutError",
+        "error": null,
         "provider": "urlscan",
-        "status": 0
+        "status": 200
       },
       {
         "action": "censys",
@@ -4711,7 +4749,7 @@
         "status": 404
       }
     ],
-    "generated_at": "2026-11-24T16:28:17.612466+00:00",
+    "generated_at": "2026-11-26T15:48:58.312077+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
