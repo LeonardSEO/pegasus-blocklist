@@ -1,232 +1,59 @@
 {
-  "candidate_count": 523,
+  "candidate_count": 526,
   "completed_queries": [
     "news:https://securitylab.amnesty.org/feed/",
     "news:https://citizenlab.ca/feed/",
-    "dns:domain:0.hiu33.workers.dev",
-    "measure:domain:0.hiu33.workers.dev",
-    "dns:domain:0088betb.com",
-    "measure:domain:0088betb.com",
-    "dns:domain:020tt.com",
-    "measure:domain:020tt.com",
-    "dns:domain:028tt.com",
-    "measure:domain:028tt.com",
-    "dns:domain:10-zy-ypsp.mjuygb67.workers.dev",
-    "measure:domain:10-zy-ypsp.mjuygb67.workers.dev",
-    "dns:domain:10-zy-yx.mjuygb67.workers.dev",
-    "measure:domain:10-zy-yx.mjuygb67.workers.dev",
-    "dns:domain:100yo.cn",
-    "measure:domain:100yo.cn",
-    "dns:domain:10655889.com",
-    "measure:domain:10655889.com",
-    "dns:domain:11-js-spyp.mjuygb67.workers.dev",
-    "measure:domain:11-js-spyp.mjuygb67.workers.dev",
-    "dns:domain:11-js-yx.mjuygb67.workers.dev",
-    "measure:domain:11-js-yx.mjuygb67.workers.dev",
-    "dns:domain:11tbet12r.top",
-    "measure:domain:11tbet12r.top",
-    "dns:domain:1200winfc.com",
-    "measure:domain:1200winfc.com",
-    "dns:domain:123-dzo.123dzocasinobet.com",
-    "measure:domain:123-dzo.123dzocasinobet.com",
-    "dns:domain:123.yansariel.cc.cd",
-    "measure:domain:123.yansariel.cc.cd",
-    "dns:domain:123dzocasinobet.com",
-    "measure:domain:123dzocasinobet.com",
-    "dns:domain:12uu88.app",
-    "measure:domain:12uu88.app",
-    "dns:domain:158bit.net",
-    "measure:domain:158bit.net",
-    "dns:domain:1777betfb.com",
-    "measure:domain:1777betfb.com",
-    "dns:domain:192168o1.cc",
-    "measure:domain:192168o1.cc",
-    "dns:domain:1ban.cc",
-    "measure:domain:1ban.cc",
-    "dns:domain:1lott.cloud",
-    "measure:domain:1lott.cloud",
-    "dns:domain:1naya.cn",
-    "measure:domain:1naya.cn",
-    "dns:domain:1router.com",
-    "measure:domain:1router.com",
-    "dns:domain:1win-1.cl",
-    "dns:domain:2-yd-yx.mjuygb67.workers.dev",
-    "measure:domain:2-yd-yx.mjuygb67.workers.dev",
-    "dns:domain:20230814.inkyiyo.workers.dev",
-    "measure:domain:20230814.inkyiyo.workers.dev",
-    "dns:domain:20bgd11.com",
-    "measure:domain:20bgd11.com",
-    "dns:domain:2144z.tv",
-    "measure:domain:2144z.tv",
-    "dns:domain:2233.inkyiyo.workers.dev",
-    "measure:domain:2233.inkyiyo.workers.dev",
-    "dns:domain:22999908.com",
-    "measure:domain:22999908.com",
-    "dns:domain:22bb.app",
-    "measure:domain:22bb.app",
-    "dns:domain:22ccbets.com",
-    "measure:domain:22ccbets.com",
-    "dns:domain:22job.pro",
-    "measure:domain:22job.pro",
-    "dns:domain:23.people-people.app",
-    "measure:domain:23.people-people.app",
-    "dns:domain:247stats.com",
-    "measure:domain:247stats.com",
-    "dns:domain:2647montereyblvd.com",
-    "measure:domain:2647montereyblvd.com",
-    "dns:domain:2663.casino",
-    "measure:domain:2663.casino",
-    "dns:domain:2treehousellc-com.sitessmith.com",
-    "measure:domain:2treehousellc-com.sitessmith.com",
-    "dns:domain:33033688.com",
-    "measure:domain:33033688.com",
-    "dns:domain:33rr.22bb.app",
-    "measure:domain:33rr.22bb.app",
-    "dns:domain:355betws.com",
-    "measure:domain:355betws.com",
-    "dns:domain:399bet33.com",
-    "measure:domain:399bet33.com",
-    "dns:domain:399slots.lat",
-    "measure:domain:399slots.lat",
-    "dns:domain:3fun.club",
-    "measure:domain:3fun.club",
-    "dns:domain:4000135800.com",
-    "measure:domain:4000135800.com",
-    "dns:domain:44rrapk.com",
-    "measure:domain:44rrapk.com",
-    "dns:domain:4bdt99.cam",
-    "measure:domain:4bdt99.cam",
-    "dns:domain:4m7x9b.com",
-    "measure:domain:4m7x9b.com",
-    "dns:domain:5-cn-yx.mjuygb67.workers.dev",
-    "measure:domain:5-cn-yx.mjuygb67.workers.dev",
-    "dns:domain:5-lr-yx.mjuygb67.workers.dev",
-    "measure:domain:5-lr-yx.mjuygb67.workers.dev",
-    "dns:domain:519897793.xyz",
-    "measure:domain:519897793.xyz",
-    "dns:domain:51qer.com",
-    "measure:domain:51qer.com",
-    "dns:domain:51shiping.net",
-    "measure:domain:51shiping.net",
-    "dns:domain:51xmmw.com",
-    "measure:domain:51xmmw.com",
-    "dns:domain:547546.com",
-    "measure:domain:547546.com",
-    "dns:domain:556bet-bonus.com",
-    "measure:domain:556bet-bonus.com",
-    "dns:domain:55clubs.link",
-    "measure:domain:55clubs.link",
-    "dns:domain:55rp66.com",
-    "measure:domain:55rp66.com",
-    "dns:domain:5c458.com",
-    "measure:domain:5c458.com",
-    "dns:domain:5pplegal.com",
-    "measure:domain:5pplegal.com",
-    "dns:domain:6-ss-ypsp.mjuygb67.workers.dev",
-    "measure:domain:6-ss-ypsp.mjuygb67.workers.dev",
-    "dns:domain:6-ss-yx.mjuygb67.workers.dev",
-    "measure:domain:6-ss-yx.mjuygb67.workers.dev",
-    "dns:domain:6019222.com",
-    "measure:domain:6019222.com",
-    "dns:domain:602340760.xyz",
-    "measure:domain:602340760.xyz",
-    "dns:domain:64phmajesty.xyz",
-    "measure:domain:64phmajesty.xyz",
-    "dns:domain:656737.com",
-    "measure:domain:656737.com",
-    "dns:domain:67017.club",
-    "dns:domain:67h225.com",
-    "measure:domain:67h225.com",
-    "dns:domain:6947y.top",
-    "measure:domain:6947y.top",
-    "dns:domain:69k5057q0r.519897793.xyz",
-    "measure:domain:69k5057q0r.519897793.xyz",
-    "dns:domain:6guacm32mz.519897793.xyz",
-    "measure:domain:6guacm32mz.519897793.xyz",
-    "dns:domain:6nchain.cn",
-    "measure:domain:6nchain.cn",
-    "dns:domain:70dollar-30voucer.brotherseventcenter.com",
-    "measure:domain:70dollar-30voucer.brotherseventcenter.com",
-    "dns:domain:71902.com",
-    "measure:domain:71902.com",
-    "dns:domain:748392.vu",
-    "measure:domain:748392.vu",
-    "dns:domain:771287.com",
-    "measure:domain:771287.com",
-    "dns:domain:7777mr.com",
-    "measure:domain:7777mr.com",
-    "dns:domain:777hokigacor.xyz",
-    "measure:domain:777hokigacor.xyz",
-    "dns:domain:777ya.vu",
-    "measure:domain:777ya.vu",
-    "dns:domain:7799betvip.com",
-    "measure:domain:7799betvip.com",
-    "dns:domain:77win9loginvip.com",
-    "measure:domain:77win9loginvip.com",
-    "dns:domain:7a7777.net",
-    "measure:domain:7a7777.net",
-    "dns:domain:7k5f98qx6c.top",
-    "measure:domain:7k5f98qx6c.top",
-    "dns:domain:7q777.casino",
-    "measure:domain:7q777.casino",
-    "dns:domain:88ef3.cam",
-    "measure:domain:88ef3.cam",
-    "dns:domain:89y.com.br",
-    "measure:domain:89y.com.br",
-    "dns:domain:www.unlockcredit.net",
-    "measure:domain:www.unlockcredit.net",
-    "urlscan:domain:800health.net",
-    "dns:domain:800health.net",
-    "urlscan:domain:911hig11carcay959454.com",
-    "dns:domain:911hig11carcay959454.com",
-    "urlscan:domain:a-redirect.com",
-    "dns:domain:a-redirect.com",
-    "measure:domain:a-redirect.com",
-    "urlscan:domain:a-resolver.com",
-    "dns:domain:a-resolver.com",
-    "urlscan:domain:aalaan.tv",
-    "dns:domain:aalaan.tv",
-    "urlscan:domain:ablazenutrient.net",
-    "dns:domain:ablazenutrient.net",
-    "urlscan:domain:abreastelongated.com",
-    "dns:domain:abreastelongated.com",
-    "urlscan:domain:abroadwizard.net",
-    "dns:domain:abroadwizard.net",
-    "urlscan:domain:absintheskewer.net",
-    "dns:domain:absintheskewer.net",
-    "urlscan:domain:absolutecool.net",
-    "dns:domain:absolutecool.net",
-    "urlscan:domain:abstainoxymoron.net",
-    "dns:domain:abstainoxymoron.net",
-    "urlscan:domain:acccountsgoog1e.com",
-    "dns:domain:acccountsgoog1e.com",
-    "urlscan:domain:acceptway.com",
-    "dns:domain:acceptway.com",
-    "measure:domain:acceptway.com",
-    "urlscan:domain:access.dynamic-dns.net",
-    "dns:domain:access.dynamic-dns.net",
-    "urlscan:domain:accomodation-tastes.net",
-    "dns:domain:accomodation-tastes.net",
-    "urlscan:domain:account-facebook.com",
-    "dns:domain:account-facebook.com",
-    "urlscan:domain:account-login.site",
-    "dns:domain:account-login.site",
-    "urlscan:domain:account-mail.info",
-    "dns:domain:account-mail.info",
-    "urlscan:domain:account-mysecure.com",
-    "dns:domain:account-mysecure.com",
-    "urlscan:domain:account-privacy.com",
-    "dns:domain:account-privacy.com",
-    "urlscan:domain:account-privcay.com",
-    "dns:domain:account-privcay.com",
-    "urlscan:domain:account-servics.com",
-    "dns:domain:account-servics.com",
-    "urlscan:domain:account-servicse.com",
-    "dns:domain:account-servicse.com",
-    "urlscan:domain:accountant-audio.com",
-    "dns:domain:accountant-audio.com",
-    "dns:domain:yout.ube.gr.com",
-    "dns:domain:yo.utube.to"
+    "dns:domain:1win-eeh.top",
+    "measure:domain:1win-eeh.top",
+    "urlscan:domain:accountapp.xyz",
+    "dns:domain:accountapp.xyz",
+    "urlscan:domain:accountcanceled.com",
+    "dns:domain:accountcanceled.com",
+    "urlscan:domain:accountnotify.com",
+    "dns:domain:accountnotify.com",
+    "measure:domain:accountnotify.com",
+    "urlscan:domain:accounts-mysecure.com",
+    "dns:domain:accounts-mysecure.com",
+    "urlscan:domain:accounts-mysecures.com",
+    "dns:domain:accounts-mysecures.com",
+    "urlscan:domain:accounts-secuirty.com",
+    "dns:domain:accounts-secuirty.com",
+    "urlscan:domain:accounts-securtiy.com",
+    "dns:domain:accounts-securtiy.com",
+    "urlscan:domain:accounts-servicse.com",
+    "dns:domain:accounts-servicse.com",
+    "urlscan:domain:accounts-settings.com",
+    "dns:domain:accounts-settings.com",
+    "urlscan:domain:accounts.loginshare.info",
+    "dns:domain:accounts.loginshare.info",
+    "urlscan:domain:accounts.mx",
+    "dns:domain:accounts.mx",
+    "urlscan:domain:accountsections.com",
+    "dns:domain:accountsections.com",
+    "urlscan:domain:accountsecurities.org",
+    "dns:domain:accountsecurities.org",
+    "urlscan:domain:accountsgoog1e.com",
+    "dns:domain:accountsgoog1e.com",
+    "urlscan:domain:acetonenemesis.net",
+    "dns:domain:acetonenemesis.net",
+    "urlscan:domain:achinessfiddle.net",
+    "dns:domain:achinessfiddle.net",
+    "urlscan:domain:acidconfront.link",
+    "dns:domain:acidconfront.link",
+    "urlscan:domain:acquaditerraverde.com",
+    "dns:domain:acquaditerraverde.com",
+    "urlscan:domain:activate-discount.com",
+    "dns:domain:activate-discount.com",
+    "urlscan:domain:activatepromenade.org",
+    "dns:domain:activatepromenade.org",
+    "urlscan:domain:active-folders.com",
+    "dns:domain:active-folders.com",
+    "urlscan:domain:activecurrent.net",
+    "dns:domain:activecurrent.net",
+    "urlscan:domain:actorsshop.net",
+    "dns:domain:actorsshop.net",
+    "urlscan:domain:actu24.online",
+    "dns:domain:actu24.online"
   ],
   "errors": [
     {
@@ -292,6 +119,194 @@
     {
       "error": "ValueError",
       "query": "measure:domain:888winsh.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accountapp.xyz"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accountapp.xyz"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accountcanceled.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accountcanceled.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accountnotify.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accounts-mysecure.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accounts-mysecure.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accounts-mysecures.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accounts-mysecures.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accounts-secuirty.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accounts-secuirty.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accounts-securtiy.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accounts-securtiy.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accounts-servicse.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accounts-servicse.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accounts-settings.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accounts-settings.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accounts.loginshare.info"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accounts.loginshare.info"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accounts.mx"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accounts.mx"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accountsections.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accountsections.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accountsecurities.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accountsecurities.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:accountsgoog1e.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:accountsgoog1e.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:acetonenemesis.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:acetonenemesis.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:achinessfiddle.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:achinessfiddle.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:acidconfront.link"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:acidconfront.link"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:acquaditerraverde.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:acquaditerraverde.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:activate-discount.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:activate-discount.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:activatepromenade.org"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:activatepromenade.org"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:active-folders.com"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:active-folders.com"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:activecurrent.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:activecurrent.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:actorsshop.net"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:actorsshop.net"
+    },
+    {
+      "error": "OSError",
+      "query": "ct:domain:actu24.online"
+    },
+    {
+      "error": "ValueError",
+      "query": "measure:domain:actu24.online"
     },
     {
       "error": "OSError",
@@ -4776,10 +4791,10 @@
     "max_seed_domains": 24,
     "probe_path": "/"
   },
-  "observed_at": "2026-11-27T16:59:56.236078+00:00",
-  "pending_tasks": 1135,
+  "observed_at": "2026-11-28T15:50:59.053016+00:00",
+  "pending_tasks": 1182,
   "providers": {
-    "at": "2026-11-27T15:43:14.257083+00:00",
+    "at": "2026-11-28T14:39:02.098308+00:00",
     "blocked": {},
     "calls": {
       "censys": 2,
@@ -5108,7 +5123,7 @@
         "status": 404
       }
     ],
-    "generated_at": "2026-11-27T15:37:08.607118+00:00",
+    "generated_at": "2026-11-28T14:33:05.701815+00:00",
     "remaining_daily_allowance": {
       "retrieve": 10000,
       "search": 950
